@@ -1,5 +1,5 @@
-main{display:flex;flex-direction:row;
-	flex-wrap: wrap;padding-top: 50px; }
+/*main{display:flex;flex-direction:row;
+	flex-wrap: wrap;padding-top: 50px; }*/
 .holder{display:flex;min-width:350px;flex-direction: row;padding-bottom: 50px;}
 .compass {
 	width: 200px;
