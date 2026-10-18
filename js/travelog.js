@@ -5,13 +5,7 @@ let ph = document.querySelector('#photointro h3')
 let msg='';
 ph.setAttribute('style',"color: darkviolet; size: 1.5rem;");
 
-showerLoc.addEventListener('mouseover', shower, false);
-function shower(e){  
-        pp.innerHTML=e.target.alt+ '<br>'+
-          e.target.tagName +'<br>'+'class ='+ e.target.classList
-        + ' id = ' + e.target.id;
-        
-}
+
 function galeria(e) {
     if (!e.target.closest('.item')) return;
    let  hero = document.querySelector('div[data-pos="0"]');   
