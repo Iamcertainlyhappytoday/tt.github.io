@@ -162,7 +162,7 @@ li .emred em{color: rgb(212, 38, 38);}
 
 .canaille { flex: 2 2 auto; display: flex;    width: 470px; padding:5px; margin:auto;
     max-width: 80%; }
-.vaude {flex: 1 2 auto; display: flex;    max-height: 250px; padding:5px; margin:auto;
+.vaude {flex: 1 2 auto; display: flex;    max-width: 380px; padding:5px; margin:auto;
      max-width: 60%;} 
 .photoheather {  flex: 0 1 auto; display: flex;    width: 250px; padding:5px;
      margin:auto;  }
