@@ -155,6 +155,8 @@ header    .current a  {    color: darkmagenta; font-weight: bold; } */
 a address [href^="mailto"] ::after { content: "📧"}
 a [href^="tel"] ::after {content:"📞"} 
 .baseall  {display: flex;   background-color:royalblue;flex-direction:row; flex-wrap: wrap;
+           @media(max-width:600px){
+                   .frsa{flex-wrap:wrap;}
     align-items: center ;width:100%;  justify-content: space-around; padding:5px; margin:0; color: whitesmoke;}
 .contact  {       color:teal; font-weight:bold; padding:3px; background:yellow;   margin: auto;}  
 .mail:hover { border: white 1px solid;}  
