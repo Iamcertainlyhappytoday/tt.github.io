@@ -27,8 +27,8 @@ function altdetails(){
    b:'fieldreflect',
     b1:'The amount of water by irrigation was going to catch my eye as education the next few days. \
     Prior to that it was obvious but a lot of rain had fell. ',
-   c:'ratsday',
-   c1:'The taller character is more ready to see.',
+   c:'treepeonie',
+   c1:'Wonderful flowers, here prostrate but in fact as named a tree version can be trained.',
    d:'gateway',
    d1:'The world has different architects to Britain. Skyscrapers perhaps not but the environment still \
    looks different. Japan is like a developping country the amount of farming land being cleared so \
@@ -50,7 +50,7 @@ function altdetails(){
     case 'fieldreflect':
         msg2=' : '+ answers['b1'];
         break;
-    case 'ratsday':
+    case 'treepeonie':
         msg2=' : '+ answers['c1'];
         break;
     case 'gateway':
