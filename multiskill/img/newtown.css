@@ -1,0 +1,88 @@
+
+body{   display:flex; flex-direction: column;      }
+main{width: 100%; display: flex;  margin: 0; flex-wrap: wrap; flex-direction: row;}
+
+.fr560{display: flex; flex-direction: row; width: 560px;height: 560px; margin: auto;}
+.noting{flex: 1 1 30%;}
+.mapset{display: flex; width: 100%;   height: 100%;}
+
+
+.mapcol{ display: flex; flex-direction: column; width: 90%;        }
+
+
+ 
+
+#mapline{background-color: blue;
+   width: 100%;height:100%;   }
+.mapset{padding: 0;} 
+#pace1{position: relative; top:49%; left:27%;  } 
+#togp{position: fixed; top:55%; left:43%; }
+.a3{background-color: cornsilk;font-size: 0;position:fixed;}
+#tb{position: fixed;/* top:38%; left:25%; */background-color: cornsilk;}
+#map{ background-color: burlywood;top:-10%;
+    width: 100%;   height:100%;
+    /*float: left;*/
+    clip-path: polygon(0 0, 0 70% ,
+    20% 85%, 30% 86%, 55% 60%, 60% 60%, 75% 92%, 78% 95%, 82% 95%, 85% 90%, 86% 85%,
+    80%  82%, 82%  50%, 82% 25%, 80% 0 );
+    shape-outside: polygon(0 0,70% 0 ,
+    20% 85%, 30% 86%, 55% 60%, 60% 60%, 75% 92%, 78% 95%, 82% 95%, 85% 90%, 86% 85%,
+    80%  82%, 82%  50%, 82% 25%, 80% 0  );
+   }
+.a1 {  background-color:red;    position:fixed;    border-radius: 2px black solid;
+    width: 10px; height:10px;  margin-right: 0;
+    clip-path: ellipse(5px 5px at 50% 50%)
+  }
+.a2{position:relative; font-size: 0;
+    }
+  
+.town{ background-color:cornsilk;width: 80px;/*height:25px;*/display: block;position:relative;}
+
+.townf {/* top:38%; left:25%; */
+font-size: 1em;}
+.town{font-size: 1em;}
+.b1{background-color: cornsilk; position: fixed; }
+
+/*.town{background-color: white; width:80px;height:15px;}  */ 
+ #map1 #e{ position: relative; left:34%; top: 41%; }
+ #map1 #f{ position: relative; left:39%; top: 83%; }
+ #map1 #d{ position: relative; left:2%; top: 38%; }
+ #map1 #a{ position: relative; left:45%; top: 7%; }
+ #map1 #b{ position: relative; left:30%; top: 15%; }
+ #map1 #c{ position: relative; left:40%; top: 30%; }
+  #g{ position: relative; left:10%; top: 0;padding: 0; }
+  
+  
+  /*#h{position:fixed;left: 25%; top:65%;
+    clip-path: (25% 65%, 35% 65%, 35% 70%, 25% 65%);
+    shape-outside: (25% 65%, 35% 65%, 35% 70%, 25% 65%);}*/
+.horiz{display: flex;   margin-bottom: 0;width: 100%;  max-height: 10%;}
+.vert{display: flex; margin-left: 0;height:100%;    max-width: 10%;}
+img { width: 100%;  height: 100%;}
+#map1{ background-color: burlywood;position: relative;
+    width: 100%;   height:100%;
+    /*float: left;*/
+    clip-path: polygon(0 0, 0 65%, 11% 66%, 16% 62%,
+    20% 65%,19% 71%,  20% 75%, 23% 72%, 25% 71%, 24% 70%,
+     23% 63%, 25% 55%, 28% 49%, 33% 44%,
+     38% 44%, 48% 50%, 35% 64%, 35% 67%, 
+     30% 74%, 33% 77%,30% 85%,  27% 88%, 28% 91%, 36% 93%,
+      37% 92%, 45% 84%, 
+     60% 78%, 70% 74%, 73% 52%, 82% 45%,92% 44%, 91% 42%,
+     75% 11%, 77% 6%, 76% 0 );
+    shape-outside: polygon(0 0, 0 65%, 11% 66%, 16% 62%,
+    20% 65%, 19% 71%,  20% 75%, 23% 72%, 25% 71%, 24% 70%,
+     23% 63%, 25% 55%, 28% 49%, 33% 44%, 
+     38% 44%, 48% 50%, 35% 64%, 35% 67%, 
+     30% 74%, 33% 77%,30% 85%,  27% 88%, 28% 91%, 36% 93%, 
+     37% 92%, 45% 
+     84%, 60% 78%,
+     70% 74%, 73% 52%, 82% 45%,92% 44%, 91% 42%,
+     75% 11%, 77% 6%, 76% 0 );
+        
+   }
+  /*#h{background-color: cornsilk;
+    width:100%; height:100%;clip-path:polygon (30% 60%, 30% 70%, 34% 70%, 34% 60%);
+    shape-outside: polygon(30% 60%, 30% 70%, 34% 70%, 34% 60%);}*/
+  
+ 
