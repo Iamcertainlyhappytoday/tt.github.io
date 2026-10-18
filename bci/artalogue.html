@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file table-first go</title>
+    <link rel="stylesheet" href="css/artalogue.css">
+     <meta name="author" content="ComeClimbWithMe">
+    <meta name="description" content="artwork catalogue">
+    <meta name="robots" content="nofollow">
+    <meta name="keywords" content="art catalogue, editable table, art sales, promotion of art,
+    bright calm illustrations">
+    <style>
+        body{display: flex;flex-direction: column; width: 100%;}
+        main{display: flex;flex-direction: column;}
+       
+        #wholet{display: flex; flex-direction: column;}
+        .row{display: flex; flex-direction: row;  }
+        .rowr{display: flex; flex-direction: row; margin: auto; }
+        #titles{display: flex;flex-direction: column; align-items: center; }
+        #inputter{display: flex;flex-direction: row;
+             margin-bottom: 20px; height: 3em;}
+        #entryArr, #entryArra{height: 2em;display: flex;}
+        #entryB {background-color: blueviolet;color: whitesmoke;
+            margin-bottom: 20px;}
+        #entryBa{background-color: blueviolet;color: whitesmoke;       }    
+        #entryE{background-color: greenyellow;color: rebeccapurple;
+            margin-bottom: 20px;}   
+       #entryEa{background-color: greenyellow;color: rebeccapurple;}          
+        table{border-collapse: collapse;  width: 98%;        }
+        table thead{background-color: burlywood;
+            border: 2px brown solid;
+        padding: 3px 1px;}
+        table tr{border: 2px brown solid; padding: 3px 1px;}
+        table thead td{padding: 4px; border: 2px blueviolet solid;
+            text-align: center; font-weight: bold;color: blueviolet;}
+        table td{padding: 3px; border: 1px brown solid;} 
+        .tawidth{display: flex; max-height:60px;
+            width:95%;overflow-y: scroll;}
+        .red{background-color: red;color:blanchedalmond;}
+        .hide{display:none;};
+        #demo2{display: none;}
+        .col{display: flex;flex-direction: column;}
+        .hideno{display: none;}
+       .display{display:block;}
+       .containerfoot {  flex-direction: column; color: whitesmoke;    display: flex;   
+        width: 90%; margin: auto 25px; border-radius: 20px;align-items: center;      background-color:cornflowerblue ;  }
+    .containerfoot h2, p{margin: 1px;}
+    #roverh4{margin: auto; background-color: yellow; color: teal;border: 2px white solid;padding: 4px;}
+    </style>
+</head>
+<body>
+    <header>
+        <section class="fr100">    
+          <div class="sitetitleh">
+            <h2 style="margin-bottom: 0;"> <span class="highlight">Trailtour </span> </h2>               
+            <h4 style="margin-top: 0;"><span class="highlightb" >      -inc Brightcalm Illustrations</span></h4>           
+          </div>
+          <div class="col" id="ttmenu">
+          <text>Trailtour menu</text>        
+          <nav class="ulRow">           
+            <div class="ulColl"><a href="homepage.html"><button  class="buttonaboutwait">Home </button> </a>
+              <a href="profile.html" id="homeid"> <button class="buttonaboutwait"> Profile</button></a>    
+              <a href="about.html"><button class="buttonaboutwait">About</button></a>     
+            </div> <!--
+            <div class="ulColr">               
+                <a href="about/hillwalkingtheory.html"> <button class="buttonaboutwait">Hillwalking theory </button></a>
+                <a href="about/instructionis.html"> <button class="buttonaboutwait">Instruction is</button></a>
+                <a href="about/aboutbookcovers.html"> <button class="buttonaboutwait">Bookshelf</button></a>    
+            </div> -->             
+          </nav>
+        </div>
+        </section>    
+       
+<section class="homebar" >    
+        <div class="ulCollb" >    <h2>BrightCalmIllustrations   menu </h2>
+            <div class="row" >
+                <nav class="fcit" style="border: darkblue solid 2px;" >                
+                    <a href="../bci.html"><button class='yellow' > - Brightcalm Illustrations</button></a>   
+                    <a href="../coviddiary.html"> <button class="buttonbci">- Writing/Art-icles</button>  </a>
+                    <a href="../travelog.html"><button class="buttonbci">- Skillshare ideas </button> </a>
+                </nav>           
+                <div class="row" id="section18" >
+                    <text> Current- </text>
+                    <nav class="fc" style="align-items: flex-start; margin: 0;padding: 0;">
+                        <a href="artalogue.html"><button  class="yellow" style="opacity: 0.8;" >artalogue</button></a>
+                        <a href="../bci.html"><button class="buttonbci"  >brightcalm illustrations</button></a>
+                        <a href="selkie.html" id="homeid"> <button class="buttonbci" > illustrator portfolio </button></a>             
+                        
+                        <a href="afth.html"><button class="buttonbci" >art from the Hills</button></a>
+                        
+                    </nav>
+                </div> 
+            </div>
+        </div>  
+</section> 
+</header>   
+<main>    
+    <div id="wholet">
+        <div id="titles" >
+            <h1>Artalogue</h1>  
+           <h2>This is the ongoing prototypes of my art catalogue.</h2>
+            <ul style="margin: auto;">
+            <li>Push the the array button to view any thumbnail image you like to see as a version. Select it in the array by the number in the table</li>
+            <li>Close the image and you will return back to the array</li>
+            <li>The size is still a preview but large enough to show what is in the catalogue like one that  could be your own. The emphasis is on
+            organisation more than finished product for the individual artworks. </li> 
+              <li>The catalogue will  show you more than 100 pieces of art that I have made.</li>
+            <li> Push the array button again if you wish to toggle back to original website table.</li>
+             </ul> 
+            
+        </div>
+        <div class="row" >
+        <textarea cols="30" rows="2" placeholder="name" id="inputter" style="display: none;">
+        </textarea><!--KEEP THE TEXTAREA HARD LEFT-->
+            <button id="entryB" style="visibility: hidden;" >enter</button>
+            <button id="entryE" style="visibility: hidden;" >Edit </button>
+      
+            <div class="fr100sa" style="position:fixed; margin-top:20px;" >
+                <button id="entryArr"  >Produce Arr</button>
+                <button id="togit" style="display: none;" >toggletable</button>
+            </div>
+            
+            <div class="rowr" style="visibility: hidden;" >
+               <a href="../../hasitepluspages.html"><button id="roverh4" > Leave page  </button>  </a>     
+            </div>
+        </div>
+        <div class="row" style="display:none;">
+            <textarea cols="30" rows="2" placeholder="name" id="inputtera">
+            </textarea><!--KEEP THE TEXTAREA HARD LEFT-->
+                <button id="entryBa">enter</button>
+                <button id="entryEa">Edit </button>
+                <div class="col"  >
+                    <button id="entryArra">Produce Arr</button>
+                    <button id="togita">toggletable</button>
+                </div>
+            </div>
+    </div>
+<p id="demo1"></p>
+<p id="demo2" ></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+    
+<table id="tablearea"> 
+    <thead><tr><td>[]</td><td>thumb</td><td>name</td><td>status</td><td>description</td></tr></thead> 
+     <tbody> 
+    <tr><td id="0a">0</td><td id="0b"><img loading="lazy" src="hotdimg/rei.JPG" alt="rei" style="width: 65px; height: 39px;"></td> 
+        <td id="0c">rei</td> 
+        <td id="0d">A4 Acrylic </td> 
+        <td id="0e">Study dedicated homage to original art. From Highschool of the Dead. Personal copy available at postage and costs circa £5 or original for £40 </td></tr> 
+    <tr><td id="1a">1</td><td id="1b"><img loading="lazy" src="hotdimg/hirano.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="1c">hirano</td> 
+        <td id="1d">A4 Acrylic</td> 
+        <td id="1e">Study dedicated homage to original art. From Highschool of the Dead. Trying to learn to use Acrylic paint. Winter sessions with small digital photoframe to work from. Set of 5.</td></tr> 
+    <tr><td id="2a">2</td><td id="2b"><img loading="lazy" src="hotdimg/stairwell.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="2c">stairwell</td> 
+        <td id="2d">A4 Acrylic</td> 
+        <td id="2e">Study dedicated homage to original art. From Highschool of the Dead. Personal copy available at postage and costs circa £5 or original for £40 </td></tr> 
+    <tr><td id="3a">3</td><td id="3b"><img loading="lazy" src="hotdimg/reiandkomoro.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="3c">reiandkomoro</td> 
+        <td id="3d">A4 Acrylic</td> 
+        <td id="3e">Study dedicated homage to original art. From Highschool of the Dead. Personal copy available at postage and costs circa £5 or original for £40 </td></tr> 
+    <tr><td id="4a">4</td><td id="4b"><img loading="lazy" src="hotdimg/airdrop.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="4c">airdrop</td> 
+        <td id="4d">A4 Watercolour</td> 
+        <td id="4e">Gran Paradiso ridge from Villeneuve climbs straight up to an impressive nothingness. </td></tr> 
+    <tr><td id="5a">5</td><td id="5b"><img loading="lazy" src="hotdimg/canaille.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="5c">canaille</td> 
+        <td id="5d">A4 Watercolour 2017</td> <td id="5e">View from Cassis bluff on holiday </td></tr> 
+    <tr><td id="6a">6</td><td id="6b"><img loading="lazy" src="hotdimg/brazil.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="6c">brazil</td> 
+        <td id="6d">50cm x 40cm Large Watercolour 2004 (S)Big file (C)3</td> 
+        <td id="6e">I envisaged a wilderness of trees to remote distinctive peaks and the country most similar to the unknown with such a size gave it the name</td></tr> 
+    <tr><td id="7a">7</td><td id="7b"><img loading="lazy" src="hotdimg/cannes.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="7c">cannes</td> 
+        <td id="7d">A4 Watercolour 2017</td> 
+        <td id="7e">Destination campsite in the town of the same name by bike cycle from Milan. </td></tr> 
+    <tr><td id="8a">8</td><td id="8b"><img loading="lazy" src="hotdimg/chippingandcracking.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="8c">chippingandcracking</td> 
+        <td id="8d">50cm by 36cm Large Watercolour 2007 (S)Art Box (C)2</td> 
+        <td id="8e">Paulie and Beth descend the plateau 'kind of thing' but quite big cliffs</td></tr> 
+    <tr><td id="9a">9</td><td id="9b"><img loading="lazy" src="hotdimg/cygnets.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="9c">cygnets</td> 
+        <td id="9d">A4 Medium forgotten</td> 
+        <td id="9e">Girls just want to have fun. Taboo for the low status to represent but in the same vein we see more than you with less face</td></tr> 
+    <tr><td id="10a">10</td><td id="10b"><img loading="lazy" src="hotdimg/field.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="10c">field</td> 
+        <td id="10d">A4 Watercolour 2017</td> 
+        <td id="10e">From the busy destination year bike tour to Cannes</td></tr> 
+    <tr><td id="11a">11</td><td id="11b"><img loading="lazy" src="hotdimg/kinnanamor.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="11c">kinnanamor</td> 
+        <td id="11d">60cm x 45cm Large Acrylic (S)Hall</td> 
+        <td id="11e">A very old idea that worked in half an hour but took a long time to reproduce again once any detail of the mist was focused on.</td></tr>
+    <tr><td id="12a">12</td><td id="12b"><img loading="lazy" src="hotdimg/meetingpath.JPG" style="width: 65px; height: 39px;"></td>
+        <td id="12c">meetingpath</td> 
+        <td id="12d">41cm by 30cm Large Acrylic</td>
+        <td id="12e">When I wasn't managing the style or scene I concentrated on the theme and feel I got what I wanted. Hill country and living.</td></tr> 
+    <tr><td id="13a">13</td><td id="13b"><img loading="lazy" src="hotdimg/laigueglia.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="13c">laigueglia</td> 
+        <td id="13d">A4 Watercolour 2017</td> 
+        <td id="13e">Both ways visited dream (Well actually real but delightful) town in large sandy bay</td></tr> 
+    <tr><td id="14a">14</td><td id="14b"><img loading="lazy" src="hotdimg/openjunction.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="14c">openjunction</td> 
+        <td id="14d">42cm x 30cm Watercolour</td> 
+        <td id="14e">Theme of open road and perspective requires more open than desired but also I need to work on the vehicles</td></tr> 
+    <tr><td id="15a">15</td><td id="15b"><img loading="lazy" src="hotdimg/raneshut.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="15c"> raneshut</td> 
+        <td id="15d">50cm x 40cm Watercolour 2009 (S)Big file (C)2</td> 
+        <td id="15e">This is fantasy and the characters are too in their splendid wilderness getaway with somehow a hut as is common and great to find in the mountains there for the walkers and climbers</td></tr> 
+    <tr><td id="16a">16</td><td id="16b"><img loading="lazy" src="hotdimg/startledsquirrel.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="16c">startledsquirrel</td> 
+        <td id="16d">A4 watercolour heavy</td> 
+        <td id="16e">Imagine you are the squirrel, it is how you see the night, the beautiful bounteous nature</td></tr> 
+    <tr><td id="17a">17</td><td id="17b"><img loading="lazy" src="hotdimg/stellamarz.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="17c">stellamarz</td> 
+        <td id="17d">52cm by 38cm Large Acrylic (S)Big file</td> 
+        <td id="17e">From RNPattersons Dark Lady, the office of Arthur Bright imagined by the River Hudson</td></tr> 
+    <tr><td id="18a">18</td><td id="18b"><img loading="lazy" src="hotdimg/thecastle.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="18c">thecastle</td> 
+        <td id="18d">A4 watercolour 2017</td> 
+        <td id="18e">View to the sea at Cassis</td></tr> 
+    <tr><td id="19a">19</td><td id="19b"><img loading="lazy" src="hotdimg/theduel.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="19c">theduel</td> 
+        <td id="19d">50cm x 40cm Large Acrylic (S)Hall</td> 
+        <td id="19e">Imagined more futurist and black and white but hard to work out how to share the imagery so went for theme rather than pace</td></tr> 
+    <tr><td id="20a">20</td><td id="20b"><img loading="lazy" src="hotdimg/ventimiglia.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="20c">ventimiglia</td> 
+        <td id="20d">A4 watercolour 2017</td> 
+        <td id="20e">Not how I remembered it when I caught the train here in 1999 but part of the long Mediterranean coast all the same where any picture is a good memory to attempt. Migrant scene too on a vast scale this time but Italy was the first country from the East also in 1999 in a way too.</td></tr> 
+    <tr><td id="21a">21</td><td id="21b"><img loading="lazy" src="hotdimg/villeneuve.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="21c">villeneuve</td> 
+        <td id="21d">50cm by 36cm Large Watercolour (S)Artbox (C)2 + prints well smaller </td> 
+        <td id="21e">Also a very large cliff I encountered several times walking back to Villeneuve, not quite this one I admit but it took the breath away</td></tr> 
+    <tr><td id="22a">22</td><td id="22b"><img loading="lazy" src="hotdimg/voltaggio.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="22c">voltaggio</td> 
+        <td id="22d">A4 Watercolour 2017</td> 
+        <td id="22e">Again live in passing as the steep terrain buried me inland on the journey to and from Cannes</td></tr> 
+    <tr><td id="23a">23</td><td id="23b"><img loading="lazy" src="hotdimg/wierdtrees.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="23c">wierdtrees</td> 
+        <td id="23d">A4 Watercolour</td> 
+        <td id="23e">Like giant stalks, whitish in the glaring day and in charge of where they were. A hot break and a sketch necessarily in colour</td></tr> 
+    <tr><td id="24a">24</td><td id="24b"><img loading="lazy" src="hotdimg/envau.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="24c">envau</td> 
+        <td id="24d">A4 watercolour</td> 
+        <td id="24e">you wish you were better when faced with non stop landscape inspiration like this but at least on that basis you take it away better in your mind for trying some</td></tr> 
+    <tr><td id="25a">25</td><td id="25b"><img loading="lazy" src="hotdimg/envauposter.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="25c">envauposter</td> 
+        <td id="25d">larger watercolour</td> 
+        <td id="25e">This was an effort to use light and slight magic realism for the same scene but entirely from home</td></tr> 
+    <tr><td id="26a">26</td><td id="26b"><img loading="lazy" src="hotdimg/marybean.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="26c">marybean</td> 
+        <td id="26d">A4 Acrylic </td> 
+        <td id="26e">Narrator meets children and they are briefly engaged in the possibilities of the Mary Bean.</td></tr> 
+    <tr><td id="27a">27</td><td id="27b"><img loading="lazy" src="hotdimg/thekingreturns.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="27c">thekingreturns</td> 
+        <td id="27d">42cm by 30cm Acrylic (S)artbox</td> 
+        <td id="27e">The captivating folk tales of old kings of Ireland and a sort of king lear setting (youngest daughter of 3) worked out as a fairy tale</td></tr> 
+    <tr><td id="28a">28</td><td id="28b"><img loading="lazy" src="hotdimg/tadthetooth.JPG" style="width: 65px; height: 39px;"></td>
+        <td id="28c">tadthetooth</td> 
+        <td id="28d">A4 Acrylic</td> 
+        <td id="28e">How tad got away from his own trap but difficult to represent a tooth really so working on the stasis as he is stuck with a seal holding his exit from the sea cave</td></tr> 
+    <tr><td id="29a">29</td><td id="29b"><img loading="lazy" src="hotdimg/albacross.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="29c">albacross</td> 
+        <td id="29d">A4 watercolour 2000</td> 
+        <td id="29e">Working on sea patterns as I was in fact working on many things as travels and an ambitious path came to a staggered stop. Renamed from 'Lucky Day' and with this contemplation perhaps you cannot un-name meeting an albatross, yet why not really to now I feel there is stories and tales and options. </td></tr> 
+    <tr><td id="30a">30</td><td id="30b"><img loading="lazy" src="hotdimg/hebrideanshore.JPG" style="width: 65px; height: 39px;"></td> <td id="30c">hebrideanshore</td> <td id="30d">A4 light watercolour</td> <td id="30e">On Pabbay, sitting on one of many corners that will bring you to the level of the sea. Birds, rocks, cliffs and green. 2002</td></tr> 
+    <tr><td id="31a">31</td><td id="31b"><img loading="lazy" src="hotdimg/waves2.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="31c">waves2</td> 
+        <td id="31d">A4 watercolour circa 2004</td> 
+        <td id="31e">second to make the eternal sea pattern work. Not as good as one but of course restrained by matching on all 4 sides in a small area. A long time before the Calanques trip of 2017</td></tr> 
+    <tr><td id="32a">32</td><td id="32b"><img loading="lazy" src="hotdimg/waves1.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="32c">waves1</td> 
+        <td id="32d">A4 watercolour </td> 
+        <td id="32e">Waves as patterns</td></tr> 
+    <tr><td id="33a">33</td><td id="33b"><img loading="lazy" src="hotdimg/tailorstale.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="33c">tailorstale</td> 
+        <td id="33d">42cm x 30cm Acrylic (S)artbox</td> 
+        <td id="33e">The bar scene is based on the bunk bed view from where perhaps you would get the feeling at least if I told you that a great storyteller is secreted away listening to a marvel missing from his array.</td></tr> 
+    <tr><td id="34a">34</td><td id="34b"><img loading="lazy" src="hotdimg/froggattdreaming.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="34c">froggattdreaming</td> 
+        <td id="34d">A4 watercolour highly detailed</td> 
+        <td id="34e">much detail of a more open approach to the gritstone edge than really was there when I repeated the walk again. Space made by dreams perhaps</td></tr> 
+    <tr><td id="35a">35</td><td id="35b"><img loading="lazy" src="hotdimg/curbarautumn.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="35c">curbarautumn</td> 
+        <td id="35d">A4 watercolour landscape</td> 
+        <td id="35e">landscape painting but small</td></tr> 
+    <tr><td id="36a">36</td><td id="36b"><img loading="lazy" src="hotdimg/stanageskyline.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="36c">stanageskyline</td> 
+        <td id="36d">A4 watercolour landscape</td> 
+        <td id="36e"> the skyline of the 2 mile long famous gritstone edge for the initial journey</td></tr> 
+    <tr><td id="37a">37</td><td id="37b"><img loading="lazy" src="hotdimg/stanagegreen.JPG" style="width: 65px; height: 39px;"></td> <td id="37c">stanagegreen</td> <td id="37d">A4 watercolour landscape</td> 
+        <td id="37e">the vibrant green of the bracken growing over everything</td></tr> 
+    <tr><td id="38a">38</td><td id="38b"><img loading="lazy" src="hotdimg/airdrop1000.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="38c">airdrop1000</td> 
+        <td id="38d">A4 watercolour heavy (C)at least 1 and I have a good jpg location at atfth TT</td> 
+        <td id="38e">The blend of space, steepness and perspective including the character (me) looked better today and so I treat the schematic to a larger image than the other version</td></tr> 
+    <tr><td id="39a">39</td><td id="39b"><img loading="lazy" src="hotdimg/froggattsky.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="39c">froggattsky</td> 
+        <td id="39d">A4 watercolour</td> 
+        <td id="39e">Those lovely crags are worth catching angles and landscapes and again I sat for this small one. Will I get a large one?</td></tr> 
+    <tr><td id="40a">40</td><td id="40b"><img loading="lazy" src="hotdimg/lotrfight.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="40c">lotrfight</td> 
+        <td id="40d">A4 watercolour</td> 
+        <td id="40e">local walking from Clay Wheels Lane to the mystery of old plant still running and woods both ancient and developped a degree or two. This spot was live with sentiment and in the snow somehow though not usually for my time travel to swords and orcs and wickedly hard fighting</td></tr> 
+    <tr><td id="41a">41</td><td id="41b"><img loading="lazy" src="hotdimg/grenwood.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="41c">grenwood</td> 
+        <td id="41d">A4 watercolour</td> 
+        <td id="41e">larches in snow in managed Grenoside woods</td></tr> 
+    <tr><td id="42a">42</td><td id="42b"><img loading="lazy" src="hotdimg/bentswhite.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="42c">bentswhite</td> 
+        <td id="42d">A4 watercolour</td> 
+        <td id="42e">farmland edge of the city in winter</td></tr> 
+    <tr><td id="43a">43</td><td id="43b"><img loading="lazy" src="hotdimg/lookingberis.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="43c">lookingberis</td> 
+        <td id="43d">A4 watercolour</td> 
+        <td id="43e">from the very top of the llanberis pass landscape small however and feels down there when on top in reality</td></tr> 
+    <tr><td id="44a">44</td><td id="44b"><img loading="lazy" src="hotdimg/colwyn.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="44c">colwyn</td> 
+        <td id="44d">A4 watercolour</td> 
+        <td id="44e">bright colours at the junction between promenade, tunnel, cliffs and sky</td></tr> 
+    <tr><td id="45a">45</td><td id="45b"><img loading="lazy" src="hotdimg/psmoorcolour.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="45c">psmoorcolour</td> 
+        <td id="45d">A4 watercolour</td> 
+        <td id="45e">rusty moorland to mountain top colours from nant to pass make me want to pick up the stylo</td></tr> 
+    <tr><td id="46a">46</td><td id="46b"><img loading="lazy" src="hotdimg/llangollen.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="46c">llangollen</td> 
+        <td id="46d">A4 acrylic</td> 
+        <td id="46e">taking liberties with the view when not producing wonders yet learning. This town I hope to pass through more on the important junction next south from the coastal A55</td></tr> 
+    <tr><td id="47a">47</td><td id="47b"><img loading="lazy" src="hotdimg/flank.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="47c">flank</td> 
+        <td id="47d">A4 watercolour</td> 
+        <td id="47e">has a bigger feel I hope can be seen as felt and worth a bigger picture already laid out</td></tr> 
+    <tr><td id="48a">48</td><td id="48b"><img loading="lazy" src="hotdimg/moorhallres.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="48c">moorhallres</td> 
+        <td id="48d">A4 watercolour (S)gift (C)2</td> 
+        <td id="48e">A lovely walk can be kept in mind or attempted to be drawn. Several visits here always to a different view of size of water or banks or feeling than expected. Perhaps hence making the picture in order to give away but the copies show it needs some work still. Second visit as good however so a theme maybe</td></tr> 
+    <tr><td id="49a">49</td><td id="49b"><img loading="lazy" src="hotdimg/stabb.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="49c">stabb</td> 
+        <td id="49d">A4 watercolour. see stabbird for acrylic version with bird</td> 
+        <td id="49e">memorable for the vastness, what the french call from the large I needed some colour as really it is sensory and hard to paint, not landscape but memory and interpretation anyway. St Abbs Head kinda area where I planted trees one very cold day</td></tr> 
+    <tr><td id="50a">50</td><td id="50b"><img loading="lazy" src="hotdimg/tweedbreeze.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="50c">tweedbreeze</td> 
+        <td id="50d">A4 watercolour small landscape</td> 
+        <td id="50e">the movement of the trees is accompanied also by that of long lushish grass and was not so cold at all to sit and paint</td></tr> 
+    <tr><td id="51a">51</td><td id="51b"><img loading="lazy" src="hotdimg/stabbird.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="51c">stabbird</td> 
+        <td id="51d">A4 acrylic </td> 
+        <td id="51e">the aim to get brightness out of light on moorland, a focus is here in the lay of the image and the clouds I think. Maybe the bird needs lifting </td></tr> 
+    <tr><td id="52a">52</td><td id="52b"><img loading="lazy" src="hotdimg/eastshore.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="52c">eastshore</td> 
+        <td id="52d">Watercolour and pencil Large 76cm x 62cm framed 2004 (S)wall (C)4 53cm by 38cm </td> 
+        <td id="52e">Lake Garda memories of a stop on the return to the next part of my life and the world too. Today I found dated a picture just b4 9/11 with the stories begun of my memories which made me happy to know they started as a plan much earlier and earlier than that event of global notice</td></tr> 
+    <tr><td id="53a">53</td><td id="53b"><img loading="lazy" src="hotdimg/wavesmove.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="53c">wavesmove</td> 
+        <td id="53d">A4 watercolour</td> 
+        <td id="53e">In the airbnb I caught up with my work, so tired when I returned I am not sure what hit me in Japan despite the logical succession of completed and happy days. Waves theme was back in pictures because I saw the pacific. This was probably begun there, maybe even completed there tbh, not sure</td></tr> 
+    <tr><td id="54a">54</td><td id="54b"><img loading="lazy" src="hotdimg/buccleugh.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="54c">buccleugh</td> 
+        <td id="54d">A4 pencil 2000</td> 
+        <td id="54e">the charming Georgian is it houses of this area near the meadows where I had a small room and a tucked in look out to the street. Grand just by the elegance of the tall ceiling and large stone block respectfulness</td></tr> 
+    <tr><td id="55a">55</td><td id="55b"><img loading="lazy" src="hotdimg/neepsend.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="55c">neepsend</td> 
+        <td id="55d">A4 bit smaller watercolour</td> 
+        <td id="55e">the big space feeling of the Don valley draws me to capture how industrial buildings were laid away from the road here</td></tr> 
+    <tr><td id="56a">56</td><td id="56b"><img loading="lazy" src="hotdimg/stagecoach.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="56c">stagecoach</td> 
+        <td id="56d">A4 ish bit smaller Watercolour</td> 
+        <td id="56e">I could not get the view as from the window with height of the Don valley towards Hillsborough but found it quite a good scene the actual yards, rails are a bit wonky</td></tr> 
+    <tr><td id="57a">57</td><td id="57b"><img loading="lazy" src="hotdimg/wavesincoming.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="57c">wavesincoming</td> 
+        <td id="57d">A4 watercolour</td> 
+        <td id="57e">from patterns to feelings I try to catch movement in the sea and different light as a realistic memory</td></tr> 
+    <tr><td id="58a">58</td><td id="58b"><img loading="lazy" src="hotdimg/katerineknows.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="58c">katerineknows</td> 
+        <td id="58d">watercolour 22cm by 21cm 2001</td> 
+        <td id="58e">my village, their characters, the birth of an art story from the amazing mountains of Val d'Aosta</td></tr> 
+    <tr><td id="59a">59</td><td id="59b"><img loading="lazy" src="hotdimg/konstantpermeke.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="59c">konstantpermeke</td> 
+        <td id="59d">colour pens 41cm by 26cm</td> 
+        <td id="59e">study of this historical work made originally in 1922 called 'over permeke' so interesting in the use of light to make 2 colours work as if they are more</td></tr> 
+    <tr><td id="60a">60</td><td id="60b"><img loading="lazy" src="hotdimg/hummingbird.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="60c">hummingbird</td> 
+        <td id="60d">digital tablet unknown software but not an art program</td> 
+        <td id="60e">hummingbird by Moira Connel I always recall but the mention they get in Louis de Bernieres novel and some lifelike resemblences</td></tr> 
+    <tr><td id="61a">61</td><td id="61b"><img loading="lazy" src="hotdimg/thelook.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="61c">thelook</td> 
+        <td id="61d">Large Acrylic 43cm by 28cm</td> 
+        <td id="61e">from Starship Troopers the first one, Diz looks at her beau with his. Crazy satire on war sublimation</td></tr> 
+    <tr><td id="62a">62</td><td id="62b"><img loading="lazy" src="hotdimg/reedstyle.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="62c">reedstyle</td> 
+        <td id="62d">Pencil 32cm by 25cm</td> 
+        <td id="62e">moody me, few colours and blending shapes but that is what I wanted to draw. Much the reason photographers can do stuff quickly that artists lend to making an effort to find alternative material on the whole I think. Actually reference photo was in the John Hedgecoe book on photography around in my teens</td></tr> 
+    <tr><td id="63a">63</td><td id="63b"><img loading="lazy" src="hotdimg/seals.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="63c">seals</td> 
+        <td id="63d">pencil joined pages</td> 
+        <td id="63e">I drew seals on the walls at my workplace. It worked when I was popular but the same does not go when the library policemen come after you. I love seals from that time when I learned of Selkies and met them numerous times. This would be the reference drawing for the mural on the wall I think, used again in a few rentals</td></tr> 
+    <tr><td id="64a">64</td><td id="64b"><img loading="lazy" src="hotdimg/sealsatplay.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="64c">sealsatplay</td> 
+        <td id="64d">A4 pencil</td> 
+        <td id="64e">photo references from Scottish Wildlife Trust brochure when living in Ullapool near seals in 1997 or 98</td></tr> 
+    <tr><td id="65a">65</td><td id="65b"><img loading="lazy" src="hotdimg/wolff.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="65c">wolff</td> 
+        <td id="65d">A4 pencil</td> 
+        <td id="65e">again reference to the story of the old king Conn in People of the Sea by David Thompson in Canongate Classics</td></tr> 
+    <tr><td id="66a">66</td><td id="66b"><img loading="lazy" src="hotdimg/belledbien.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="66c">belledbien</td> 
+        <td id="66d">Acrylic 27cm by 19cm</td>
+        <td id="66e">my representation of the looks by a very creepy man at our own heroine Vanessa Van Helsing as she sleeps at the start of the amazing Netflix series </td></tr> 
+    <tr><td id="67a">67</td><td id="67b"><img loading="lazy" src="hotdimg/dinodina.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="67c">dinodina</td> 
+        <td id="67d">A4 pencil</td> 
+        <td id="67e">Character based impression of rugged walking country where I saw this gorgeous slope falling away that the protagonists set off down and fantastically like them imagined it to be much larger and longer than it really would have been</td></tr> 
+    <tr><td id="68a">68</td><td id="68b"><img loading="lazy" src="hotdimg/axethesitters.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="68c">axethesitters</td> 
+        <td id="68d">A4 Acrylic</td> 
+        <td id="68e">referencing Axel and Scarlett leaving their unsuited lodging to the fangs of the sisterhood, longtime seriously wicked beings</td></tr> 
+    <tr><td id="69a">69</td><td id="69b"><img loading="lazy" src="hotdimg/saunter.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="69c">saunter</td> 
+        <td id="69d">A4 watercolour</td> 
+        <td id="69e">Stanage End located wonderful stiff 2 crux HVS/E1 which on 2nd vist to paint in fact was not the same route for sure. Well who can be sure but I set off to paint like I set off to climb, to the finish</td></tr> 
+    <tr><td id="70a">70</td><td id="70b"><img loading="lazy" src="hotdimg/swalline.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="70c">swalline</td> 
+        <td id="70d">A4 prints</td> 
+        <td id="70e">A4 stained glass type gel on perspex now lost and only A4 images remain</td></tr> 
+    <tr><td id="71a">71</td><td id="71b"><img loading="lazy" src="hotdimg/couplewalk.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="71c">couplewalk</td> 
+        <td id="71d">Acrylic small like a card</td> 
+        <td id="71e">2 characters come into view with the sea as a background from an ascent wide grassy gully feature</td></tr> 
+    <tr><td id="72a">72</td><td id="72b"><img loading="lazy" src="hotdimg/gtweed.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="72c">gtweed</td> 
+        <td id="72d">watercolour card size or ...</td> 
+        <td id="72e">inspired to get animals and this horse movement I ensure here there is a lively clash of colours to make a scene</td></tr> 
+    <tr><td id="73a">73</td><td id="73b"><img loading="lazy" src="hotdimg/jay.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="73c">jay</td> 
+        <td id="73d">Acrylic 29cm x 19cm</td> 
+        <td id="73e">Jay looks into the steaming night of the forbidden zone from her super police bike. You don't see her love, her truth</td></tr> 
+    <tr><td id="74a">74</td><td id="74b"><img loading="lazy" src="hotdimg/letsdance.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="74c">letsdance</td> 
+        <td id="74d">A4 Acrylic</td> 
+        <td id="74e">valentine and such alternatives as there are to life in the moment here with glasses lifting themselves of the table just for starters as you try to see the look in your love's eyes</td></tr> 
+    <tr><td id="75a">75</td><td id="75b"><img loading="lazy" src="hotdimg/saeko.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="75c">saeko</td> 
+        <td id="75d">A4 Acrylic</td> 
+        <td id="75e">the smoother Acrylic paper than than plastic canvas but belief took a while and this set looks like watercolour now so I must have been looking at very absorbent paper. Kneehow doitashimashite</td></tr> 
+    <tr><td id="76a">76</td><td id="76b"><img loading="lazy" src="hotdimg/idfy.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="76c">idfy</td> 
+        <td id="76d">A4 Acrylic</td> 
+        <td id="76e">a fairy with a rose and a tipple, a thought carried through all this</td></tr> 
+    <tr><td id="77a">77</td><td id="77b"><img loading="lazy" src="hotdimg/jaygallery.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="77c">jaygallery</td> 
+        <td id="77d">A4 Acrylic</td> <td id="77e">Jay fanart representation in the opening scenes of the Anime Sky Blue</td></tr> 
+    <tr><td id="78a">78</td><td id="78b"><img loading="lazy" src="hotdimg/froggattdetail.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="78c">froggattdetail</td> 
+        <td id="78d">A4 fine details pencil 2005</td> 
+        <td id="78e">A working of a theme to draw both crags and imagination from my brief office spell in Valley Road</td></tr> 
+    <tr><td id="79a">79</td><td id="79b"><img loading="lazy" src="hotdimg/chainsnow.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="79c">chainsnow</td> 
+        <td id="79d">A4 Acrylic</td> 
+        <td id="79e">from my mothers excellent photo of the chain bridge in winter where the foreground snowflake is a scene maker. For reference and record more than to improve or copy overly well</td></tr> 
+    <tr><td id="80a">80</td><td id="80b"><img loading="lazy" src="hotdimg/climbsounds.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="80c">climbsounds</td> 
+        <td id="80d">42cm x 30cm Acrylic circa 2018</td> 
+        <td id="80e">Fine acrylic paper, smooth grained is much better but the process of getting rock is still variably slow for me. Stanage here</td></tr> 
+    <tr><td id="81a">81</td>
+        <td id="81b"><img loading="lazy" src="hotdimg/rosedev.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="81c">rosedev</td> 
+        <td id="81d">20cm by 17cm Acrylic </td> 
+        <td id="81e">devart tuition idea followed by 1000's of us</td></tr> 
+    <tr><td id="82a">82</td><td id="82b"><img loading="lazy" src="hotdimg/climbperuse.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="82c">climbperuse</td> 
+        <td id="82d">A4 watercolour</td> 
+        <td id="82e">Froggatt edge sitting picture in a ambient spot to catch the atmosphere</td></tr> 
+    <tr><td id="83a">83</td><td id="83b"><img loading="lazy" src="hotdimg/congocorner.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="83c">congocorner</td> 
+        <td id="83d">A4 watercolour</td> 
+        <td id="83e">the best HVS (stanage edge), 2 cruxes and tbh dangerous if you cannot do it</td></tr> 
+    <tr><td id="84a">84</td><td id="84b"><img loading="lazy" src="hotdimg/skyelandview.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="84c">skyelandview</td> 
+        <td id="84d">31cm by 22cm pastel 1999</td> 
+        <td id="84e">from the local brochure practicing</td></tr> 
+    <tr><td id="85a">85</td><td id="85b"><img loading="lazy" src="hotdimg/froggattdreaming2.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="85c">froggattdreaming2</td> 
+        <td id="85d">A4 watercolour</td> 
+        <td id="85e">lighter wider higher and less tight detail but so much detail otherwise in the the version 1. This walk goes on and on and did happen again and again to initiate the process</td></tr> 
+    <tr><td id="86a">86</td><td id="86b"><img loading="lazy" src="hotdimg/movingdepth.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="86c">movingdepth</td> 
+        <td id="86d">A4 watercolour</td> 
+        <td id="86e">froggatt approach again with shadows now</td></tr> 
+    <tr><td id="87a">87</td><td id="87b"><img loading="lazy" src="hotdimg/waves5.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="87c">waves5</td> 
+        <td id="87d">31cm by 23cm watercolour</td> 
+        <td id="87e">patterns in the water repeat for each eye they are different but become the same. Art theory for landscape developping here begun with waves and villeneuve limestone</td></tr> 
+    <tr><td id="88a">88</td><td id="88b"><img loading="lazy" src="hotdimg/greenpie.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="88c">greenpie</td> 
+        <td id="88d">31cm by 23cm watercolour dec-01</td> 
+        <td id="88e">getting my people ready for the plot, happy, party, relationships and love and music</td></tr> 
+    <tr><td id="89a">89</td><td id="89b"><img loading="lazy" src="hotdimg/bwapproach.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="89c">bwapproach</td> 
+        <td id="89d">A4 pencil</td>
+        <td id="89e">half sketch and half cartoon prep</td></tr> 
+    <tr><td id="90a">90</td><td id="90b"><img loading="lazy" src="hotdimg/waterscape.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="90c">waterscape</td> 
+        <td id="90d">A4 watercolour</td> 
+        <td id="90e">the strong theme of repetition making water with competing directions here and the basic cliff shore like a cartoon style</td></tr> 
+    <tr><td id="91a">91</td><td id="91b"><img loading="lazy" src="hotdimg/limestoneframe.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="91c">limestoneframe</td> 
+        <td id="91d">felt tip original unsure what size</td>
+        <td id="91e">colour and and ravine bed themed limestone scenery to take you on a walk</td></tr> 
+    <tr><td id="92a">92</td><td id="92b"><img loading="lazy" src="hotdimg/waveridge.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="92c">waveridge</td> 
+        <td id="92d">A4 coloured pencil circa 1985</td> 
+        <td id="92e">waves, mountains, mountains, waves. There is no ending to make up your mind if one could be representing an image of the other such is the force of momentum in even the most enduring features in nature. Find a pattern and it is a recollection</td></tr> 
+    <tr><td id="93a">93</td><td id="93b"><img loading="lazy" src="hotdimg/xwing.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="93c">xwing</td> 
+        <td id="93d">25cm by 21cm Acrylic</td> 
+        <td id="93e">colour for want of storyline or nerve</td></tr> 
+    <tr><td id="94a">94</td><td id="94b"><img loading="lazy" src="hotdimg/morrehall.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="94c">morrehall</td> 
+        <td id="94d">25cm by 20cm circa 2017</td> 
+        <td id="94e">another MoreHall, as interesting the dog in the medical chariot I saw and again hard to recall that first vision that drew me back here to catch it</td></tr> 
+    <tr><td id="95a">95</td><td id="95b"><img loading="lazy" src="hotdimg/gwells.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="95c">gwells</td> 
+        <td id="95d">25cm by 20cm waterolour eponymous card</td> 
+        <td id="95e">actually a photo view conveniently captured from the kitchen window by my mind, not a camera.</td></tr> 
+    <tr><td id="96a">96</td><td id="96b"><img loading="lazy" src="hotdimg/candyridge.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="96c">candyridge</td> 
+        <td id="96d">A4 Acrylic</td> 
+        <td id="96e">the walking deserves the title and needs an effort, the umpteenth here to try and get this landscape half the justice of my memory and ability to do so. So far strictly only Villneuve really has done that to my feelings but divergence counts highly as a link to making another different picture so I am going to have to refer to this for the brightness is felt and feels suitable as a theme</td></tr> 
+    <tr><td id="97a">97</td><td id="97b"><img loading="lazy" src="hotdimg/broomrocks.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="97c">broomrocks</td> 
+        <td id="97d">32cm by 24cm pencil landscape 1998</td> 
+        <td id="97e">getting my fingers used to working outdoors. Is it cold, no, just impatience really. Loch Broom banks of early on the north shore</td></tr> 
+    <tr><td id="99a">98</td><td id="99b"><img loading="lazy" src="hotdimg/rewind.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="99c">rewind</td> 
+        <td id="99d">32cm by 23cm early 2000</td> 
+        <td id="99e">looking inside, knocked or surprised but a dream is information, a dive is seeking a dream</td></tr> 
+    <tr><td id="100a">99</td><td id="100b"><img loading="lazy" src="hotdimg/maneqbw.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="100c">maneqbw</td> 
+        <td id="100d">A4 watercolour</td> 
+        <td id="100e">greek style maybe, classical</td></tr> 
+    <tr><td id="101a">100</td><td id="101b"><img loading="lazy" src="hotdimg/maneqblue.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="101c">maneqblue</td> 
+        <td id="101d">A4 watercolour</td> 
+        <td id="101e">easy to lay different colours on the mannequin theme</td></tr> 
+    <tr><td id="102a">101</td><td id="102b"><img loading="lazy" src="hotdimg/maneqdark.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="102c">maneqdark</td> 
+        <td id="102d">A4 watercolour</td> 
+        <td id="102e">all the shades go well based upon the complement of shape</td></tr> 
+    <tr><td id="103a">102</td><td id="103b"><img loading="lazy" src="hotdimg/maneqorange.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="103c">maneqorange</td> 
+        <td id="103d">A4 watercolour</td> 
+        <td id="103e">the model pose and style is about being in good clothing</td></tr> 
+    <tr><td id="104a">103</td><td id="104b"><img loading="lazy" src="hotdimg/riverain.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="104c">riverain</td> 
+        <td id="104d">A4 watercolour</td> 
+        <td id="104e">light colours and the not perfect car as usual but the image is why we paint, it is true to stir a lot of recollections otherwise not graced with recorded observation</td></tr> 
+    <tr><td id="105a">104</td><td id="105b"><img loading="lazy" src="hotdimg/cragincrop.JPG" style="width: 65px; height: 39px;"></td> 
+        <td id="105c">cragincrop</td> 
+        <td id="105d">A4 pencil</td> 
+        <td id="105e">interest in the reference point like an arrangement</td></tr> 
+    <tr><td id="106a">105</td>
+        <td id="106b"><img loading="lazy" src="hotdimg/leopard.JPG" style="width: 65px; height: 39px;"></td> <td id="106c">leopard</td> 
+        <td id="106d">A4 pencil circa 1983</td> 
+        <td id="106e">from a photo and rather nice more than wild as many of us are in awe of the big cats as respected creatures rather than savages</td></tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+</main> 
+<p id="pp"></p>  
+</body>
+<script>
+//let filerow={'[]':'','name':'','desc':'','fileloc':''};MUST GO INSIDE
+let entryBLast;
+let fileble= [];
+let filebleStore=[]; 
+let capture=document.querySelector('#tablearea');
+let tbody=document.querySelector('#tablearea tbody');
+let entryB=document.querySelector('#entryB');
+let entryE=document.querySelector('#entryE');
+let arrB=document.getElementById('entryArr');
+let entryTa=document.getElementById('tablenew');
+let arrBa=document.getElementById('entryArra');  //new
+let entryTaa=document.getElementById('tablenew')        //new
+let demo2=document.querySelector('#demo2');
+demo2.setAttribute('class','hide');
+let demo3=document.querySelector('#demo3');
+let demo4=document.querySelector('#demo4');
+demo4.setAttribute('class', 'hideno')
+let demo5=document.querySelector('#demo5');
+let demo6=document.querySelector('#demo6');
+entryB.addEventListener('click', namenter);
+let entryBa=document.querySelector('#entryBa');//new
+entryBa.addEventListener('click', namenter);//new
+entryE.addEventListener('click',newEdition);
+let entryEa=document.querySelector('#entryEa');//new
+entryEa.addEventListener('click',newEditiona);//new
+let togitta=document.getElementById('togita');      //new
+togitta.addEventListener('click', togit);
+arrB.addEventListener('click', fileblll);  
+entryE.setAttribute('class','hide');
+arrBa.addEventListener('click', fileblll);  
+entryEa.setAttribute('class','hide');
+let imageFile=[/*of course you cannot save the image with the wrong format*/
+        {name:'rei', img:'hotdimg/rei.JPG', alt:'rei'},
+        {name:'hirano', img:'hotdimg/hirano.JPG', alt:'hirano'},
+        {name:'stairwell', img:'hotdimg/stairwell.JPG', alt:'stairwell'},
+        {name:'reiandkomoro', img:'hotdimg/reiandkomoro.JPG', alt:'reiandkomoro'},
+        {name:'airdrop', img:'hotdimg/airdrop.JPG', alt:'airdrop'},
+        {name:'brazil', img:'hotdimg/brazil.JPG', alt:'brazil'},
+        {name:'cannes', img:'hotdimg/cannes.JPG', alt:'cannes'},
+        {name:'canaille', img:'hotdimg/canaille.JPG', alt:'canaille'},
+        {name:'chippingandcracking', img:'hotdimg/chippingandcracking.JPG', alt:'chippingandcracking'},
+        {name:'cygnets', img:'hotdimg/cygnets.JPG', alt:'cygnets'},
+        {name:'field', img:'hotdimg/field.JPG', alt:'field'},
+        {name:'kinnanamor', img:'hotdimg/kinnanamor.JPG', alt:'kinnanamor'},
+        {name:'laigueglia', img:'hotdimg/laigueglia.JPG', alt:'laigueglia'},
+        {name:'meetingpath', img:'hotdimg/meetingpath.JPG', alt:'meetingpath'},
+        {name:'openjunction', img:'hotdimg/openjunction.JPG', alt:'openjunction'},
+        {name:'raneshut', img:'hotdimg/raneshut.JPG', alt:'raneshut'},
+        {name:'startledsquirrel', img:'hotdimg/startledsquirrel.JPG', alt:'startledsquirrel'},
+        {name:'stellamarz', img:'hotdimg/stellamarz.JPG', alt:'stellamarz'},
+        {name:'theduel', img:'hotdimg/theduel.JPG', alt:'theduel'},
+        {name:'ventimiglia', img:'hotdimg/ventimiglia.JPG', alt:'ventimiglia'},
+        {name:'villeneuve', img:'hotdimg/villeneuve.JPG', alt:'villeneuve'},
+        {name:'voltaggio', img:'hotdimg/voltaggio.JPG', alt:'voltaggio'},
+        {name:'wierdtrees', img:'hotdimg/wierdtrees.JPG', alt:'wierdtrees'},
+        {name:'envau', img:'hotdimg/envau.JPG', alt:'envau'},
+        {name:'envauposter', img:'hotdimg/envauposter.JPG', alt:'envauposter'},
+        {name:'thecastle', img:'hotdimg/thecastle.JPG', alt:'thecastle'},
+        {name:'waves1', img:'hotdimg/waves1.JPG', alt:'waves1'},
+        {name:'waves2', img:'hotdimg/waves2.JPG', alt:'waves2'},
+        {name:'hebrideanshore', img:'hotdimg/hebrideanshore.JPG', alt:'hebrideanshore'},
+        {name:'albacross', img:'hotdimg/albacross.JPG', alt:'albacross'},
+        {name:'tadthetooth', img:'hotdimg/tadthetooth.JPG', alt:'tadthetooth'},
+        {name:'thekingreturns', img:'hotdimg/thekingreturns.JPG', alt:'thekingreturns'},
+        {name:'marybean', img:'hotdimg/marybean.JPG', alt:'marybean'},
+        {name:'tailorstale', img:'hotdimg/tailorstale.JPG', alt:'tailorstale'},
+        {name:'froggattdreaming', img:'hotdimg/froggattdreaming.JPG', alt:'froggattdreaming'},
+        {name:'curbarautumn', img:'hotdimg/curbarautumn.JPG', alt:'curbarautumn'},
+        {name:'curbartrees', img:'hotdimg/curbartrees.JPG', alt:'curbartrees'},
+        {name:'stanageskyline', img:'hotdimg/stanageskyline.JPG', alt:'stanageskyline'},
+        {name:'stanagegreen', img:'hotdimg/stanagegreen.JPG', alt:'stanagegreen'},
+        {name:'froggattsky', img:'hotdimg/froggattsky.JPG', alt:'froggattsky'},
+        {name:'bentswhite', img:'hotdimg/bentswhite.JPG', alt:'bentswhite'},
+        {name:'grenwood', img:'hotdimg/grenwood.JPG', alt:'grenwood'},
+        {name:'lotrfight', img:'hotdimg/lotrfight.JPG', alt:'lotrfight'},
+        {name:'moorhallres', img:'hotdimg/moorhallres.JPG', alt:'moorhallres'},
+        {name:'airdrop1000', img:'hotdimg/airdrop1000.JPG', alt:'airdrop1000'},
+        {name:'lookingberis', img:'hotdimg/lookingberis.JPG', alt:'lookingberis'},
+        {name:'colwyn', img:'hotdimg/colwyn.JPG', alt:'colwyn'},
+        {name:'llangollen', img:'hotdimg/llangollen.JPG', alt:'llangollen'},
+        {name:'flank', img:'hotdimg/flank.JPG', alt:'flank'},
+        {name:'psmoorcolour', img:'hotdimg/psmoorcolour.JPG', alt:'psmoorcolour'},
+        {name:'stabb', img:'hotdimg/stabb.JPG', alt:'stabb'},
+        {name:'tweedbreeze', img:'hotdimg/tweedbreeze.JPG', alt:'tweedbreeze'},
+        {name:'stabbird', img:'hotdimg/stabbird.JPG', alt:'stabbird'},
+        {name:'eastshore', img:'hotdimg/eastshore.JPG', alt:'eastshore'},
+        {name:'wavesmove', img:'hotdimg/wavesmove.JPG', alt:'wavesmove'},
+        {name:'buccleugh', img:'hotdimg/buccleugh.JPG', alt:'buccleugh'},
+        {name:'neepsend', img:'hotdimg/neepsend.JPG', alt:'neepsend'},
+        {name:'stagecoach', img:'hotdimg/stagecoach.JPG', alt:'stagecoach'},
+        {name:'wavesincoming', img:'hotdimg/wavesincoming.JPG', alt:'wavesincoming'},
+        {name:'katerineknows', img:'hotdimg/katerineknows.JPG', alt:'katerineknows'},
+        {name:'konstantinepermeke', img:'hotdimg/konstantinepermeke.JPG', alt:'konstantinepermeke'},
+        {name:'hummingbird', img:'hotdimg/hummingbird.JPG', alt:'hummingbird'},
+        {name:'thelook', img:'hotdimg/thelook.JPG', alt:'thelook'},
+        {name:'reedstyle', img:'hotdimg/reedstyle.JPG', alt:'reedstyle'},
+        {name:'seals', img:'hotdimg/seals.JPG', alt:'seals'},
+        {name:'sealsatplay', img:'hotdimg/sealsatplay.JPG', alt:'sealsatplay'},
+        {name:'wolff', img:'hotdimg/wolff.JPG', alt:'wolff'},
+        {name:'belledbien', img:'hotdimg/belledbien.JPG', alt:'belledbien'},
+        {name:'dinodina', img:'hotdimg/dinodina.JPG', alt:'dinodina'},
+        {name:'axethesitters', img:'hotdimg/axethesitters.JPG', alt:'axethesitters'},
+        {name:'pecrag', img:'hotdimg/pecrag.JPG', alt:'pecrag'},
+        {name:'saunter', img:'hotdimg/saunter.JPG', alt:'saunter'},
+        {name:'swalline', img:'hotdimg/swalline.JPG', alt:'swalline'},
+        {name:'couplewalk', img:'hotdimg/couplewalk.JPG', alt:'couplewalk'},
+        {name:'gtweed', img:'hotdimg/gtweed.JPG', alt:'gtweed'},
+        {name:'jay', img:'hotdimg/jay.JPG', alt:'jay'},
+        {name:'letsdance', img:'hotdimg/letsdance.JPG', alt:'letsdance'},
+        {name:'saeko', img:'hotdimg/saeko.JPG', alt:'saeko'},
+        {name:'idfy', img:'hotdimg/idfy.JPG', alt:'idfy'},
+        {name:'jaygallery', img:'hotdimg/jaygallery.JPG', alt:'jaygallery'},
+        {name:'froggattdetail', img:'hotdimg/froggattdetail.JPG', alt:'froggattdetail'},
+        {name:'chainsnow', img:'hotdimg/chainsnow.JPG', alt:'chainsnow'},
+        {name:'climbsounds', img:'hotdimg/climbsounds.JPG', alt:'climbsounds'},
+        {name:'rosedev', img:'hotdimg/rosedev.JPG', alt:'rosedev'},
+        {name:'froggattarrive', img:'hotdimg/froggattarrive.JPG', alt:'froggattarrive'},
+        {name:'congocorner', img:'hotdimg/congocorner.JPG', alt:'congocorner'},
+        {name:'skyelandview', img:'hotdimg/skyelandview.JPG', alt:'skyelandview'},
+        {name:'froggattshadown', img:'hotdimg/froggattshadown.JPG', alt:'froggattshadown'},
+        {name:'froggattdreaming2', img:'hotdimg/froggattdreaming2.JPG', alt:'froggattdreaming2'},
+        {name:'froggarrive', img:'hotdimg/froggarrive.JPG', alt:'froggarrive'},
+        {name:'waves5', img:'hotdimg/waves5.JPG', alt:'waves5'},
+        {name:'greenpie', img:'hotdimg/greenpie.JPG', alt:'greenpie'},
+        {name:'bwapproach', img:'hotdimg/bwapproach.JPG', alt:'bwapproach'},
+        {name:'waterscape', img:'hotdimg/waterscape.JPG', alt:'waterscape'},
+        {name:'limestoneframe', img:'hotdimg/limestoneframe.JPG', alt:'limestoneframe'},
+        {name:'waveridge', img:'hotdimg/waveridge.JPG', alt:'waveridge'},
+        {name:'xwing', img:'hotdimg/xwing.JPG', alt:'xwing'},
+        {name:'morrehall', img:'hotdimg/morrehall.JPG', alt:'morrehall'},
+        {name:'gwells', img:'hotdimg/gwells.JPG', alt:'gwells'},
+        {name:'candyridge', img:'hotdimg/candyridge.JPG', alt:'candyridge'},
+        {name:'broomrocks', img:'hotdimg/broomrocks.JPG', alt:'broomrocks'}, 
+        {name:'rewind', img:'hotdimg/rewind.JPG', alt:'rewind'},       
+        {name:'riverain', img:'hotdimg/riverain.JPG', alt:'riverain'},
+        {name:'leopard', img:'hotdimg/leopard.JPG', alt:'leopard'},
+        {name:'cragincrop', img:'hotdimg/cragincrop.JPG', alt:'cragincrop'},
+        {name:'maneqbw', img:'hotdimg/maneqbw.JPG', alt:'maneqbw'},
+        {name:'maneqblue', img:'hotdimg/maneqblue.JPG', alt:'maneqblue'},
+        {name:'maneqorange', img:'hotdimg/maneqorange.JPG', alt:'maneqorange'}, 
+        {name:'maneqdark', img:'hotdimg/maneqdark.JPG', alt:'maneqdark'}        
+                                                                            
+];
+let startTa= tbody.innerHTML.replace(/,/g, '\/') ;        
+let origTa = startTa.replace(/<tr>/g, '');
+    origTa = origTa.replace(/<\/tr>/g, ',');
+    origTa = origTa.replace(/<td.+>$/g, '');
+    origTa = origTa.replace(/\s+/g, '');    
+let origParts = origTa.split(',');//array now to get key/values on each line  
+for(let j=0; j<origParts.length-1; j++){   
+        filebleStore.push({'[]':'','thumb':'','name':'','status':'','description':''});   
+        let newParts= origParts[j].replace(/<\/td>/g, ',').trim();//makes each part distinct array
+        newParts = newParts.split(',') ;            // console.log(newParts) ;       
+        filebleStore[j]['[]']= newParts[0];
+        let thumber= filebleStore[j]['name']=newParts[2];        
+        let thumbera=  thumber.replace(/<td.*>/,'');  
+        if(filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.JPG'>img<\a>`){       
+            filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.JPG' target='_blank'>img<\a>`;
+        }/*
+        if(filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.PNG'>img<\a>`){ 
+            filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.PNG' target='_blank'>img<\a>`;    
+        } */           
+        filebleStore[j]['status']=newParts[3];  
+        filebleStore[j]['description']=newParts[4];        
+}
+let arrby=[]
+function arrbey(){
+    if (arrby.length==1){
+        demo4.innerHTML='';
+        arrby=[];
+    }
+}
+function fileblll(){
+    capture.classList.toggle('hideno');
+    arrby.push({'[]':'','thumb':'','name':'','status':'','description':''});    
+    arrbey();  /*This stops the arrays stacking up each time you press for them
+    then below I also make it toggle hidden. It should only be 1 long once as well.*/
+    demo4.classList.toggle('display'); 
+        for(let i=0; i<filebleStore.length; i++){               
+        let finder="{'[]':'"+filebleStore[i]['[]']+
+         "'"+",'thumb':'"+filebleStore[i]['thumb']+
+        "'"+",'name':'"+ filebleStore[i]['name']+
+        "'"+",'status':'"+filebleStore[i]['status']+
+        "'"+",'description':'"+filebleStore[i]['description']+
+        "'},";   
+        demo4.innerHTML+=finder+'<br>';     
+        }          
+        for(let j=0; j<fileble.length; j++){               
+        let finder="{'[]':'"+fileble[j]['[]']+
+        "'"+",'thumb':'"+ fileble[j]['thumb']+
+        "'"+",'name':'"+ fileble[j]['name']+
+        "'"+",'status':'"+fileble[j]['status']+
+        "'"+",'description':'"+fileble[j]['description']+
+        "'},";   
+        demo4.innerHTML+=finder+'<br>';           
+        }    
+} 
+
+function namenterprepb4(){//getting the prior table elements live with edit on them
+    let tbodyC=document.querySelectorAll('tbody tr');
+    let l=tbodyC.length;  
+    for(i=0; i<l; i++){ 
+        let tbD=tbodyC[i].querySelectorAll('td');
+        let ll=tbD.length;
+        for(let j=0; j<ll; j++){
+            tbD[j].addEventListener('click',edit);
+           let k=j;
+            switch(k){
+                case 0:k='a';
+                break;
+                case 1:k='b';
+                break;
+                case 2:k='c';
+                break;
+                case 3:k='d';
+                break;
+                case 4:k='e';
+                break;
+                default:console.log('no valid data switch')
+            }
+            tbD[j].setAttribute('id',i+k)
+        }
+    }       
+}
+namenterprepb4();   
+function namenter(){   
+    fileble.push({'[]':'',thumb:'',name:'',status:'',description:''});//each time a row is prepped  
+    let l=(fileble.length-1); 
+    let fsl=filebleStore.length;
+    let fsll=l+fsl; //make the 2 stores into 1
+    let k=fsll.toString();    
+    let entern=document.querySelector('#inputter').value||document.querySelector('#inputtera').value; //new alteration
+
+    if(entern){   
+        let grab=imageFile.length;         
+        let td=document.createElement('td');              
+        td.setAttribute('id', k + 'b'); 
+        td.addEventListener('click', edit)      
+        for(let i=0; i<grab; i++){    
+            if(imageFile[i]['name']==entern){                 
+                fileble[l]['thumb']=imageFile[i]['img'];             
+                if(imageFile[i]['img']){ 
+                    let n= imageFile[i]['img'];                                  
+                    let tDatai=document.createElement('img');            
+                    tDatai.style= "width:65px; height: 39px";                 
+                    tDatai.setAttribute('src',n);                    
+                    td.append(tDatai);   
+                }       
+            }        
+        }  
+        fileble[l]['name']=entern;
+        entryBLast='status of '+ fileble[l]['name'];    
+        let tRow=document.createElement('tr');
+        let tData=document.createElement('td'); 
+        tData.setAttribute('id', k + 'a')
+        tData.addEventListener('click', edit) 
+        let tData1=document.createElement('td'); 
+        tData1.setAttribute('id', k + 'c');
+        tData1.addEventListener('click', edit) 
+        let td1=tData.textContent=fsll;  
+        let td2=tData1.textContent=entern;      
+        tRow.append(tData,td, tData1);
+        tbody.append(tRow);     
+        document.querySelector('#inputter').value='';   
+        document.querySelector('#inputtera').value='';  //new
+        descenterPrep()
+    }   
+}
+function descenterPrep(){
+    document.querySelector('#inputter').placeholder=entryBLast;  
+    document.querySelector('#inputtera').placeholder=entryBLast;   //new      
+    entryB.removeEventListener('click', namenter);
+    entryB.addEventListener('click', descenter);
+    entryBa.removeEventListener('click', namenter);         //new
+    entryBa.addEventListener('click', descenter);           //new
+}
+function descenter(){     
+    let enterd=document.querySelector('#inputter').value||document.querySelector('#inputtera').value;//new altered
+    let l=fileble.length-1;  
+    let k=l.toString();     
+    if(enterd){ 
+    fileble[l]['status']=enterd;
+    entryBLast='description of '+fileble[l]['name'];    
+    let tData1=document.createElement('td');
+    tData1.setAttribute('id', k + 'd');
+    tData1.addEventListener('click', edit) 
+    let td1=tData1.textContent=enterd;    
+    tbody.lastChild.append(tData1);
+    document.querySelector('#inputter').value='';
+    document.querySelector('#inputtera').value=''; //new
+    locenterPrep(); 
+    }   
+}
+function locenterPrep(){
+    document.querySelector('#inputter').placeholder=entryBLast;
+    document.querySelector('#inputtera').placeholder=entryBLast;
+    entryB.removeEventListener('click', descenter);
+    entryB.addEventListener('click', locenter);
+    entryBa.removeEventListener('click', descenter);            //new
+    entryBa.addEventListener('click', locenter);                //new
+}
+function locenter(){     
+    let enterl=document.querySelector('#inputter').value||document.querySelector('#inputtera').value;   //new altered
+    let l=fileble.length-1;    
+    fileble[l]['description']=enterl; 
+    if(enterl){  
+    entryBLast='Next Name';
+    let tData1=document.createElement('td');
+    let k=l.toString()
+    tData1.setAttribute('id', k + 'e');   
+    //tData1.addEventListener('click', edit)  
+    //tData1.setAttribute('class', 'tawidth')
+    let td1=tData1.textContent=enterl;         
+    //tbody1=tbody;
+    tbody.lastChild.append(tData1);    
+    document.querySelector('#inputter').value='';
+    document.querySelector('#inputtera').value='';
+    namenterPrep();  
+    }  
+}
+function namenterPrep(){    
+    document.querySelector('#inputter').placeholder='Next name';
+    document.querySelector('#inputtera').placeholder='Next name';
+    entryB.removeEventListener('click',locenter);
+    entryB.addEventListener('click', namenter);
+    entryBa.removeEventListener('click',locenter);      //new
+    entryBa.addEventListener('click', namenter);        //new
+    demo2.textContent=tablearea.innerHTML;
+}
+let editing;
+let editArr=[];
+let demo=document.querySelector('#demo1');
+let ender;
+function edit(e){     
+    let el=editArr.length-1;
+    if(el==0){ 
+       //edit();
+       return;       
+    }else{
+    editing=e.target; 
+    ender=editing.getAttribute('id');
+    
+    }
+}
+
+function editor(){  //Edit button is revealed   
+    entryE.removeAttribute('class', 'hide');     
+    entryEa.removeAttribute('class', 'hide');     //new
+   
+   
+    let whatrows=document.querySelectorAll('.row textarea ');    //----new  alteration  
+    
+    whatrows[0].setAttribute('placeholder', editing.textContent);    
+    whatrows[0].value=editing.textContent; 
+    whatrows[1].setAttribute('placeholder', editing.textContent);    
+    whatrows[1].value=editing.textContent;  
+    editing.textContent='please update above' ;//edit button fires newEdition     
+}
+function childimager(){
+    let grab=imageFile.length;  
+    let ll=document.querySelectorAll('tr');  
+    let l=ll.length;
+    let dz=ender.match(/\d+(?=\w)/).toString(); 
+    for(let j=0;j<l; j++){
+        for(let i=0; i< grab; i++){ 
+            if(ll[ Math.floor(dz)+1].children[2].textContent==imageFile[i]['name']){
+                // if(imageFile[i]['name']==ll[ Math.floor(dz)+1].children[2].textContent)     
+                console.log('has child image'); 
+                let tdd=document.createElement('td')
+                ll[ Math.floor(dz)+1].children[1].replaceWith(tdd);             
+                let n=imageFile[i]['img']
+                let newI=document.createElement('img');
+                newI.setAttribute('src', n)
+                newI.style= "width:65px; height: 39px";                 
+                ll[ Math.floor(dz)+1].children[1].append(newI);  
+                return;            
+            } else   if(ll[ Math.floor(dz)+1].children[2].textContent!==imageFile[i]['name']){   
+                let tdd=document.createElement('td')
+                ll[ Math.floor(dz)+1].children[1].replaceWith(tdd);      
+            }   
+        }
+    }console.log('does not have a child image')
+}   
+function imager(){
+    let grab=imageFile.length;  
+    let ll=document.querySelectorAll('tr');  
+    let dz=ender.match(/\d+(?=\w)/).toString(); 
+    for(let i=0; i< grab; i++){
+        if(ll[ Math.floor(dz)+1].children[2].textContent==imageFile[i]['name']){
+           // if(imageFile[i]['name']==ll[ Math.floor(dz)+1].children[2].textContent)     
+                console.log('has child image');
+                childimager();
+                return;                
+    }         
+    } console.log('does not have child image')  
+    childimager();
+}
+function newEdition(){   
+    whatrow=document.querySelector('#inputter').value;
+    if(whatrow){
+    editing.textContent=whatrow;
+    }
+    newEdEd();
+}
+function newEditiona(){    
+    whatrow=document.querySelector('#inputtera').value;     
+    if(whatrow){               
+        editing.textContent=whatrow;
+    }
+    newEdEd();   
+}    
+    
+function newEdEd(){    
+    //editing.textContent=whatrow;  
+    let ppp=editing.parentElement;       
+    let a=ender.match(/(?<!\w)\d+/); 
+    let dz=ender.match(/\d+(?=\w)/).toString(); 
+    let ll=document.querySelectorAll('tr');     //image check bit   
+    if((ender.match(/c$/))){
+        imager()
+    }
+    console.log(ppp.children.length) 
+    console.log(dz);
+    let pH;
+    if(ppp.children.length>=1 ){  
+        let f=filebleStore.length;       
+        let r=tbody.querySelectorAll('tr').length ;       
+        if (r==f){
+            pH='enter new/next details';
+        }else{     
+        pH=entryBLast;
+        }
+        console.log('"spaces"')
+    }else{    
+        console.log(ll[ Math.floor(dz)+1].children[2].textContent)  
+        let joiner=  ll[ Math.floor(dz)+1].children[2].textContent;
+        let picupdate ;
+        if(ender.match(/a$/)){         
+            pH='Status of  '+joiner; //+editArr[dz+1]['Name'];       
+        }else if(ender.match(/c$/)){         
+            pH='Status of  '+joiner; //get the image updated if the name changed
+        }else if(ender.match(/d$/)){              
+                pH= 'Description of ' +joiner//fileble[a]['Name'];                     
+        }else if(ender.match(/e$/)){              
+                pH= 'Next Name ' //fileble[a]['Name'];                     
+        }
+    }
+    
+    document.querySelector('#inputter').value='';
+    document.querySelector('#inputter').placeholder=pH; //entryBLast;    
+    document.querySelector('#inputtera').value='';          //new
+    document.querySelector('#inputtera').placeholder=pH; //entryBLast;  new  
+    editing.removeAttribute('class', 'red');
+    entryE.setAttribute('class', 'hide');
+    entryB.removeAttribute('class', 'hide');  
+    entryEa.setAttribute('class', 'hide');     //new
+    entryBa.removeAttribute('class', 'hide');  //new
+    editArr=[] ;
+}   
+
+</script>
+</html>

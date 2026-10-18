@@ -1,0 +1,191 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
+main{display: flex;justify-content: center;}
+header {width: 100%; display: flex; background-image: url(../IMGartfth/pete.JPG) ; background-size: cover;     
+background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+#ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke;}
+#ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+.sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+justify-content: flex-start; }               
+.highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+.highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+.highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+border:2px solid whitesmoke;} 
+.highlighth {display: flex; padding:20px;}
+.highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+.stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+.stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+.stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+.ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+.ulC{display: flex; flex-direction: column;margin:0 auto;}
+.ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+margin:-25px auto auto auto;padding: 0; }
+.ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto }
+.ulColrr {display: flex;flex-direction: column;justify-content: center;}
+.center{  display: block; direction:ltr ;width: 100vw;}
+.split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+.homebar { display: flex;  padding-bottom: 20px;             }
+.navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+.navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+.navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+.ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+.ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+.ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;}    
+#section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+    font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; } 
+
+
+#bfive { background-image : url(  ../Background/b5.GIF) ;background-size: contain; background-repeat: repeat; margin:2px; }
+#cylinderrainbow { background-image: url(../Background/cylinderrainbow.JPG  ); background-size: contain; background-repeat: repeat; margin:2px;}
+#conicalrainbow { background-image: url(../Background/bbghoriz.JPG)  ;background-size: cover; background-repeat:no-repeat;
+                  margin: 2px; }
+.rowcentre { width:100%; display:flex; flex-direction:row; justify-content: center;flex-wrap: wrap; }
+ .rowright { display: flex; justify-content: right; align-items: flex-end;
+                     margin-left: auto; margin-right: 2px;}
+.colcentre { display: flex; align-items: center; flex-direction: column; flex-wrap: wrap; } 
+.colcentrej {  display: flex; justify-content: center;  }
+.colaround { display: flex; flex-direction: column; align-content: space-around;  }
+.col {display: flex; flex-direction: column; }
+.smallcol {size:contain;  display:flex; flex-direction: column;height:fit-content;   }
+.smallcolac {size:contain;  display:flex; flex-direction: column; align-content: center; }
+.smallcolcentre { size:contain; display:flex; flex-direction: column; align-items: center; flex-wrap: wrap; }
+.smallcolcentrebci {size:contain; display:flex; flex-direction: column; align-items: center;justify-items: flex-end;  }
+.widthcol { width: 100%; display:flex; flex-direction: column;align-content:center;}
+.greeting {  flex-direction: row; size: contain;width:fit-content;  }/*
+.rowcentre {margin:0; display: flex; flex-direction: row; justify-content: center;flex-wrap: wrap; }*/
+.rowaround {   display: flex; flex-direction: row; align-items: flex-start;
+flex-wrap: wrap; justify-content: space-between; } 
+
+.rowbright { display: flex;flex-direction: row; justify-content: center; align-items: flex-end; } /* good for captions */
+.row  {display:flex; flex-wrap: wrap; }
+.smallrow {  size:contain; display:flex; flex-direction: row;     }
+.widthrow {width:100%; display: flex; flex-wrap: wrap; flex-direction: row;}
+.widthrowcentre { width:100%; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;  }
+.widthrowaround { display:flex;justify-content: space-around; flex-direction: row;width: 100%; flex-wrap: wrap; }
+.divrow { display: flex; flex-direction: row; flex-wrap: wrap; width: 45%; } 
+.rowr {display: flex; justify-content: flex-end;flex-direction: row; flex: 1 1 auto; margin-right:0;}
+.hundred img { width:100%; height:100%;}
+.aonea {max-width:400px;/*height: 267px;*/ display: flex; flex-direction:column; margin: auto;}
+.aone {max-width:500px; /*height: 267px;*/ margin: 10px;}
+.figcapblue {  background-color: royalblue; color: wheat; font-size: small;
+         font-weight: bold;padding: 2px; border-radius: 2px; margin-top: 5px;}
+.figcapred  { background-color: red; color:darkkhaki; font-size: small;
+         font-weight: bold; padding: 2px; border-radius: 2px; margin-top:5px;      }
+
+.figure{display: flex;padding :15px; flex-direction:column;
+           margin:0; } 
+
+
+.comtent1{background-color: beige; color: midnightblue;  opacity: 0.5; border: 1px solid black;margin-top:10px;  margin-bottom: 2px; padding-bottom:-5px;
+   padding-left: 5px; padding-right: 5px; padding-top: 5px;  max-width: 550px;    } 
+
+ /*width set on the article overflows the div holder. Therefore set width on the holder */
+.flarticb {  display: flex; flex-direction: row; flex: 1 1 40%; align-items:center;  }
+.flartica {  display: flex; flex-direction: row;flex: 2 1 20%;align-items:center; }
+.cyan {max-width: 400px; display:flex; height: fit-content;}
+.project {font-size: 0.9em; color: cyan;background-color: slategray;  font-weight: bold ;
+        margin-top:5px; padding:3px; border-radius: 3px;  border: sol beige 1px; }
+.cyana {   font-size: 0.9em; color: darkkhaki;background-color: midnightblue;opacity: 0.8; font-weight: bold ;
+   margin-top:5px; padding:3px; border-radius: 3px;  border: sol beige 1px; height:min-content;  } 
+.cyanb {   font-size: 0.9em;   font-weight: bold ;  color: cyan;background-color: slategray; 
+   margin-top:5px; padding:3px; border-radius: 3px;  border: sol beige 1px; height:min-content;  }   
+.rowaround   
+.bloccap { font-size: 0.9em; color: cyan;background-color: slategray;  font-weight: bold ;
+   margin-top:5px; padding:3px; border-radius: 3px;  border: solid beige 1px;display:flex;       }
+.blokecap { font-size: 0.9em; color: cyan;background-color: slategray;  font-weight: bold ;
+    margin-top:5px; padding:3px; border-radius: 3px;  border: solid beige 1px;display:flex;       }   
+.responsive { max-width:30%; height: auto;}
+.scaletofont { height:2em; width: 2em; }
+
+.downrow { display:flex; flex-direction: row;justify-content: center; }
+.downrowa a, .downrow a, .downrowb a {display:flex; background-image: url( ../IMGartfth/suppbutton.PNG);background-size: contain; flex-direction: row; }
+.downrowa { display:flex; flex-direction: row;justify-content: flex-start; }
+.downrowb { display:flex; flex-direction: row;justify-content: flex-end; }
+#s2c{width: 100%; display:flex; background-image: url(../IMGartfth/chipping.JPG) ;background-size:contain;
+    background-repeat:repeat; overflow: hidden; flex-wrap: wrap;justify-content: center; } 
+#s2c p,h3{background-color: cornsilk;opacity: 0.8;}
+#camper{display:flex; background-image:url(../IMGartfth/tent.JPG) ;background-repeat: repeat;
+    background-size: contain;}
+   .divider { background: orangered; color:springgreen;font-size: 16px;   padding: 3px;  opacity: 0.7;}
+   .divider:hover { font-size: 18px; color: blueviolet; opacity: 1; border:blueviolet 2px solid;}
+
+   .fr{display: flex;flex-direction: row;}
+   .fra{display: flex; flex-direction: row; margin:0 auto;}
+   .frw{display: flex;flex-direction: row; flex-wrap: wrap;}
+   .fca85{display: flex; flex-direction: column; margin: auto ;flex: 1 1 85%;width:85%;}
+   .fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;}
+   .fr100sa{display: flex; flex-direction: row; width: 100%;justify-content: space-around;}
+   .fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+   .fc{display: flex; flex-direction: column;}
+   .fca{display: flex; flex-direction: column; margin:0 auto ;}
+   
+   .fca30{display: flex; flex-direction: column; margin: auto ;flex: 1 1 30%;}
+   .fca4038{display: flex; flex-direction: column; margin:  auto  ;flex:2 1  40%;
+       min-width: 300px;max-width: 80%;}
+    .fcit{display: inline-flex; flex-direction: column; margin-bottom: auto; }
+   .bca{margin:auto;display: block; }
+   
+   .yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+    font-size: large; color: springgreen;padding: 2px 5px;}
+.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+.yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+.yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;}  
+       .button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+           color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+       
+       .button1h:hover {font-size: larger;color: springgreen;}
+       
+       .button1{height: fit-content; background: orangered; padding-left:  2px; padding-right:2px; padding-top: 1px;
+          color: springgreen; margin: 5px; border-radius: 3px;}
+       .button1:hover {font-size: larger; color: blueviolet;}
+       .buttonaboutt {color: springgreen;background-color: grey; font-size:large; 
+           font-weight: bolder; padding: 6px; 
+          border-radius: 6px; border-color:whitesmoke; }
+       .buttonabout {color:springgreen;background-color: gray;  font-size: large;
+           font-weight: bolder; margin: 1px;
+           border-radius: 4px; border-color:whitesmoke; }
+       .buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large;
+               font-weight: bolder; margin: 1px;
+               border-radius: 4px; border-color:whitesmoke; }   
+       .buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; 
+            font-weight: bolder; padding: 2px; 
+           border-radius: 4px; border-color: magenta; opacity:0.6;}
+       .buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+       .buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+            border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+       .buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+       .buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+            border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+       .buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+       .buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+           font-weight: bolder;margin: 1px;width: 100%;}
+       .buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+       .buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px 2px 4px; 
+           border-radius: 2px; border-color: springgreen; }
+       .buttonaboutwait:hover,
+       .yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+       /*.buttonabout:hover { opacity: 0.8;}*/
+       .oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}  
+
+   a address [href^="mailto"] ::after { content: "📧"}
+   .containerfoot {  flex-direction: row; color: whitesmoke;   justify-content: space-around; display: flex; 
+         width: 100%; background-color:royalblue ; align-items: center; flex-wrap: wrap;}
+   .headline {color: springgreen;font-size:larger;margin: 5px;} 
+   .postsabout { background-color: yellow; color: teal;margin: 5px;}
+   .mail    { background-color:springgreen ;color:darkmagenta ; margin: 5px;   }
+   .mail:hover {color:white;}        
+   
+   
+   .containerfoot {  flex-direction: row; color: whitesmoke;   justify-content: center; display: flex;   width: 100%; background-color:darkblue ;  }
+   .headline {color: springgreen;font-size:larger;margin: 5px;} 
+   .postsabout { background-color: yellow; color: teal;margin: 5px;}
+   .mail    { background-color:springgreen ;color:darkmagenta ; margin: 5px;   }       
+
+   @media (max-width:900px){
+    .ulcollb{margin:auto;}
+    .ulCollb h2{margin-top: 10px;}
+    /*body{font-size: 11px;}*/
+   
+}

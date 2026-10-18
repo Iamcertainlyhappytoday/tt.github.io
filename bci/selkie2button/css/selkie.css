@@ -1,0 +1,235 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+          font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}
+main{display: flex;justify-content: center;}
+header {width: 100%; display: flex; background-image: url(../IMGartfth/pete.JPG) ; background-size: cover;     
+        background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+#ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;}
+#ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+.sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+        justify-content: flex-start; }               
+.highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+                background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+.highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+.highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+        border:2px solid whitesmoke;} 
+.highlighth {display: flex; padding:20px;}
+.highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+.stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+.stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+.stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+.ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+.ulC{display: flex; flex-direction: column;margin:0 auto;}
+.ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+         margin:-25px auto auto auto;padding: 0; }
+.ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto }
+.ulColrr {display: flex;flex-direction: column;justify-content: center;}
+.center{  display: block; direction:ltr ;width: 100vw;}
+.split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+.homebar { display: flex;  padding-bottom: 20px;             }
+.navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+.navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+.navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+.ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+.ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+.ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;}    
+
+#pp{position: fixed; left:40%; top:50%; background-color: aliceblue;}  
+.hider{display: none;}
+.unhider{display:flex;}   
+#commentwb{background-color: white; color: rebeccapurple;margin:-4px auto 0 auto  ;z-index: 8;}
+#commentp{background-color: white; color: rebeccapurple;margin:-4px auto 0 auto ;z-index: 8;}
+.pagenumber{display: flex;flex-direction: row; width: 100%;}
+.pagenumber p{display: inline-flex;  margin: 0 0 -20px auto;color: wheat;  z-index: 6;} 
+#frame{width:990px; /*margin-top: 5px ;*/display: flex;}
+#frameleft{display: flex;flex-direction: column; }
+#frameright {display: flex;flex-direction: column; }
+.rowh img{display: flex;width: 150px;height:130px;margin: 0;padding: 0;}
+
+.hundred img {  width: 100%; height:100%; }  
+.hundreda img{height:1018px;margin: auto;}   
+.page {max-width:662px;  box-sizing: border-box;display: flex;margin: auto;flex-direction: column;
+        padding: 0; border: 1px solid sandybrown ;margin-top: 10px;background-color: white;}  
+.first, .second, .third, .fourth, .fifth, .sixth {  margin: auto; max-width:656px;padding:0 2px;
+       height: 1018px;   border: 1px solid sandybrown ; overflow-y: scroll;line-break:loose; }
+#section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+        font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; }                
+.row { display:flex; flex-direction: row; justify-content: space-between;/* flex-wrap: wrap;*/}
+.col { display: flex; flex-direction: column; align-items: center; flex-wrap:wrap; }
+.fr{display: flex;flex-direction: row;}
+.fra{display: flex;flex-direction: row;margin: auto;}
+.fra{display: flex; flex-direction: row; margin:0 auto;}
+.frw{display: flex;flex-direction: row; flex-wrap: wrap;}
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;margin: auto;flex-wrap: wrap;}
+.fr100sa{display: flex; flex-direction: row; width: 100%;justify-content: space-around;}
+.fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+.fc{display: flex; flex-direction: column;}
+.fca{display: flex; flex-direction: column; margin:0 auto ;}
+.fca30{display: flex; flex-direction: column; margin: auto ;flex: 1 1 30%;}
+.fca4038{display: flex; flex-direction: column; margin:  auto  ;flex:2 1  40%;  min-width: 300px;max-width: 80%;}
+.bca{margin:auto;display: block; }
+.rowcentre { display: flex; flex-direction: row; justify-content: center;flex-wrap: wrap;  }
+.rowcentredk { display: flex; justify-content: center;align-content: flex-end; width:100%; }    
+.rowbetweentwo { display:flex;   flex-direction:row; flex-wrap: wrap;width:100%;
+         justify-content:space-between ; size:contain;  margin:2px; padding: 2px; }
+.rowright { display: flex; justify-content: right; align-items: flex-end;margin-left: 2px; margin-right: 2px;}        
+.divrow { display:flex; flex-direction: row; justify-content: flex-start;flex-wrap: wrap; }
+.rowh{ display:flex; flex-direction: row;padding: 0;}
+.smallcolac {size:contain;  display:flex; flex-direction: column; align-content: center; }
+.smallrow {  size:contain; display:flex; flex-direction: row;     }
+.colwidthcentre { display:flex; flex-direction: column; flex-wrap:wrap; align-items: center;
+        width:100%;}
+       
+.rowbetweencardcol {display: flex; flex: 1 1 auto; flex-direction:row; flex-wrap: wrap; justify-content:space-between ; padding: 4px; }    
+.card { flex:1 2 25%; }   
+.colfifty{ display: flex;flex-direction: column;  flex: 1 2 55%;margin:auto; }        
+.rowthirty {display:flex;  flex-direction:row;   } 
+.firstonda{    font-family: "brush script", cursive, impact, times  ;   color:wheat; }
+
+.backfirsta,  .backfirstb   {display: flex;  width:100% ;height:fit-content;/*  flex-wrap: wrap;*/}  
+.backfirsta {  color: firebrick;  font-family: "brush script", cursive,
+        impact, times  ; font-weight: bold;       font-size: 1.1em;   }  
+.backfirste{font-size: 1.3em; color: maroon;border: 2px solid maroon;width: 90%;margin: 40px auto;           }
+.backfirsta, .backfirstb   p {margin-bottom:0;margin-top: 0;}
+.backfirsta   span  { color:lime;font-family: "papyrus", fantasy, serif; font-weight: bold; font-size: 1.3em; }
+.backfirstb span { font-size: 1.4em;margin-bottom: 2px;}
+.backfirsta .blue  { color: royalblue;font-family: "papyrus", fantasy, serif; font-weight: bold;
+         font-size: 1.2em;  }
+.tailor { display:flex; flex-direction:column; flex-wrap: wrap; box-sizing: border-box;  margin-bottom: 0;}
+.backfirstc {font-size: 1.1em;  padding: 3px; } /*this has no flex for the text wrap to work*/ 
+.backfirstcc span { font-size: 1.3em;}
+aside .captionblue{ width: 45%; height: fit-content; color:wheat; float:right; margin-left: 5px; padding:2px;font-size: 0.8em; }
+aside .captionbluebottom { width: 20%;height: fit-content;  color:wheat;clear:right;
+        float:right; margin-left: 5x; padding:2px; margin-top: -7px;font-size: 0.6em;                 }
+aside .captionimage   {width: 78%; float:right;  margin-left: 0;    padding-left:5px;  margin-right:0; }
+.suspend { flex-wrap:wrap; display:flex; flex-direction: column;margin-top: 10px; width:100%; align-items: center;}
+.note  {  flex-wrap:wrap; border: 2px solid yellow; color: crimson;font-size: 1.2em;  } 
+.noteone { border: 2px solid yellow;  color: crimson;font-size: 1.4em; font-weight: bold; padding:3px; } 
+.captionblue span{ font-size: large;color: maroon;}
+.backseconda {  color: firebrick; font-family: "brush script", cursive, impact, times;
+         font-weight: bold;  font-size: 1.1em; height:fit-content; }  
+.backseconda span { color: lime; font-size:1.2; }
+.backseconda .blue { color: royalblue;font-family: "papyrus", fantasy, serif; font-weight: bold;
+         font-size: 1.2em; }
+.marybean { display:flex; flex-direction:column; flex-wrap: wrap; box-sizing: border-box;  margin-bottom: 0;}
+.backsecondb {  margin-bottom:0; padding:5px; font-size: 1.1em;         box-sizing: border-box;}
+.captionseconda {width : 80%; height:fit-content; float:left; margin-right: 4px; margin-bottom: 1px;         
+     font-family: "brush script", cursive, impact, times  ; font-weight: bold;  font-size: 0.9em;
+      color:wheat; padding:1px;   }
+.captionseconda span {font-family: "papyrus", fantasy, serif; font-weight: bold; font-size: 1.1em; color: maroon; }
+.captionsecondb { width : 15%; height:fit-content; float:right; font-weight: bold;  font-size: 0.9em; 
+        color:wheat; font-family: "brush script", cursive, impact, times  ;   margin-bottom:10px; }                 
+.captionsecondb span {font-family: "papyrus", fantasy, serif; font-weight: bold; font-size: 1.1em; color: maroon; }                
+.captionsilk {width: 10%; float:right; height: fit-content; color: blue; font-size: 0.6em; margin-left: 2px;clear:right;}
+.secondimagea { width: 50%; float:left; margin-right: 2px; margin-top: 1px;margin-bottom: 1px;  margin-left: 10px;}
+.secondimageb { width: 65%; float: left; margin-right: 3px;margin-top:1px; margin-left: 10px;}
+.king { display: flex;flex-direction: column; width: 100%;margin-right: 5px; }
+.headslate { width: 60%;  color: wheat; font-size: 1.2em; }
+.headslate span {  font-family: "brush script", cursive, impact, times  ; font-weight: bold;  font-size: 1.5em; }
+.captionking {display: flex; flex-direction: column;   color:wheat;
+                font-size: 0.6em;margin-left: 2px; justify-content: flex-start; }
+.backkingrose { padding: 3px; font-size: 1.1em; }
+.backfourtha { color: firebrick;  font-family: "brush script", cursive, impact, times  ; font-weight: bold;   
+        font-size: 1.1em; height:fit-content; padding: 5px;}
+.backfourtha span {color: saddlebrown; font-size: 1.2em; }
+.backfourtha .green { color: lime;}
+.captionsilka { display:flex; width: 45%;  height: fit-content;     color: blue; font-size: 0.6em; margin-left: 2px;}
+.captionfourth {  font-family: "brush script", cursive, impact, times; font-weight: bold;  color:wheat; margin-bottom:0; }
+.captionfourth span  { font-size: 1.3em;  color: maroon;}
+.seals {  float: right; width:65%; margin-left: 5px; }
+.seals span {font-family: "papyrus", fantasy, serif; font-weight: bold; font-size:1.1em;color:maroon; }
+.navajowhite {  width: 90%;        font-size: 1.2em; padding:3px;}
+.navajowhite span {  font-size: 1.4em;  color: blue;}
+.backfiftha{  color:limegreen; font-family: "brush script", cursive, impact, times  ; font-weight: bold;   
+    font-size: 1.1em;  }
+.backfiftha span { color: darkturquoise; font-weight: bold; font-size: 1.2em;}
+.backfiftha .contact { color: plum; font-size: 1.2em; }
+.backfiftha .small { color:steelblue; font-size: 0.8em; font-family:"brush script", cursive,impact, times  }
+
+.backfifthb { width:100%; color:mediumseagreen; font-family: "brush script", cursive, impact, times  ;
+         font-weight: bold; font-size: 1.3em; height:fit-content;  margin-bottom: 0; text-align: center; }
+.darklady {display:flex;width: 85%;margin-top:0; margin-right: 2px; align-items:flex-end;}
+.pink { display:flex; width: 30px; height: fit-content; margin-left: 0;padding-left: 0; font-size:0.6em ;}
+.backkingrosefive {  font-size: 1.3em; }
+.final { width: 100%;  font-size: 1.3em; height:fit-content; margin: 10px auto;}
+.final h1 { color: darkturquoise; font-size:2em; display:inline;}
+.final span { font-family:   "brush script", cursive, impact, times; color: limegreen; font-size: 1.4em;}
+.final .bci { font-family:  "brush script", cursive, impact, times ; color: royalblue; font-size:1.3em;}
+.final .devart  {font-family: serif; color: darkred; font-size: 1.2em;}
+.final p {display: inline;}
+.final .bcigreen {font-family: "brush script", cursive, impact, times; color: limegreen;
+         font-size: 1.3em; margin: 20px auto;}
+.divider {  color:springgreen;font-size: 16px;border-radius: 3px;opacity: 0.7;}
+.pagefind {  font-size: 16px;border:white solid 1px;  border-radius: 3px;font-weight: bold; opacity: 0.8;
+        text-decoration:none; color: rebeccapurple; }
+.pagefind:hover{color: aqua;}    
+.yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+        font-size: large; color: springgreen;padding: 2px 5px;}
+.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+.yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+.yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;}  
+.divider:hover {   color:blueviolet;  font-size: 20px;border: blueviolet 2px solid; opacity:1; }
+.button1h{  color:orangered;margin: 5px;border-radius: 3px; font-size: 1.3em;}
+.button1hlarge{height: fit-content;background: blanchedalmond;padding-left:  10px; padding-right: 10px;
+                padding-top:1px;     color:orangered;margin: 5px;border-radius: 3px; font-size: 2em; font-weight: bolder;}     
+.button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px;
+         padding-top: 1px;  color: springgreen;margin: 5px; border-radius: 3px;font-size: 1.3em;   }  
+.button1h:hover {font-size: larger;color: springgreen;} 
+.button {color: springgreen;  background-color:whitesmoke;  border: 2px solid #5D6063; border-radius: 3px; }
+.button:hover { font-size: larger; }       
+#button1h{background: blanchedalmond;  color: orangered;border-radius: 3px;font-size: 1.2em; }
+#button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px;
+         padding-top: 1px; color: springgreen;margin: 5px; border-radius: 3px;font-size: 1.1em;  }
+#button1:hover {font-size: larger; color: blueviolet;}
+.button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+    color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+.button1h:hover {font-size: larger;color: springgreen;}
+.button1:hover {font-size: larger; color: blueviolet;}
+.buttonaboutt {color: green;background-color: plum; font-size:large; font-weight: bolder; padding: 6px; 
+   border-radius: 6px; border-color:whitesmoke; }
+.buttonabout {color:green;background-color: plum;  font-size: large; font-weight: bolder; margin: 1px;
+    border-radius: 4px; border-color:whitesmoke; }
+.buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large; font-weight: bolder; margin: 1px;
+        border-radius: 4px; border-color:whitesmoke; }   
+.buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; font-weight: bolder; padding: 2px; 
+    border-radius: 4px; border-color: magenta; opacity:0.6;}
+.buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;
+        opacity: 1;border-color: brown;}
+.buttonbci { color:darkblue; background-color: lightblue; border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+.buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+.buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+     border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+.buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+.buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+    font-weight: bolder;margin: 1px;width: 100%;}
+.buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+.buttonaboutwait {color: rebeccapurple;background-color: lightgreen; font-size:large;  font-weight: bolder; padding:2px 4px 2px 4px; 
+    border-radius: 2px; border-color: springgreen; }
+.buttonaboutwait:hover, .yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+.oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}  
+.containerfoot{ flex-direction: row; color: whitesmoke;   justify-content: center; display: flex;   width: 100%; background-color:darkblue ;  }
+.headline {color: springgreen;font-size:larger;margin: 5px;} 
+.postsabout { background-color: yellow; color: teal;margin: 5px;}
+.mail { background-color:springgreen ;color:darkmagenta ; margin: 5px; }       
+
+@media (max-width:1200px){
+        #frame{width: 700px;}
+        #frameleft{width:150px;}
+        #frameright{width:150px;}
+        .ulcollb{margin-top:-25px;}
+        
+}
+@media (max-width:1000px){        
+        #frameleft{width: 100px;}
+        #frameright{width:100px;}
+       /* body{font-size: 12px;}*/
+        header{font-size: smaller; }
+        .ulcollb{margin-top: 0;}
+        
+}
+@media (max-width:900px){
+        #frameleft{display: none;}
+        #frameright{display:none;}
+        /*body{font-size: 11px;}*/
+        
+}
