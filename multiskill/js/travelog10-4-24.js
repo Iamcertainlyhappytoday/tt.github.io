@@ -44,19 +44,19 @@ function altdetails(){
    let x=msg;
   let msg2;
    switch(x){
-    case 'firstbambu':
+    case 'cherrysunrise':
         msg2=' : '+ answers.a1;
         break;
-    case 'greenbetween':
+    case 'fieldreflect':
         msg2=' : '+ answers['b1'];
         break;
-    case 'arthotel1':
+    case 'ratsday':
         msg2=' : '+ answers['c1'];
         break;
-    case 'skywingforever':
+    case 'gateway':
         msg2 =' : '+ answers['d1'];
         break;
-    case 'lightdarktrain':
+    case 'planeapproach':
         msg2 =' : '+ answers['e1'];
         break;
     default:
