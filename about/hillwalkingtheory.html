@@ -239,23 +239,7 @@
     <p>  <span class="headline" >trailtour</span> <span class="postsabout"> BrightCalmIllustrations </span> Copyright &copy; 2021 
     </p>
 </footer>
-<script>
-    let showerLoc=document.querySelector('body');
-let pp=document.querySelector('#pp');
-showerLoc.addEventListener('mouseover', shower, false);
-function shower(e){
-    pp.innerHTML=e.target.tagName +'<br>'+'class ='+ e.target.classList
-    + ' id = ' + e.target.id;
-}
-function changeStyle(cls,clr,clr2) {
-  let elems = document.getElementsByClassName(cls);
-  if(!elems) return;
-  for (let elem of elems) {
-    elem.style.background= clr2;
-      elem.style.color = clr;      
-  }
-}
-</script>
+
 </body>
 </html>
         
