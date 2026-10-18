@@ -1,0 +1,282 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
+main{display: flex;justify-content: center;}
+header {width: 100%; display: flex; background-image: url(../IMGabout/pete.JPG) ; background-size: cover;     
+background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+#ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke; }
+#ttmenuc{background-color: whitesmoke; margin: auto;border: 1px solid whitesmoke; }
+#ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+#ttmenuc  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+.sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+justify-content: flex-start; }               
+.highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+.highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+.highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+border:2px solid whitesmoke;} 
+.highlighth {display: flex; padding:20px;}
+.highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+.stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+.stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+.stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+.ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+.ulC{display: flex; flex-direction: column;margin:0 auto;}
+.ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+margin:-25px auto auto auto;padding: 0; }
+.ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto;display: flex;background-color: lightblue; }
+.ulCollbr{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+    margin:10px 10px auto auto; }
+.ulCollbr h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin:0 auto;display: flex;background-color: lightblue; }
+.ulColrr {display: flex;flex-direction: column;justify-content: center;}
+.center{  display: block; direction:ltr ;width: 100vw;}
+.split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+.homebar { display: flex;  padding-bottom: 20px;             }
+.navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+.navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+.navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+.ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+.ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+.ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;} 
+#section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+    font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; } 
+.row { display:flex; flex-direction: row; justify-content: space-between;/* flex-wrap: wrap;*/}
+.col { display: flex; flex-direction: column; align-items: center; flex-wrap:wrap; } 
+.aboutttbackgrounda { width: 100%; display: flex;  margin: 0; flex-wrap: wrap; flex-direction: row;
+    background-image: url(../Background/conicalrainbow.JPG);background-size: contain;
+    background-repeat: repeat;  }
+.containers1{ width:100%; display:flex;  flex-direction: row;  flex-wrap: wrap; 
+    margin:0; padding:0;  justify-content: center;  }              
+.containers1c :first-child{order:1;}
+.containers1c :last-child {order:2;}/* 1st child goes second and 3rd child goes 3rd  */
+.containers1c    {  display:flex; flex-direction:row;  flex-wrap:wrap;  width:100%; margin: 2px; }
+.drawhill { flex: 1 1 55%; margin:auto; }
+.climbing{display: flex;flex: 1 1 20%; background-color:lightcoral ;
+    border: 2px dashed brown; margin:auto; } 
+.walking {display: flex;flex:1 1 20%; background-color: orange;
+     border: 2px dashed purple;  margin:auto;}
+
+.climbing, .walking {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
+    sans-serif; color: black;  padding: 5px;display: block; }
+.skillset{    background-image: url(../Background/bhorizb.JPG); background-size:cover;
+        flex: 1 0 25%;  margin:auto; }
+.skills{    background-image: url(../Background/bbghoriz.JPG); background-size:cover;
+        flex: 1 0 30%; margin: auto; } 
+.bluewide { color: blue; padding:5px; }
+.ch1a {font-size: 1.4em;color: springgreen;background: royalblue;display: flex;
+            margin-bottom:0; flex-direction: column;    flex-wrap: wrap;  text-align:center; }
+.fig1a {flex: 0 1 500px; }
+.fig1b {flex: 0 1 1000px; max-width: 90%;  }
+.fig1c {flex: 0 1 800px;max-width: 85%; }
+.sunset {flex:0 1 600px; }
+.descend {flex: 0 1 600px; }
+.contexta {background-color: wheat; font-weight: bold; display: flex; flex-direction: column; 
+    flex-wrap: wrap;margin-top:0; }
+.context2 {  background-color: rgb(179, 179, 103); font-weight: bold;color: blueviolet;
+    padding: 3px;    font-weight: bold;   }
+.context4 {  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:white;
+    background-color:royalblue ;border: 2px dashed brown; padding: 10px;}
+.context5{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: orange; 
+    background-color: azure; border: 2px dashed purple;border-radius: 5px; 
+    padding:5px;    }         
+/*.context3 {  border: 2px solid black; padding: 3px;background-color: khaki; }*/
+#pp{position: fixed; left:40%; top:50%; background-color: aliceblue;}
+.highlightsg { color: springgreen;background-color: brown;display:inline;}
+.highlightsh {color: teal;}
+.tablea{      width: 100%;  }
+.tableb {    max-width:85%;         padding:5px; }
+table {border-collapse: collapse; }
+tr {width:100%;   }
+th,td  { background-color: yellowgreen; 
+         border: red solid 1px;padding: 2px;           }
+    /*     td { border: red solid 1px;padding: 2px;        }*/
+table .emp {background-color: brown;color: blanchedalmond;font-weight: bolder;font-size: larger;}
+table .emp1{ background-color:aquamarine;color: darkgreen;font-weight: bolder;font-size: larger; }
+.emp2{color: brown; }
+li .emred em{color: rgb(212, 38, 38);}
+.init { display: inline; font-size: 1.2em;}
+.notes { text-align: justify; padding:5px; font:0.8em; font-weight: bold; color: darkblue; Padding:5px;
+    border: 2px solid brown;}
+.hundred img{width: 100%;height:100%;  }
+.hundred {width: 100%; }
+.holdtop { background-image: url(../IMGabout/dj.PNG) ;background-size: contain;
+    background-repeat: repeat; display: flex; justify-content: stretch;
+   flex-direction: row;width: 100%; height: 5em; color: darkorchid;}
+.holdtop.hangnav { margin-left: 0;}
+.holdtop h3 { font-stretch: ultra-expanded; font-size: large;margin: auto ;  font-size: 1.5em;  text-align: justify;}
+.holdtop{ background-color: seashell;}
+#hs77 {width:100%;   background-image: url(../../Background/yb.GIF) ;
+    background-size: contain;     background-repeat: repeat;     
+    display: flex;flex-direction: column;  }
+#hs76{background-image: url(../Background/conicalrainbow.JPG) ;background-size: cover;
+    background-repeat:no-repeat; border: 3px solid yellow;display: flex; margin: auto;width: 100%; 
+    flex-direction: column;   height: fit-content;align-content: space-around; flex-wrap: wrap;}
+#hs75 {width:100%;   background-image: url(../IMGabout/inversionw2.jpg) ;
+    background-size: contain;     background-repeat: repeat;     
+    display: flex;flex-direction: column;  }
+#hs74{width:100%;   background-image: url(../IMG/pete.JPG) ;background-size: contain; 
+    background-repeat: repeat;     display: flex;flex-direction: column; }
+#clubs{width: 100%;   background-image: url(../Background/b7.GIF) ;background-size: contain; 
+        background-repeat:repeat;    display: flex;  flex-wrap: wrap;}
+.rowcentreten {width:100%; display: flex; flex-direction: row;
+    flex-wrap: wrap;  justify-content: center;}
+.rowcentrehundred {width:100%; display: flex; flex-direction: row;justify-content: center; 
+        align-items:center; flex-wrap: wrap; Margin: 50px  100px 100px 50px;  }    
+.rowidthaaround  {width:100%; display: flex;  flex-wrap: wrap; flex-direction: row; 
+        justify-content: space-around; margin:2px; padding: 4px;}
+.rowcentre { width:100%; display:flex; flex-direction:row; justify-content: center;
+            flex-wrap: wrap; }
+.rowidthtwo  {width:100%; display: flex;  flex-wrap: wrap; flex-direction: row; 
+                margin:2px; padding: 4px; }            
+.flexcol {width: 100%; display:flex; flex-direction:column; padding:5px; flex-wrap: wrap;
+            align-content:center;margin:0; }
+        
+.divrowleft {display:flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;}
+.controw { display:flex; justify-content: space-between;flex-wrap: wrap; }
+.colpartner {display: flex;min-width: 45%;margin:5px 5px 2px 3px; flex-direction: column;}
+.twocol { display: flex;  flex-direction:column; padding: 5px; align-content: space-around;
+                 flex-wrap: wrap; margin: 0;}
+.tallcontainer {display:flex;  flex-direction: row;flex-wrap: wrap;  margin: 0; justify-content: center; }    
+.col { display:flex ;  flex-direction:column; }  
+.colauto { display:flex; flex-direction:column;align-items: center;  
+    justify-content: space-around;   }  
+        
+.coljaroundf { display: flex; flex-direction:column ; 
+     align-content:space-around; justify-content: space-around;   }
+.figholdrow {display: flex;padding :5px; flex-direction:row;margin: 10px;
+    flex-wrap:wrap ;          }
+.coln {display:flex;  margin: 5px;flex-direction:column;  padding:5px; 
+    align-content: center;      }
+.rowmpfive  {display:flex;  flex-direction:row;margin: 5px;padding:5px; flex-wrap: wrap;
+     justify-items: center;}
+.rowbetweenten { display: flex; flex-direction:row; justify-content: space-between;
+  margin:10px; flex-wrap: wrap; }
+.roww { width: 100%;display:flex;   flex-direction: row;  margin: 0; padding: 0;
+    flex-wrap: wrap; align-items: center;justify-items: center;}
+.rowline { display: inline-flex; flex-direction: row; padding: 0; margin: 5px;}    
+
+.comtent{  flex: 1 0 auto; display:flex;   width:40%;flex-direction: column; }
+.ellen { flex: 1 1 auto; display:flex; width: 25%; flex-direction: column;
+     justify-content:center ;}
+.bonatti { flex: 1 2 auto; display: flex;width: 300px; flex-direction: column;
+    justify-content: center; }
+
+.canaille { flex: 2 2 auto; display: flex;    width: 470px; padding:5px; margin:auto;
+    max-width: 80%; }
+.vaude {flex: 1 2 auto; display: flex;    width: 380px; padding:5px; margin:auto;
+     max-width: 60%;} 
+.photoheather {  flex: 0 1 auto; display: flex;    width: 250px; padding:5px;
+     margin:auto;  }
+.comtentii {  max-width: 660px;    text-decoration: none; 
+     color: aqua;  opacity: 0.8;
+    background-color: darkslategray;  font-weight: bolder;}
+.article p {text-decoration: none; 
+    color: aqua;  opacity: 0.8;
+   background-color: darkslategray;  font-weight: bolder;  }
+.padder {padding: 10px;}
+.particle { flex: 1 1 auto; display:flex; height:fit-content; width: 40%;margin:auto; } 
+.particle2 { flex: 1 1 auto; display:flex; height:fit-content;  }       
+.threer { max-width: 400px; margin: 0 0 5px 5px;  }
+.threel { max-width: 400px; margin: 0 5px 5px 0;   }
+.maxfourfive {flex: 0 1 auto;   width: 350px;  display:flex; flex-direction: column;
+    padding: 20px;margin:auto; }   
+.maxthreeoo { max-width: 300px; }
+.maxfouroo {  flex: 1 2 400px; padding: 20px; display:flex; margin:auto;  }
+.maxfoureight { max-width: 480px;  padding:0;  margin:0; }  
+.maxfiveeight {max-width: 580px; }
+.hundredii img{ width:100%;}
+
+.rowbetweentenii { display: flex; flex-direction:row; justify-content: space-between;
+     flex-wrap: wrap; flex: 1 1 auto; padding: 0;}
+
+
+.rake {max-width: 80%;   display:flex;margin: auto;
+        flex-direction:column ;flex: 1 1 400px; }             
+.boldc { background-color:blue; color: blanchedalmond;  
+                         display:inline; }  
+                     
+            
+.videe { display:flex; flex-direction: row;  flex-wrap: wrap; width: 100%; justify-content: space-evenly; padding: 20px;margin: 0 20px 0 20px;}
+.ch{ color: orange;background: royalblue;   }
+.ch2 { font-size: small;color: orange;background: royalblue;   }
+.chh {font-size: medium;  color: orange;background: royalblue; }
+.ch1 { font-size: medium;  color: orange;background: royalblue;  }
+.comtenthill {display:flex;padding:5px;  flex: 1 1  400px; margin:auto;  }
+.hot { display:flex; flex: 1 1 500px;  flex-direction: column;    }
+/*.rake {  flex: 1 1 400px; display:flex;margin: auto;
+    flex-direction:column ; }  */                         
+.hilltheory { padding: 15px;opacity: 0.8;border-radius: 10px;
+    background-color: lightcyan; } 
+.hilltheory p {display:inline; font-weight: bolder;  font-size: 1em;      
+         color: midnightblue; background-color:mintcream ;}
+.fr{display: flex;flex-direction: row;}
+.fra{display: flex; flex-direction: row; margin:0 auto;}
+.frw{display: flex;flex-direction: row; flex-wrap: wrap;}
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;flex-wrap: wrap;}
+.fr100sa{display: flex; flex-direction: row; width: 100%;justify-content: space-around;}
+.frwsa{display: flex; flex-direction: row;justify-content: space-around;}
+.fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+.fc{display: flex; flex-direction: column;}
+.fca{display: flex; flex-direction: column; margin:0 auto ;}
+.fcit{display: inline-flex; flex-direction: column;margin-bottom: auto;}    
+.fca30{display: flex; flex-direction: column; margin: auto ;flex: 1 1 30%;}
+.fca4038{display: flex; flex-direction: column; margin:  auto  ;flex:2 1  40%;
+    min-width: 300px;max-width: 80%;}
+.bca{margin:auto;display: block; }
+
+.yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+    font-size: large; color: springgreen;padding: 2px 5px;}
+.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+.yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+.yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;} 
+    .button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+        color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+    
+    .button1h:hover {font-size: larger;color: springgreen;}
+    
+    .button1{height: fit-content; background: orangered; padding-left:  2px; padding-right:2px; padding-top: 1px;
+       color: springgreen; margin: 5px; border-radius: 3px;}
+    .button1:hover {font-size: larger; color: blueviolet;}
+    .buttonaboutt {color: springgreen;background-color: grey; font-size:large; 
+        font-weight: bolder; padding: 6px; 
+       border-radius: 16px; border-color:whitesmoke; }
+    .buttonabout {color:springgreen;background-color: gray;  font-size: large;
+        font-weight: bolder; margin: 1px;
+        border-radius: 4px; border-color:whitesmoke; }
+    .buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large;
+            font-weight: bolder; margin: 1px;
+            border-radius: 4px; border-color:whitesmoke; }   
+    .buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; 
+         font-weight: bolder; padding: 2px; 
+        border-radius: 4px; border-color: magenta; opacity:0.6;}
+    .buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+    .buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+         border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+    .buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+    .buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+         border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+    .buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+    .buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+        font-weight: bolder;margin: 1px;width: 100%;}
+    .buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+    .buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px ; 
+        border-radius: 2px; border-color: springgreen; }
+       .buttonaboutwait:hover,.yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+    .buttonaboutshow{color:rebeccapurple; background-color: lightgreen;font-size: large;border:1px springgreen solid;
+        padding: 2px 4px;font-weight: bolder;border-radius: 2px; } 
+    .buttonaboutshow:hover{color:rebeccapurple; background-color: whitesmoke;font-size: larger; }  
+    .oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}  
+a address [href^="mailto"] ::after { content: "📧"}
+.containerfoot {  flex-direction: row; color: whitesmoke;   justify-content: space-around; display: flex; 
+      width: 100%; background-color:royalblue ; align-items: center; flex-wrap: wrap;}
+.headline {color: springgreen;font-size:larger;margin: 5px;} 
+.postsabout { background-color: yellow; color: teal;margin: 5px;}
+.mail    { background-color:springgreen ;color:darkmagenta ; margin: 5px;   }
+.mail:hover {color:white;}        
+button
+
+
+
+
+
+    
