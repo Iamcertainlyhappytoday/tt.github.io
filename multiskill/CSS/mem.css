@@ -1,0 +1,12 @@
+body{display: flex;flex-direction:column;}
+main{display:flex; flex-direction:row;}
+
+#grid{display:flex ;flex-wrap: wrap;flex-direction: row;
+    flex: 0 1 667px; margin-left:10%; }
+h3{display:flex; margin-left: 30%; margin-bottom: 20px;margin-top:10%;}
+/* 0 cannot get any bigger so is forced to wrap at 300 which is ideal.
+It has taken me this long, now about 3 years to get to this. The years 
+are going slow which is good however.*/
+/* I then found out that I had set the max height to 100px of the image 
+which is perfact but for another image would not be so good if the width 
+was not the same ratio so let's see is 75px new width works for them all.*/

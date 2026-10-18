@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file table-first go</title>
+    <link rel="stylesheet" href="hasite.css">
+    <style>
+        body{display: flex;flex-direction: column; width: 100%;}
+        #wholet{display: flex; flex-direction: column;}
+        .row{display: flex; flex-direction: row;  }
+        .rowr{display: flex; flex-direction: row; margin: auto; }
+        #titles{display: flex;flex-direction: column; align-items: center; }
+        #inputter{display: flex;flex-direction: row;
+             margin-bottom: 20px; height: 3em;}
+        #entryArr, #entryArra{height: 2em;display: flex;}
+        #entryB {background-color: blueviolet;color: whitesmoke;
+            margin-bottom: 20px;}
+        #entryBa{background-color: blueviolet;color: whitesmoke;       }    
+        #entryE{background-color: greenyellow;color: rebeccapurple;
+            margin-bottom: 20px;}   
+       #entryEa{background-color: greenyellow;color: rebeccapurple;}          
+        table{border-collapse: collapse;  width: 98%;        }
+        table thead{background-color: burlywood;
+            border: 2px brown solid;
+        padding: 3px 1px;}
+        table tr{border: 2px brown solid; padding: 3px 1px;}
+        table thead td{padding: 4px; border: 2px blueviolet solid;
+            text-align: center; font-weight: bold;color: blueviolet;}
+        table td{padding: 3px; border: 1px brown solid;}   
+        .tawidth{display: flex; max-height:60px;
+            width:95%;overflow-y: scroll;}
+        .red{background-color: red;color:blanchedalmond;}
+        .hide{display:none;};
+        #demo2{display: none;}
+        .col{display: flex;flex-direction: column;}
+        .hideno{display: none;}
+       .display{display:block;}
+       .containerfoot {  flex-direction: column; color: whitesmoke;    display: flex;   
+        width: 90%; margin: auto 25px; border-radius: 20px;align-items: center;      background-color:cornflowerblue ;  }
+    .containerfoot h2, p{margin: 1px;}
+    #roverh4{margin: auto; background-color: yellow; color: teal;border: 2px white solid;padding: 4px;}
+    </style>
+</head>
+<body>
+<main>    
+<div id="wholet">
+<div id="titles" >
+    <h2>Inventory</h2>  
+    <ul><li >This is an editable table so eat your heart out and swap things around or edit any inputs. Also add new ones.</li>
+        <li> Named images already indicated  can be swapped too. Of course it is vital to have images names correct to access 
+            their folder.        </li>
+        <li> If you fancy a look at one of the thumbnail images use the array button and 
+            click the respective image.<span style="color:rebeccapurple"> The buttons are toggle so will make the chosen infomation appear 
+                    and disappear.  </span>        </li>
+        <li>The table button is up to date edits in html table form to copy and save into a new file.</li></ul>            
+</div>
+<div class="row" style="margin-top: 20px;">
+<textarea cols="30" rows="2" placeholder="name" id="inputter">
+</textarea><!--KEEP THE TEXTAREA HARD LEFT-->
+    <button id="entryB">enter</button>
+    <button id="entryE">Edit </button>
+    <div class="col"  >
+        <button id="entryArr">Produce Arr</button>
+        <button id="togit">toggletable</button>
+    </div>
+    
+    <div class="rowr">
+       <a href="index.html"><button id="roverh4" > Leave page  </button>  </a>     
+    </div>
+</div>
+<p id="demo1"></p>
+<table id="tablearea"> 
+    <thead><tr><td>[]</td><td>thumb</td><td>name</td><td>status</td><td>description</td></tr></thead> 
+    <tbody> 
+        <tr><td id="0a">0</td><td id="0b"><img src="hotdimg/rei.JPG" alt="rei" style="width: 50px; height: 30px;"></td><td id="0c">rei</td><td id="0d">A4 Acrylic </td><td id="0e">Study dedicated homage to original art. From Highschool of the Dead. Personal copy available at postage and costs circa £5 or original for £40 </td></tr> 
+        <tr><td id="1a">1</td><td id="1b"><img src="hotdimg/hirano.JPG" style="width: 50px; height: 30px;"></td><td id="1c">hirano</td><td id="1d">A4 Acrylic</td><td id="1e">Study dedicated homage to original art. From Highschool of the Dead. Trying to learn to use Acrylic paint. Winter sessions with small digital photoframe to work from. Set of 5.</td></tr> 
+        <tr><td id="2a">2</td><td><img src="hotdimg/stairwell.JPG" style="width: 50px; height: 30px;"></td><td id="2c">stairwell</td><td id="2d">A4 Acrylic</td><td id="2e">Study dedicated homage to original art. From Highschool of the Dead. Personal copy available at postage and costs circa £5 or original for £40 </td></tr> 
+        <tr><td id="3a">3</td><td id="3b"><img src="hotdimg/reiandkomoro.JPG" style="width: 50px; height: 30px;"></td><td id="3c">reiandkomoro</td><td id="3d">A4 Acrylic</td><td id="3e">Study dedicated homage to original art. From Highschool of the Dead. Personal copy available at postage and costs circa £5 or original for £40 </td></tr> 
+        <tr><td id="4a">4</td><td id="4b"><img src="hotdimg/airdrop.JPG" style="width: 50px; height: 30px;"></td><td id="4c">airdrop</td><td id="0d">A4 Watercolour</td><td id="0e">Gran Paradiso ridge from Villeneuve climbs straight up to an impressive nothingness. </td></tr>
+        <tr><td id="5a">5</td><td id="5b"><img src="hotdimg/canaille.JPG" style="width: 50px; height: 30px;"></td><td id="5c">canaille</td><td id="1d">A4 Watercolour 2017</td><td id="1e">View from Cassis bluff on holiday </td></tr>
+        <tr><td id="6a">6</td><td id="6b"><img src="hotdimg/brazil.JPG" style="width: 50px; height: 30px;"></td><td id="6c">brazil</td><td id="2d">50cm x 40cm Large Watercolour 2004</td><td id="2e">I envisaged a wilderness of trees to remote distinctive peaks and the country most similar to the unknown with such a size gave it the name</td></tr>
+        <tr><td id="7a">7</td><td id="7b"><img src="hotdimg/cannes.JPG" style="width: 50px; height: 30px;"></td><td id="7c">cannes</td><td id="3d">A4 Watercolour 2017</td><td id="3e">Destination campsite in the town of the same name by bike cycle from Milan. </td></tr>
+        <tr><td id="8a">8</td><td><img src="hotdimg/chippingandcracking.JPG" style="width: 50px; height: 30px;"></td><td id="8c">chippingandcracking</td><td id="4d">50cm by 36cm Large Watercolour 2007</td><td id="4e">Paulie and Beth descend the plateau 'kind of thing' but quite big cliffs</td></tr>
+        <tr><td id="9a">9</td><td id="9b"><img src="hotdimg/cygnets.JPG" style="width: 50px; height: 30px;"></td><td id="9c">cygnets</td><td id="5d">A4 Medium forgotten</td><td id="5e">Girls just want to have fun. Taboo for the low status to represent but in the same vein we see more than you with less face</td></tr>
+        <tr><td id="10a">10</td><td id="10b"><img src="hotdimg/field.JPG" style="width: 50px; height: 30px;"></td><td id="10c">field</td><td id="6d">A4 Watercolour 2017</td><td id="6e">From the busy destination year bike tour to Cannes</td></tr>
+        <tr><td id="12a">11</td><td><img src="hotdimg/kinnanamor.JPG" style="width: 50px; height: 30px;"></td><td id="12c">kinnanamor</td><td id="0d">60cm x 45cm Large Acrylic</td><td id="0e">A very old idea that worked in half an hour but took a long time to reproduce again once any detail of the mist was focused on.</td></tr>
+    </tbody>
+</table>
+<div class="row" style="margin-top: 20px;">
+<textarea cols="30" rows="2" placeholder="name" id="inputtera">
+</textarea><!--KEEP THE TEXTAREA HARD LEFT-->
+    <button id="entryBa">enter</button>
+    <button id="entryEa">Edit </button>
+    <div class="col"  >
+        <button id="entryArra">Produce Arr</button>
+        <button id="togita">toggletable</button>
+    </div>
+</div>
+<p id="demo2" ></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p>The table toggle reveals the latest edits so is the replacement 
+    table when saving the latest dated and named work. I hoped to use local storage to 
+    autosave directly in the browser to the file but this I am leaving for 2 reasons. I have not become confident 
+    in it yet and importantly conflicting class, id or affecting data of 
+    numerous sorts might be in local storage. ALready it is both long and complicated and simple and neat.</p>
+<p>The array opens the saved version of the last table. What is shows is that all the data is correct. It does not 
+    fuss about word spacing but is useful for checking the image at a defined size larger than the thumb.
+    
+<p>  The copied table to save always needs always to be tidied back into rows. 
+    The code editor does not distinguish copy and paste demimiters from the browser to the pc. A save button using 
+    local storage could do this but currently I want to use the editor in a lot of situations and formats to know 
+    how necessary this is due to complications that outweigh short term benefits. Local storage can easily remain in the 
+    brwoser between sessions including online making data cross issues that you did not notice in a save. </p>
+<h3>Why?</h3>
+<p>My art is important to me. Organising reference collectively is very important to add method to reviewing it. In 
+    general images are very hard to manage. To be sure you have copies and other files or collections and duplicates 
+    and then when searching for a specific one it seems to be gone. It is reassuring to me that I have the thumbnails 
+    here because of this. They are strictly attached to the file and will only display if they exist exactly as stated, 
+    named and located. This can be useful for many things when you understand how images seem to detach at calling 
+    and end up somewhere else of lost completely.</p>
+<p>Though there will be many who choose to turn a blind eye to this loss of images or manipulation of them in any case 
+    this will provide a tight reference. One of the key bases of the internet is image transfer protocol which might 
+    relate to why they move about. They are building blocks to the operating systems and the www. Very easy to use by 
+    design in a computer. This idea suits a restaurant menu don't you think. The array toggle link could go beyong the 
+    name and thumbnail to both a photo and recipe, commentary and personal tips and ideas dedicated to it? </p>
+<h3>Troubleshooting</h3>    
+<li> If the table still has an old incorrect number it will need editing but when opening the array will be correct 
+    as shown by the correct picture.</li>
+<li>Images not opening may mean somehow you have a space in the table around the name. Names  being very precise do not 
+    lend to spaces which additionally might be read differently on different machines. This is why I have called the files 
+    by names without capitals and joined words together. An alternative if you like separate words and Capitals is 
+    Stella-Marz. Still watch out for spaces. Then can be ignored in the code but reintroduced elsewhere where not 
+    accounted for.
+</li>
+<li>If you do not complete a full line there will not be an opportunity to edit so make a new line, alter the table entry 
+    number and go into the table html to delete the line. Once I am using the table I will create a way to remove a line 
+    on the browser.
+</li>
+</main> 
+<p id="pp"></p>  
+</body>
+<script>
+//let filerow={'[]':'','name':'','desc':'','fileloc':''};MUST GO INSIDE
+let entryBLast;
+let fileble= [];
+let filebleStore=[];
+let capture=document.querySelector('#tablearea');
+let tbody=document.querySelector('#tablearea tbody');
+let entryB=document.querySelector('#entryB');
+let entryE=document.querySelector('#entryE');
+let arrB=document.getElementById('entryArr');
+let entryTa=document.getElementById('tablenew');
+let arrBa=document.getElementById('entryArra');  //new
+let entryTaa=document.getElementById('tablenew')        //new
+let demo2=document.querySelector('#demo2');
+demo2.setAttribute('class','hide');
+let demo3=document.querySelector('#demo3');
+let demo4=document.querySelector('#demo4');
+demo4.setAttribute('class', 'hideno')
+let demo5=document.querySelector('#demo5');
+let demo6=document.querySelector('#demo6');
+entryB.addEventListener('click', namenter);
+let entryBa=document.querySelector('#entryBa');//new
+entryBa.addEventListener('click', namenter);//new
+entryE.addEventListener('click',newEdition);
+let entryEa=document.querySelector('#entryEa');//new
+entryEa.addEventListener('click',newEdition);//new
+let togitt=document.getElementById('togit');
+togitt.addEventListener('click', togit);        //new
+let togitta=document.getElementById('togita');      //new
+togitta.addEventListener('click', togit);
+arrB.addEventListener('click', fileblll);  
+entryE.setAttribute('class','hide');
+arrBa.addEventListener('click', fileblll);  
+entryEa.setAttribute('class','hide');
+let imageFile=[/*of course you cannot save the image with the wrong format*/
+        {name:'rei', img:'hotdimg/rei.JPG', alt:'rei'},
+        {name:'hirano', img:'hotdimg/hirano.JPG', alt:'hirano'},
+        {name:'stairwell', img:'hotdimg/stairwell.JPG', alt:'stairwell'},
+        {name:'reiandkomoro', img:'hotdimg/reiandkomoro.JPG', alt:'reiandkomoro'},
+        {name:'airdrop', img:'hotdimg/airdrop.JPG', alt:'airdrop'},
+        {name:'brazil', img:'hotdimg/brazil.JPG', alt:'brazil'},
+        {name:'cannes', img:'hotdimg/cannes.JPG', alt:'cannes'},
+        {name:'canaille', img:'hotdimg/canaille.JPG', alt:'canaille'},
+        {name:'chippingandcracking', img:'hotdimg/chippingandcracking.JPG', alt:'chippingandcracking'},
+        {name:'cygnets', img:'hotdimg/cygnets.JPG', alt:'cygnets'},
+        {name:'field', img:'hotdimg/field.JPG', alt:'field'},
+        {name:'kinnanamor', img:'hotdimg/kinnanamor.JPG', alt:'kinnanamor'},
+        {name:'laigueglia', img:'hotdimg/laigueglia.JPG', alt:'laigueglia'},
+        {name:'meetingpath', img:'hotdimg/meetingpath.JPG', alt:'meetingpath'},
+        {name:'openjunction', img:'hotdimg/openjunction.JPG', alt:'openjunction'},
+        {name:'raneshut', img:'hotdimg/raneshut.JPG', alt:'raneshut'},
+        {name:'startledsquirrel', img:'hotdimg/startledsquirrel.JPG', alt:'startledsquirrel'},
+        {name:'stellamarz', img:'hotdimg/stellamarz.JPG', alt:'stellamarz'},
+        {name:'theduel', img:'hotdimg/theduel.JPG', alt:'theduel'},
+        {name:'ventimiglia', img:'hotdimg/ventimiglia.JPG', alt:'ventimiglia'},
+        {name:'villeneuve', img:'hotdimg/villeneuve.JPG', alt:'villeneuve'},
+        {name:'voltaggio', img:'hotdimg/voltaggio.JPG', alt:'voltaggio'},
+        {name:'wierdtrees', img:'hotdimg/wierdtrees.JPG', alt:'wierdtrees'}
+];
+let startTa= tbody.innerHTML.replace(/,/g, '\/') ;        
+let origTa = startTa.replace(/<tr>/g, '');
+    origTa = origTa.replace(/<\/tr>/g, ',');
+    origTa = origTa.replace(/<td.+>$/g, '');
+    origTa = origTa.replace(/\s+/g, '');    
+let origParts = origTa.split(',');//array now to get key/values on each line  
+for(let j=0; j<origParts.length-1; j++){   
+        filebleStore.push({'[]':'','thumb':'','name':'','status':'','description':''});   
+        let newParts= origParts[j].replace(/<\/td>/g, ',').trim();//makes each part distinct array
+        newParts = newParts.split(',') ;            // console.log(newParts) ;       
+        filebleStore[j]['[]']= newParts[0];
+        let thumber= filebleStore[j]['name']=newParts[2];        
+        let thumbera=  thumber.replace(/<td.*>/,'');  
+        if(filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.JPG'>img<\a>`){       
+            filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.JPG' target='_blank'>img<\a>`;
+        }/*
+        if(filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.PNG'>img<\a>`){ 
+            filebleStore[j]['thumb']= `<a href='hotdimg/${thumbera}.PNG' target='_blank'>img<\a>`;    
+        } */           
+        filebleStore[j]['status']=newParts[3];  
+        filebleStore[j]['description']=newParts[4];        
+}
+let arrby=[]
+function arrbey(){
+    if (arrby.length==1){
+        demo4.innerHTML='';
+        arrby=[];
+    }
+}
+function fileblll(){
+    arrby.push({'[]':'','thumb':'','name':'','status':'','description':''});    
+    arrbey();  /*This stops the arrays stacking up each time you press for them
+    then below I also make it toggle hidden. It should only be 1 long once as well.*/
+    demo4.classList.toggle('display'); 
+        for(let i=0; i<filebleStore.length; i++){               
+        let finder="{'[]':'"+filebleStore[i]['[]']+
+         "'"+",'thumb':'"+filebleStore[i]['thumb']+
+        "'"+",'name':'"+ filebleStore[i]['name']+
+        "'"+",'status':'"+filebleStore[i]['status']+
+        "'"+",'description':'"+filebleStore[i]['description']+
+        "'},";   
+        demo4.innerHTML+=finder+'<br>';     
+        }          
+        for(let j=0; j<fileble.length; j++){               
+        let finder="{'[]':'"+fileble[j]['[]']+
+        "'"+",'thumb':'"+ fileble[j]['thumb']+
+        "'"+",'name':'"+ fileble[j]['name']+
+        "'"+",'status':'"+fileble[j]['status']+
+        "'"+",'description':'"+fileble[j]['description']+
+        "'},";   
+        demo4.innerHTML+=finder+'<br>';           
+        }    
+} 
+function togit(){
+        //demo5.classList.toggle('hide');   
+        if(demo5.innerHTML==''){
+    demo5.textContent=`${capture.innerHTML}`;
+        }
+        else{
+            demo5.innerHTML='';
+        }
+}
+function namenterprepb4(){//getting the prior table elements live with edit on them
+    let tbodyC=document.querySelectorAll('tbody tr');
+    let l=tbodyC.length;  
+    for(i=0; i<l; i++){ 
+        let tbD=tbodyC[i].querySelectorAll('td');
+        let ll=tbD.length;
+        for(let j=0; j<ll; j++){
+            tbD[j].addEventListener('click',edit);
+           let k=j;
+            switch(k){
+                case 0:k='a';
+                break;
+                case 1:k='b';
+                break;
+                case 2:k='c';
+                break;
+                case 3:k='d';
+                break;
+                case 4:k='e';
+                break;
+                default:console.log('no valid data switch')
+            }
+            tbD[j].setAttribute('id',i+k)
+        }
+    }       
+}
+namenterprepb4();   
+function namenter(){   
+    fileble.push({'[]':'',thumb:'',name:'',status:'',description:''});//each time a row is prepped  
+    let l=(fileble.length-1); 
+    let fsl=filebleStore.length;
+    let fsll=l+fsl; //make the 2 stores into 1
+    let k=fsll.toString();    
+    let entern=document.querySelector('#inputter').value||document.querySelector('#inputtera').value; //new alteration
+
+    if(entern){   
+        let grab=imageFile.length;         
+        let td=document.createElement('td');
+        td.setAttribute('id', k + 'b'); 
+        td.addEventListener('click', edit)      
+        for(let i=0; i<grab; i++){    
+            if(imageFile[i]['name']==entern){                 
+                fileble[l]['thumb']=imageFile[i]['img'];             
+                if(imageFile[i]['img']){ 
+                    let n= imageFile[i]['img'];                                  
+                    let tDatai=document.createElement('img');            
+                    tDatai.style= "width:50px; height: 30px";                 
+                    tDatai.setAttribute('src',n);                    
+                    td.append(tDatai);   
+                }       
+            }        
+        }  
+        fileble[l]['name']=entern;
+        entryBLast='status of '+ fileble[l]['name'];    
+        let tRow=document.createElement('tr');
+        let tData=document.createElement('td'); 
+        tData.setAttribute('id', k + 'a')
+        tData.addEventListener('click', edit) 
+        let tData1=document.createElement('td'); 
+        tData1.setAttribute('id', k + 'c');
+        tData1.addEventListener('click', edit) 
+        let td1=tData.textContent=fsll;  
+        let td2=tData1.textContent=entern;      
+        tRow.append(tData,td, tData1);
+        tbody.append(tRow);     
+        document.querySelector('#inputter').value='';   
+        document.querySelector('#inputtera').value='';  //new
+        descenterPrep()
+    }   
+}
+function descenterPrep(){
+    document.querySelector('#inputter').placeholder=entryBLast;  
+    document.querySelector('#inputtera').placeholder=entryBLast;   //new      
+    entryB.removeEventListener('click', namenter);
+    entryB.addEventListener('click', descenter);
+    entryBa.removeEventListener('click', namenter);         //new
+    entryBa.addEventListener('click', descenter);           //new
+}
+function descenter(){     
+    let enterd=document.querySelector('#inputter').value||document.querySelector('#inputtera').value;//new altered
+    let l=fileble.length-1;  
+    let k=l.toString(); 
+    if(enterd){ 
+    fileble[l]['status']=enterd;
+    entryBLast='description of '+fileble[l]['name'];    
+    let tData1=document.createElement('td');
+    tData1.setAttribute('id', k + 'd');
+    tData1.addEventListener('click', edit) 
+    let td1=tData1.textContent=enterd;    
+    tbody.lastChild.append(tData1);
+    document.querySelector('#inputter').value='';
+    document.querySelector('#inputtera').value=''; //new
+    locenterPrep(); 
+    }   
+}
+function locenterPrep(){
+    document.querySelector('#inputter').placeholder=entryBLast;
+    document.querySelector('#inputtera').placeholder=entryBLast;
+    entryB.removeEventListener('click', descenter);
+    entryB.addEventListener('click', locenter);
+    entryBa.removeEventListener('click', descenter);            //new
+    entryBa.addEventListener('click', locenter);                //new
+}
+function locenter(){     
+    let enterl=document.querySelector('#inputter').value||document.querySelector('#inputtera').value;   //new altered
+    let l=fileble.length-1;    
+    fileble[l]['description']=enterl; 
+    if(enterl){  
+    entryBLast='Next Name';
+    let tData1=document.createElement('td');
+    let k=l.toString()
+    tData1.setAttribute('id', k + 'e');   
+    tData1.addEventListener('click', edit)  
+    //tData1.setAttribute('class', 'tawidth')
+    let td1=tData1.textContent=enterl;         
+    //tbody1=tbody;
+    tbody.lastChild.append(tData1);    
+    document.querySelector('#inputter').value='';
+    document.querySelector('#inputtera').value='';
+    namenterPrep();  
+    }  
+}
+function namenterPrep(){    
+    document.querySelector('#inputter').placeholder='Next name';
+    document.querySelector('#inputtera').placeholder='Next name';
+    entryB.removeEventListener('click',locenter);
+    entryB.addEventListener('click', namenter);
+    entryBa.removeEventListener('click',locenter);      //new
+    entryBa.addEventListener('click', namenter);        //new
+    demo2.textContent=tablearea.innerHTML;
+}
+let editing;
+let editArr=[];
+let demo=document.querySelector('#demo1');
+let ender;
+function edit(e){     
+    let el=editArr.length-1;
+    if(el==0){ 
+       //edit();
+       return;       
+    }else{
+    editing=e.target; 
+    ender=editing.getAttribute('id');
+    editOn();
+    }
+}
+function editOn(){        
+    editArr.push(editing);              
+    editing.setAttribute('class', 'red') ;     
+    entryB.setAttribute('class', 'hide');    
+    entryBa.setAttribute('class', 'hide');     //new 
+    editor();
+}
+function editor(){  //Edit button is revealed   
+    entryE.removeAttribute('class', 'hide');     
+    entryEa.removeAttribute('class', 'hide');     //new
+   
+   
+    let whatrows=document.querySelectorAll('.row textarea ');    //----new  alteration  
+    
+    whatrows[0].setAttribute('placeholder', editing.textContent);    
+    whatrows[0].value=editing.textContent; 
+    whatrows[1].setAttribute('placeholder', editing.textContent);    
+    whatrows[1].value=editing.textContent;  
+    editing.textContent='please update above' ;//edit button fires newEdition     
+}
+function childimager(){
+    let grab=imageFile.length;  
+    let ll=document.querySelectorAll('tr');  
+    let l=ll.length;
+    let dz=ender.match(/\d+(?=\w)/).toString(); 
+    for(let j=0;j<l; j++){
+        for(let i=0; i< grab; i++){ 
+            if(ll[ Math.floor(dz)+1].children[2].textContent==imageFile[i]['name']){
+                // if(imageFile[i]['name']==ll[ Math.floor(dz)+1].children[2].textContent)     
+                console.log('has child image'); 
+                let tdd=document.createElement('td')
+                ll[ Math.floor(dz)+1].children[1].replaceWith(tdd);             
+                let n=imageFile[i]['img']
+                let newI=document.createElement('img');
+                newI.setAttribute('src', n)
+                newI.style= "width:50px; height: 30px";                 
+                ll[ Math.floor(dz)+1].children[1].append(newI);  
+                return;            
+            }        
+        }
+    }console.log('does not have a child image')
+}   
+function imager(){
+    let grab=imageFile.length;  
+    let ll=document.querySelectorAll('tr');  
+    let dz=ender.match(/\d+(?=\w)/).toString(); 
+    for(let i=0; i< grab; i++){
+        if(ll[ Math.floor(dz)+1].children[2].textContent==imageFile[i]['name']){
+           // if(imageFile[i]['name']==ll[ Math.floor(dz)+1].children[2].textContent)     
+                console.log('has child image');
+                childimager();
+                return;                
+    }         
+    } console.log('does not have child image')  
+    childimager();
+}
+function newEdition(){ 
+               
+    let whatrow=document.querySelector('#inputter ').value;    
+    if(whatrow){
+        editing.textContent=whatrow;  
+    }
+    let whatrowa=document.querySelector('#inputtera').value;
+        if(whatrowa){
+        editing.textContent=whatrowa;  
+    }
+
+    //editing.textContent=whatrow;  
+    let ppp=editing.parentElement;       
+    let a=ender.match(/(?<!\w)\d+/); 
+    let dz=ender.match(/\d+(?=\w)/).toString(); 
+    let ll=document.querySelectorAll('tr');     //image check bit   
+    if((ender.match(/c$/))){
+        childimager()
+    }
+    console.log(ppp.children.length) 
+    console.log(dz);
+    let pH;
+    if(ppp.children.length>=1 ){  
+        let f=filebleStore.length;       
+        let r=tbody.querySelectorAll('tr').length ;       
+        if (r==f){
+            pH='enter new/next details';
+        }else{     
+        pH=entryBLast;
+        }
+        console.log('"spaces"')
+    }else{    
+        console.log(ll[ Math.floor(dz)+1].children[2].textContent)  
+        let joiner=  ll[ Math.floor(dz)+1].children[2].textContent;
+        let picupdate ;
+        if(ender.match(/a$/)){         
+            pH='Status of  '+joiner; //+editArr[dz+1]['Name'];       
+        }else if(ender.match(/c$/)){         
+            pH='Status of  '+joiner; //get the image updated if the name changed
+        }else if(ender.match(/d$/)){              
+                pH= 'Description of ' +joiner//fileble[a]['Name'];                     
+        }else if(ender.match(/e$/)){              
+                pH= 'Next Name ' //fileble[a]['Name'];                     
+        }
+    }
+    document.querySelector('#inputter').value='';
+    document.querySelector('#inputter').placeholder=pH; //entryBLast;    
+    document.querySelector('#inputtera').value='';          //new
+    document.querySelector('#inputtera').placeholder=pH; //entryBLast;  new  
+    editing.removeAttribute('class', 'red');
+    entryE.setAttribute('class', 'hide');
+    entryB.removeAttribute('class', 'hide');  
+    entryEa.setAttribute('class', 'hide');     //new
+    entryBa.removeAttribute('class', 'hide');  //new
+    editArr=[] ;   
+}
+</script>
+</html>

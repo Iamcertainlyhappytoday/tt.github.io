@@ -1,0 +1,48 @@
+
+body{display: flex;flex-direction: column; width: 100%;padding-left: 20px;padding-right: 20px;
+    background-image: url(mainimg/yb.GIF);background-size:cover;
+    background-repeat: no-repeat; font-size: 1.5em;}        
+.wholet{display: flex; flex-direction: column;background-image: url(mainimg/airdrop2000.JPG);background-size:cover;
+    background-repeat: no-repeat;color: orangered;font-weight: bolder; }
+.row{display: flex; flex-direction: row;  }
+.rowa{display: flex; flex-direction: row;}
+.rowr{display: flex; flex-direction: row; margin: auto; }
+#titles { flex:0 1 70%; flex-direction: column;opacity: 0.8; background-color: tan; color: dodgerblue; }
+#titles p, h2{background-color: aliceblue;}
+#titles ul{color:darkred;}
+#titlephoto{flex:0 1 30%; flex-direction: column;flex-wrap: nowrap;max-width: 250px;}
+.hundred{display: flex; }
+.hundred img{width:100%; height:100%;}
+#inputter{display: flex;flex-direction: row;
+     margin-bottom: 20px; height: 3em;}
+#entryArr, #entryArra{height: 2em;display: flex;}
+#entryB {background-color: blueviolet;color: whitesmoke;
+    margin-bottom: 20px;}
+#entryBa{background-color: blueviolet;color: whitesmoke;       }    
+#entryE{background-color: greenyellow;color: rebeccapurple;
+    margin-bottom: 20px;}   
+#entryEa{background-color: greenyellow;color: rebeccapurple;}          
+table{border-collapse: collapse;   margin: auto; width: 90%;  background-color: aliceblue;    }
+table thead{background-color: burlywood;
+    border: 2px brown solid;
+padding: 3px 1px;}
+table tr{border: 2px brown solid; padding: 3px 1px;}
+table thead td{padding: 4px; border: 2px blueviolet solid;
+    text-align: center; font-weight: bold;color: blueviolet;}
+table td{padding: 3px; border: 1px brown solid; } 
+.tabesty{background-color: white;border: 1px solid white;}
+.tabesty thead{border: 1px solid white; background-color: white;}
+.tabesty tr{border: 1px solid white;}
+.tabesty td{border: 1px solid white;}
+.tawidth{display: flex; max-height:60px;
+    width:95%;overflow-y: scroll;}
+.red{background-color: red;color:blanchedalmond;}
+.hide{display:none;}
+#demo2{display: none;}
+.col{display: flex;flex-direction: column;}
+.hideno{display: none;}
+.display{display:block;}
+.containerfoot {  flex-direction: column; color: whitesmoke;    display: flex;   
+width: 90%; margin: auto 25px; border-radius: 20px;align-items: center;      background-color:cornflowerblue ;  }
+.containerfoot h2, p{margin: 1px;}
+#roverh4{margin: auto; background-color: yellow; color: teal;border: 2px white solid;padding: 4px;}

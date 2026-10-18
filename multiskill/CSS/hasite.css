@@ -1,0 +1,234 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+      font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
+.header1{display: flex; flex-direction: row; background-image:url(../img/Backgroundimagelibrary/slimjim.JPG) ;
+    background-repeat:round; flex-wrap: wrap;margin-top: 30px;margin-bottom: -30px;}
+#main1{display:flex; flex-direction: column;max-width: 900px;margin: auto;
+   font-family:  'Georgia', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color:sandybrown; font-size: larger;
+ text-rendering: optimizeLegibility; font-size: 16px;font-family: 'Cataneo BT', sans-serif; font-size: 24px; }    
+main{display: flex;justify-content: center;}
+header {width: 100%; display: flex; background-image: url(../img/tentslim.JPG) ; background-size: cover;     
+background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+#ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke; }
+#ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+.sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+justify-content: flex-start; }               
+.highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+  background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+.highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+.highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+border:2px solid whitesmoke;} 
+.highlighth {display: flex; padding:20px;}
+.highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+.stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+.stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+.stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+.ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+.ulC{display: flex; flex-direction: column;margin:0 auto;}
+.ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+margin:-25px auto auto auto;padding: 0; }
+.ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto;display: flex;background-color: lightblue; }
+.ulColrr {display: flex;flex-direction: column;justify-content: center;}
+.center{  display: block; direction:ltr ;width: 100vw;}
+.split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+.homebar { display: flex;  padding-bottom: 20px;             }
+.navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+.navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+.navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+.ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+.ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+.ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;} 
+#section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+  font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; }  
+ .la{float: left;margin: 10px;width: 15%;min-width: 100px;}
+ .nyc{float:right;margin: 10px;width: 225px;}
+ .midway85{display:flex; width:85%;}
+ .midway85c{display:flex; width:77%; flex-direction: column;align-items: center;flex-wrap: wrap;}
+#logotr{opacity: 0;}
+.blue{display: inline-flex;background-image:url(../img/Backgroundimagelibrary/slimjim.JPG) ;
+    background-repeat:round;padding: 4px;margin: 3px;font-size: 24px;}
+.rowl{flex:2 1 85%; }
+.rowr{flex: 1 1 60%; }
+.hider{display:none;}
+#rowverb{display: flex;background-color: aqua;margin: auto;padding: 10px;}   
+#verbsByLetter{background-color: burlywood;} 
+#jverbletter{ color: aliceblue; background-color: blueviolet;
+    padding: 3px; font-weight: bold;}  
+.midway85 h3{display: inline-flex; color:blue;background-color:whitesmoke;opacity: 0.6;border-radius: 10px;
+  font-size: 1.4em; border: 4px solid yellow;padding: 0;}
+
+.smallog{display: flex;width:150px;margin-left: 0;}
+.smallog img{width:100%;}
+
+.rowz {position: fixed;/*display: flex;*/right: 0; top:  300px;display: flex;width: 15%;min-width: 100px;}
+
+/*.rowl{flex: 1 1 30%;min-width: 300px;}*/
+
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;flex-wrap: wrap;}
+.fc{display: flex; flex-direction: column;}
+.fcit{display: inline-flex; flex-direction: column;margin-bottom: auto;} 
+
+.col{display: flex; flex-direction: column;align-items: center;}
+.white{background-color: blanchedalmond;display: inline-flex; margin:3px;font-size: 24px;}
+.whitef{background-color: blanchedalmond;display: inline-flex; margin:3px;
+    border: 2px blueviolet solid;font-size: 24px;}
+.whiter{color: blanchedalmond;margin:3px;}
+.whiterc{display: flex;flex-direction: row; margin: auto;}
+.polite{font-size: smaller;}
+.fighold{border: 6px paleturquoise solid; opacity:7; display: flex;}
+.fighold1{ display: flex;margin: 2px 10px;}
+.figholdje{border: 6px paleturquoise solid; opacity:7; display: flex;flex-direction: column;}
+.figholdfileble{border: 6px paleturquoise solid; opacity:7; display: flex;flex-direction: column;}
+img{width: 100%; height:100%; margin: 2px;}
+figure{display: flex;margin: auto;}
+figcaption{display: flex;max-width: 90%; color: blueviolet;font-weight: bolder;}
+.row{display:flex; flex-direction: row;flex-wrap: wrap;}
+.rowcentre{flex-wrap: wrap;     justify-content: center;align-items: center;}
+.rowr{display: flex; flex-direction: row;margin-left: auto;}
+.rowilnc{display:inline-flex; flex-direction: row;}
+.rownw{display:flex; flex-direction: row;flex-wrap: nowrap;}
+.rowil{display:inline-flex; flex-direction: row;
+    background-image:url(../img/Backgroundimagelibrary/slimjim.JPG);background-repeat:round;}
+.bolder{font-weight: bold;margin-top: 5px;margin: auto;}
+.row p, figcaption{flex: 1 3 50%;}
+.rowb{width: 700px;}
+
+
+.cc{width: 314px; height: 234px; float: right;margin-left: 10px; margin-bottom: 10px;}
+.cc figcaption{margin-left: auto;}
+.reb{color: red;}
+
+section{display: flex;flex-direction: column;}
+.point{border: 3px wheat solid; padding: 4px;}
+.hoover:hover{background-color: aqua;color: black;}
+#entryB:hover{background-color: sandybrown;color: black;}
+/*the bits for the fileble*/
+#wholet{display: flex; flex-direction: column;margin: auto;}        
+#inputter{ margin-bottom: 20px;font-size: 24px;}
+#entryB{background-color: blueviolet;color: whitesmoke;
+            margin-bottom: 20px;font-size: 24px;}
+#wholet table{border-collapse: collapse;        }/*or else
+        there are gaps everywhere*/
+#wholet table thead{background-color: burlywood;    border: 2px brown solid;
+        padding: 3px 1px;}
+#wholet table tr{border: 2px brown solid; padding: 3px 1px;}
+#wholet table thead td{padding: 4px; border: 2px blueviolet solid;
+            text-align: center; font-weight: bold;color: blueviolet;}
+
+#wholet table td{padding: 3px; border: 1px brown solid;}
+#capture{margin: auto;}
+.highfileble{color: red; margin:  10px;}
+.centerow{display: flex; margin: auto; margin-top: 15px;}
+#demo2{font-size: smaller;}
+#demo1{font-size: smaller;}
+/*the bits for the je dictionary*/
+.rowje{display: flex;background-color: aqua;margin: 5px auto;padding: 10px;    }
+#verbsByLetter{background-color: burlywood;} 
+#verbfind{font-size: 24px;}
+.rowje button{ color: aliceblue; background-color: blueviolet;
+padding: 3px; font-weight: bold;font-size: 24px;}
+.bigger{font-size: 2em;}
+    .hider{display: none;}
+/*bits for the foot*/
+.yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+  font-size: large; color: springgreen;padding: 2px 5px;}
+.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+.yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+.yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;} 
+.buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+  border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+.buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+.buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px 2px 4px; 
+ border-radius: 2px; border-color: springgreen; }
+.buttonaboutwait:hover,.yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+#efbutton{background-color: royalblue;color: lightgreen;
+  margin-bottom: 20px;font-size: large;margin: 5px;}
+#jfbutton{background-color: orange;color: black;
+      margin-bottom: 20px; font-size: large;margin: 5px;}   
+
+    a address [href^="mailto"] ::after { content: "📧"}
+    .containerfoot {  flex-direction: row; color: whitesmoke;    display: flex;  
+      background-color:cornflowerblue ; align-content: center;align-items: center; }
+    .headline {color: beige;font-size:larger;} 
+    .postsabout { background-color: yellow; color: teal;}
+    .mail    { background-color:springgreen ;color:darkmagenta ;  }    
+   
+#roverh3{margin:5px auto; background-color: yellow; color: teal;border: 2px white solid;padding: 4px;}
+#roverh4{margin:5px auto; background-color: yellow; color: teal;border: 2px white solid;padding: 4px;}
+/* bits for the search*/
+.notreveal{ width: 30%;margin-right: 5px;float: inline-end;padding: 10px; border:1px saddlebrown solid;}
+#searchample{display: flex;flex-direction: column;padding: 0 5px;}
+#searchample p,h4, h3{font-size: 18px;}
+#search, #button, #button2{font-size: 24px;}
+
+@media only screen and (max-width: 3000px) { 
+ 
+    #dds12{display:none}
+    #dds8{display: none;}
+    #sick12{display: none;}
+    #sick8{display: none;}
+    
+    #jedict12{display: none;}
+    #jedict8{display: none;}
+    #fileloc12{display: none;}
+    #fileloc8{display: none;}
+    
+    #planter12{display: none;}
+    #planter8{display: none;}
+  }
+
+
+@media only screen and (max-width: 1200px) { 
+ 
+    #dds18{display:none}   
+    #dds12{display:flex;}
+    #sick18{display: none;}
+    #sick12{display: flex;}
+    #jedict18{display: none;}
+    #jedict12{display: flex;}
+    #fileloc18{display: none;}
+    #fileloc12{display: flex;}
+    
+    
+    #planter18{display: none;}
+    #planter12{display: flex;}
+  }
+
+  @media(max-width:1100px){
+    .header1{margin-bottom: 0;}
+    .midway85{flex-wrap: wrap;width: 100%;}
+    .midway85c{width:100%;}
+
+  }
+@media only screen and (max-width: 850px) {   /*note this is about half the screen of course when set to 1700-1800 wide
+    I thus need also a 3/4 wide version. 3 lots or some real js acitve boxes.*/
+  
+    .logo{flex: 0 0 135px; }
+    #logotr, #logotl {
+      width:126px;height:87px;
+    }
+    header :nth-child(1) {
+      order: 2;
+    }
+
+    
+    
+     
+     h1{margin-right:130px ;}
+    
+    #dds18{display:none}
+    #dds12{display: none;}
+    #dds8{display:flex;}
+    #sick12{display: none;}
+    #sick8{display: flex;}
+   
+    #jedict12{display: none;}
+    #jedict8{display: flex;}
+    #fileloc12{display: none;}
+   #fileloc8{display:flex;}
+    
+    #planter12{display: none;}
+    #planter8{display: flex;}
+
+  }
+
