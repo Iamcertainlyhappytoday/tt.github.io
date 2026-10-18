@@ -1,0 +1,162 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
+    main{display: flex;justify-content: center;}
+    header {width: 100%; display: flex; background-image: url(../multiskill/img/tentslim.JPG) ; background-size: cover;     
+    background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+    #ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke; }
+    #ttmenuc{background-color: whitesmoke; margin: auto;border: 1px solid whitesmoke; }
+    #ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+    #ttmenuc  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+    .sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+    justify-content: flex-start; }               
+    .highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+        background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+    .highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+    .highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+    border:2px solid whitesmoke;} 
+    .highlighth {display: flex; padding:20px;}
+    .highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+    .stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+    .stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+    .stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+    .ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+    .ulC{display: flex; flex-direction: column;margin:0 auto;}
+    .ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+    margin:-25px auto auto auto;padding: 0; }
+    .ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto;display: flex;background-color: lightblue; }
+    .ulCollbr{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+        margin:10px 10px auto auto; }
+    .ulCollbr h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin:0 auto;display: flex;background-color: lightblue; }
+    .ulColrr {display: flex;flex-direction: column;justify-content: center;}
+    .center{  display: block; direction:ltr ;width: 100vw;}
+    .split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+    .homebar { display: flex;  padding-bottom: 20px;             }
+    .navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+    .navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+    .navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+    .ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+    .ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+    .ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;} 
+    #section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+        font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; } 
+    .row { display:flex; flex-direction: row; justify-content: space-between;/* flex-wrap: wrap;*/}
+    .col { display: flex; flex-direction: column; align-items: center; flex-wrap:wrap; } 
+
+.split {display:flex; flex-direction: row; justify-content: center;width: 100%;}
+.homebar { display: flex; justify-content: space-between;flex-direction: row; padding:2px auto -10px auto;;
+    flex-wrap: wrap;width: 100%;}
+    .fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+    .fcit{display: inline-flex; flex-direction: column;margin-bottom: auto;} 
+.divider { background:orangered; color:springgreen;font-size: 16px;}
+.currentdivider {  background: blanchedalmond;  color: orangered;font-size: 19px;  }
+.divider:hover {   color:blueviolet;  font-size: 20px; }
+
+.sectionnav {color: orangered; background-color: wheat; font-size: medium; font-weight: bold; display: flex; margin: auto; padding: 0;}
+/*Keep for styling reference
+header .currenth a  { color: orangered; font-weight: bold; } 
+header    .current a  {    color: darkmagenta; font-weight: bold; } */        
+/*header a { color: plum; text-decoration:none ;/* text-transform: uppercase;*//*font-size: 16px;margin: 10px   ; }*/
+
+
+ 
+
+.mediumbeige {background-color: burlywood;color: darkolivegreen;  }
+.dark {background-color: #35424a;color: whitesmoke;    }
+
+.containerhead{  display: flex; margin-bottom:0 0 10px 0; border: 3px solid steelblue;flex-direction: column;width: 100%; 
+       justify-items: space-between;padding: 0;flex-wrap: wrap;}  
+
+#home {background-image: url(../IMGhomepage/SidePike.JPG);background-repeat:repeat;display:flex; 
+        width: 100%;  }
+.allcontcol { margin: auto;display: flex; flex-direction: column; flex-wrap: wrap; width:100%; }
+.containers1r{ width: 100%; display:flex;  border: 1px ;flex-direction:row;  flex-wrap: wrap; margin: auto;
+    justify-content: space-around; padding: 5px; flex:0   0 auto;}
+.fc{display: flex;flex-direction: column;}
+.fc100{display: flex; flex-direction: column;width: 100%;;}
+.frsaw{display: flex;flex-direction:row;justify-content: space-around;flex-wrap: wrap;}
+.frsa{display: flex;flex-direction:row;justify-content: space-around;}
+.hundred{width: 100%;};
+.hundred img{width: 100%; height: 100%;};
+
+
+ 
+        
+.box1a { display:flex; width: 250px; flex-direction: column; margin: 0;}           
+.imgcannes, .imgjacob {width: 450px; display:flex;flex-direction: column; }
+.imgjacob {width: 350px; display:flex; flex-direction: column;}
+.box1a img, .imgjacob img, .imgcannes img, .articleboxq img {width:100%; }           
+
+.divcolb  {display: flex;align-content: center;width: 140px; justify-content: center;
+        flex-direction: column;margin: 0 ;}
+
+.articleboxcol {display: flex;  margin:0 ;   flex-direction:column; flex-wrap: wrap;
+        padding: 5px; text-align:left; }
+.articleboxq {display: flex;margin: 0 auto;background-color: chartreuse;        flex-direction:column; }   
+ 
+ 
+
+       
+
+
+.mediumbeige1 :hover { background-image: url(../Background/mamy.GIF) ;  display: flex;width:100px;height:100px;background-size: contain;font-size: 0;}
+ .mediumbeige1 {background-color: burlywood;color: darkolivegreen;margin-top: 10px;    margin-right: 10px; }
+
+.ulCol{display: flex ;flex-direction: column;}
+.fr{display: flex;flex-direction: row;}
+.fra{display: flex; flex-direction: row; margin:0 auto;}
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;flex-wrap: wrap;}
+
+.fc{display: flex; flex-direction: column;}
+.fca{display: flex; flex-direction: column; margin:0 auto;}
+.yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+        font-size: large; color: springgreen;padding: 2px 5px;}
+    .yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+    .yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+    .yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;} 
+    .buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px ; 
+            border-radius: 2px; border-color: springgreen; }
+           .buttonaboutwait:hover,.yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+        .buttonaboutshow{color:rebeccapurple; background-color: lightgreen;font-size: large;border:1px springgreen solid;
+            padding: 2px 4px;font-weight: bolder;border-radius: 2px; } 
+        .buttonaboutshow:hover{color:rebeccapurple; background-color: whitesmoke;font-size: larger; }  
+.button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+        color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+.button1h:hover {font-size: larger;color: springgreen;}
+.button1{height: fit-content; background: orangered; padding-left:  2px; padding-right:2px; padding-top: 1px;
+       color: springgreen; margin: 5px; border-radius: 3px;}
+.button1:hover {font-size: larger; color: blueviolet;}
+.buttonaboutt {color: springgreen;background-color: grey; font-size:large; 
+        font-weight: bolder; padding: 6px; 
+       border-radius: 16px; border-color:whitesmoke; }
+.buttonabout {color:springgreen;background-color: gray;  font-size: large;
+        font-weight: bolder; margin: 1px;
+        border-radius: 4px; border-color:whitesmoke; }
+.buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large;
+            font-weight: bolder; margin: 1px;
+            border-radius: 4px; border-color:whitesmoke; }   
+.buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; 
+         font-weight: bolder; padding: 2px; 
+        border-radius: 4px; border-color: magenta; opacity:0.6;}
+.buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+.buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+         border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+.buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+.buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+         border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+.buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+.buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+        font-weight: bolder;margin: 1px;width: 100%;}
+.buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+
+.oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+
+.divrowright {display:flex; flex-direction: row; width: 100%; justify-content: flex-end; flex-wrap: wrap; padding:5px;margin-right: 15px;}
+a address [href^="mailto"] ::after { content: "📧"}
+a [href^="tel"] ::after {content:"📞"} 
+.baseall  {display: flex;   background-color:royalblue;flex-direction:row; flex-wrap: wrap;
+    align-items: center ;width:100%;  justify-content: space-around; padding:5px; margin:0; color: whitesmoke;}
+.contact  {       color:teal; font-weight:bold; padding:3px; background:yellow;   margin: auto;}  
+.mail:hover { border: white 1px solid;}  
+.mail {background-color:springgreen ;color:darkmagenta ; padding: 0; margin:6px auto 6px 3px;  } 
+.phoneetc {display:flex; flex-direction: column;}

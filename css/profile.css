@@ -1,0 +1,228 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
+main{display: flex;justify-content: center;}
+header {width: 100%; display: flex; background-image: url(../IMGhomepage/pete.JPG) ; background-size: cover;     
+background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+#ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke; }
+#ttmenuc{background-color: whitesmoke; margin: auto;border: 1px solid whitesmoke; }
+#ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+#ttmenuc  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+.sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+justify-content: flex-start; }               
+.highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+.highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+.highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+border:2px solid whitesmoke;} 
+.highlighth {display: flex; padding:20px;}
+.highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+.stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+.stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+.stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+.ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+.ulC{display: flex; flex-direction: column;margin:0 auto;}
+.ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+margin:-25px auto auto auto;padding: 0; }
+.ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto;display: flex;background-color: lightblue; }
+.ulCollbr{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+    margin:10px 10px auto auto; }
+.ulCollbr h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin:0 auto;display: flex;background-color: lightblue; }
+.ulColrr {display: flex;flex-direction: column;justify-content: center;}
+.center{  display: block; direction:ltr ;width: 100vw;}
+.split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+.homebar { display: flex;  padding-bottom: 20px;             }
+.navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+.navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+.navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+.ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+.ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+.ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;} 
+#section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+    font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; } 
+.row { display:flex; flex-direction: row; justify-content: space-between;/* flex-wrap: wrap;*/}
+.col { display: flex; flex-direction: column; align-items: center; flex-wrap:wrap; } 
+.yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+    font-size: large; color: springgreen;padding: 2px 5px;}
+.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+.yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+.yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;} 
+
+ .buttonaboutshow{color:rebeccapurple; background-color: lightgreen;font-size: large;border:1px springgreen solid;
+        padding: 2px 4px;font-weight: bolder;border-radius: 2px; } 
+    .buttonaboutshow:hover{color:rebeccapurple; background-color: whitesmoke;font-size: larger; }  
+.sectionnav {color: orangered; background-color: wheat; font-size: medium; font-weight: bold; display: flex; margin: auto; padding: 0;}
+.divider { background:orangered; color:springgreen;font-size: 16px;}
+.currentdivider {  background: blanchedalmond;  color: orangered;font-size: 19px;  }
+.divider:hover {   color:blueviolet;  font-size: 20px; }
+.scrub { text-decoration: line-through;margin-top:0 ;margin-bottom: 10px; }
+.mediumbeige {background-color:blanchedalmond; color: darkolivegreen;  }
+.dark {background-color: #35424a;color: whitesmoke;    }
+.darknext {background-color:  lightblue; color: darkblue; display:flex; flex-direction: column; flex-wrap:wrap;margin: auto; }
+.cozy{float: left; width:200px ;border: blueviolet solid 2px;margin-right: 10px; padding: 0;   }
+.cozy h3{margin: 0 auto 0  15px;}
+.cozy p{margin: 0 2px 0 0;padding: 2px;}
+.hundred{width:100%;}
+.hundredh{height:100%;}
+.seventy{width:70%;display: flex;}
+.hundred img{width:100%;height:100%;}
+.hundredh img{ width: 100%; height:100%;}
+.fr{display: flex;flex-direction: row;}
+.frs{display: flex; flex-direction: row;justify-content: left;}
+.fra{display: flex; flex-direction: row; margin:0 auto;}
+.fra30{display: flex; flex-direction: row; margin: auto ;flex: 1 1 30%;}
+.fca30r{display: flex; flex-direction: column; margin: auto  ;flex: 1 1 30%;}
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;}
+.fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+.fc{display: flex; flex-direction: column;}
+.fca{display: flex; flex-direction: column; margin:0 auto;}
+.fca4038{display: flex; flex-direction: column; margin:  auto  ;flex:1 1  50%;    }
+.fca30{display: flex; flex-direction: column; margin: auto ;flex: 1 1 30%;}
+.fr70{display:flex;flex-direction: row;width: 70%;} 
+.fr30{display:flex;flex-direction: row;width: 23%;margin: auto 4% auto auto;} 
+.fcit{display: inline-flex; flex-direction: column;margin-bottom: auto;}  
+.bloc{width:100%;} 
+.button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+    color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+.button1h:hover {font-size: larger;color: springgreen;}
+
+.button1{height: fit-content; background: orangered; padding-left:  2px; padding-right:2px; padding-top: 1px;
+   color: springgreen; margin: 5px; border-radius: 3px;}
+.button1:hover {font-size: larger; color: blueviolet;}
+.buttonaboutt {color: springgreen;background-color: grey; font-size:large; 
+    font-weight: bolder; padding: 6px; 
+   border-radius: 16px; border-color:whitesmoke; }
+.buttonabout {color:springgreen;background-color: gray;  font-size: large;
+    font-weight: bolder; margin: 1px;
+    border-radius: 4px; border-color:whitesmoke; }
+.buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large;
+        font-weight: bolder; margin: 1px;
+        border-radius: 4px; border-color:whitesmoke; }   
+.buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; 
+     font-weight: bolder; padding: 2px; 
+    border-radius: 4px; border-color: magenta; opacity:0.6;}
+.buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+.buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+     border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+.buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+.buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+     border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+.buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+.buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+    font-weight: bolder;margin: 1px;width: 100%;}
+.buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+.buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px ; 
+    border-radius: 2px; border-color: springgreen; }
+.buttonaboutwait:hover,.yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+.buttonaboutshow{color:rebeccapurple; background-color: lightgreen;font-size: large;border:1px springgreen solid;
+    padding: 2px 4px;font-weight: bolder;border-radius: 2px; } 
+.buttonaboutshow:hover{color:rebeccapurple; background-color: whitesmoke;font-size: larger; }    
+.oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+
+
+.divrowright {display:flex; flex-direction: row; width: 100%; justify-content: flex-end; flex-wrap: wrap; padding:5px;margin-right: 15px;}
+a address [href^="mailto"] ::after { content: "📧"}
+a [href^="tel"] ::after {content:"📞"} 
+.baseall  {display: flex;   background-color:royalblue;flex-direction:row; flex-wrap: wrap;
+    align-items: center ;width:100%;  justify-content: space-around; padding:5px; margin:0; color: whitesmoke;}
+.contact  {       color:teal; font-weight:bold; padding:3px; background:yellow;   margin: auto;}  
+.mail:hover { border: white 1px solid;}  
+.mail {background-color:springgreen ;color:darkmagenta ; padding: 0; margin:6px auto 6px 3px;  } 
+.phoneetc {display:flex; flex-direction: column;}
+
+
+.nogap{margin-top:0; margin-bottom: 0;}
+#pp{position: fixed; left:40%; top:50%; background-color: aliceblue;}
+@media(max-width:1000px){
+    .fr70{flex-direction: column; width: 50%;}
+}
+@media(max-width:800px){
+    .fr70{ width: 60%;}
+}
+@media(max-width:600px){
+    .fr70{ width: 95%;}
+}
+
+/*.wineleft {width:400px; height: 400px;
+    float: left;
+    clip-path: polygon(0% 0%, 70% 0%, 70% 25%, 100% 55%, 100% 100%, 0% 100%);
+    shape-outside: polygon(0% 0%, 70% 0%, 70% 25%, 100% 55%, 100% 100%, 0% 100%);
+   }
+   .wineright {width: 400px; height: 400px;
+    float: right;
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%, 25% 25%);
+    shape-outside: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%, 25% 25%);
+   }*/
+
+.wineleft {width:400px; height: 400px;
+    float: left;
+    clip-path: polygon(0% 0%, 70% 0%, 70% 25%, 100% 55%, 100% 100%, 0% 100%);
+    shape-outside: polygon(0% 0%, 70% 0%, 70% 25%, 100% 55%, 100% 100%, 0% 100%);
+   }
+   .wineright {width: 400px; height: 400px;
+    float: right;
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%, 25% 25%);
+    shape-outside: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%, 25% 25%);
+   }
+.shape{/*shape-outside: 
+    url(../IMGhomepage/crag3.PNG);clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 80% 100%,
+    70% 50%);*/
+    float: right;
+   shape-outside: polygon( 30% 11%, 30% 94% , 70% 92% ,20% 10%,
+   20% 10%   );
+   clip-path: polygon(30% 11%, 30% 94% , 70% 92% ,20% 10%,
+   20% 10%   );
+    width:100%; height:400px;
+}
+
+.shapel{float: left;shape-outside: polygon();
+
+}
+.shaper{float:left; shape-outside: polygon( 0 0, 70% 0, 70% 50% ,
+     55% 70% ,0 70%,
+    0 0   );
+    clip-path: polygon( 0 0, 68% 0, 68% 49%,
+    52% 98% , 0 98% ,0 0
+      );
+  width:100%; height:100%;    
+}
+
+.cragshaper{float:right; 
+   shape-outside: polygon(100% 10%, 66% 10%, 66% 90%, 82% 90%,
+    100% 30% 
+            );
+    clip-path:  polygon(100% 11%, 67% 11%, 67% 88%,80% 88%,
+     100% 28%
+        );
+    /*width:100%; height:100%;*/
+}
+.cragtexter{float:right; 
+    shape-outside: polygon( 97% 31%, 20% 100%, 97% 100%    );
+    clip-path: polygon( 97% 32%, 22% 98%, 96% 98% );
+}
+#polygonR {background-color: chartreuse;
+    width: 400px;height:400px;
+    
+    clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 80% 100%,
+     70% 50%);
+    shape-outside: polygon(70% 0%, 100% 0%, 100% 100%, 80% 100%,
+    70% 50%);
+   }
+   #polyL {background-color: chartreuse;
+    width: 400px;height:400px;
+    float: left;
+    clip-path: polygon(0% 0%, 30% 0%, 20% 50%, 15% 100%, 0% 100%);
+    shape-outside: polygon( 0% 0%, 30% 0%, 20% 50%, 15% 100%,
+     0% 100%);
+   } 
+   p{padding: 15px;}
+   .circ  {  
+    float: left;
+    shape-outside: circle(50% at 20% 10%);
+    width: 200px;
+    height: 200px;
+  }
+  .elli {float: left;width:150px; height: 300px; 
+    shape-outside: ellipse( 50% 50%);
+  }
+ 

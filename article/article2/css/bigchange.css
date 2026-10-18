@@ -1,0 +1,281 @@
+body {display: flex;    font: 12px/1.2 Arial, Helvetica, sans-serif; flex-direction: column;  } 
+
+header {width: 100%; display: flex; background-image: url(../IMGarticle/pete.JPG) ; background-size: cover;     
+    background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue;padding-top: 10px;
+        margin: 0;  } 
+   .sitetitleh {display: flex;flex-direction: column;margin-left: 5px; 
+    font-size: 1.6em;justify-content:space-between ; }   
+   .sitetitleh h2  {margin:auto auto auto 10px;  }  
+   .sitetitleh h4  { margin-top:auto;  } 
+   .highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+   .highlightb {opacity: 0.8;background-color: whitesmoke;color:darkblue;  font-weight: bolder;margin-top: auto;margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.5em;opacity: 0.7;}
+   .highlight   { color:springgreen; font-weight: bolder; font-style:  stretch
+    ;margin: 0 auto 0 10px;  font-size: 1.5em;background:plum;opacity: 0.8;border-radius: 20px;} 
+   .highlighth {display: flex; padding:20px;}
+   .highlighthcontain  { display:flex;  background-image: url(../../IMGhomepage/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+   .stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+   .stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+   .stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+   .ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}
+   .ulRowb{display: flex; flex-direction: row;align-items: center;border: 2px solid  darkblue;padding:2px 4px;}
+  #ulRowb{display: flex; flex-direction: row;align-items: center;border: 2px solid  darkblue;padding:2px 4px;}
+   .ulC{display: flex; flex-direction: column;margin:0 auto;}
+   .ulCollb{background-color: lightblue; display: flex; flex-direction: column;height: 80%;
+       border-radius: 10px; padding: 2px;border-color: darkblue; }
+   .ulCollb text{margin:auto;font-weight: bold;color: darkblue;}
+   .ulColrr {display: flex;flex-direction: column;justify-content: center;}
+   .center{ /*justify-content: center;display:flex; flex-direction: column;
+   width:100%; margin-top: -40px;*/ display: block; direction:ltr ;width: 100vw;}
+   .split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+   .homebar { display: flex; justify-content: space-between;flex-direction: row; padding:2px auto -10px auto;;
+    flex-wrap: wrap;width: 100%;}
+   
+   .navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+   .navtitle2 button{font-size: larger;background-color:paleturquoise;color: blue;
+    border-radius: 5px;}
+   .navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  padding: 0;}
+   .ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px; }
+   .ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;}
+   .ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;}
+.hangnav {width:100%;  display: flex;  flex-direction:row; flex-wrap:wrap ;  }
+.hangnav li{display:flex;  }
+ .navtitletwo{width:100%} 
+.equationinline {   font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 1em;
+     direction:row;align-content: center; justify-self: center;flex-wrap:wrap;  display: inline-flex; }
+ .plinemath { display:flex; flex-direction: row; flex-wrap:wrap; align-items: center;
+     justify-content: space-around; margin: auto; font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 5px;     }
+.plinemathup { display:flex; flex-direction: row; flex-wrap:wrap; align-items: flex-start;
+     justify-content: space-around; margin: auto; font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 5px;     }
+ .cplinemath { display:flex; flex-direction: row; flex-wrap:wrap; align-items: center;
+     justify-content: center; margin: auto; font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 5px;   }
+ .cpinlinemath {display:inline-flex; flex-direction: row; flex-wrap:wrap; 
+          font-family: Verdana, Geneva, Tahoma, sans-serif;         padding: 5px;   }
+ 
+ .equation {/*font-family: Verdana, Geneva, Tahoma, sans-serif; */ font-size: 1.2em; text-emphasis: none;      }
+ 
+ .strike { text-decoration: line-through; } 
+.stripabout { display: flex; flex-direction: row; justify-content:center;width: 100%; margin:0; padding:0; }
+.stripabout h2{ display:flex;  padding:0;opacity: 0.7;   color: mediumvioletred;
+     background-color: wheat; width: 50%; justify-content: center;  }
+.rowcentre  {display:flex;justify-content: center;width: 100%;}
+.divrow { display: flex; flex-direction: row; flex-wrap: wrap; width: 45%; } 
+.divrowleft {display:flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;}
+.divrowidth { width: 100%; margin:0; display: flex; flex-direction: row;  justify-content: space-between; flex-wrap: wrap; }
+
+.margins { flex: 1 2 100%; margin: 10px;}
+.divrowidthartcol {width: 100%;display: flex; box-sizing: border-box; margin:2px; flex-direction: row; 
+     justify-content: space-between; flex-wrap: wrap; }
+.rowcentre  {display:flex;justify-content: center;width: 100%;}
+/*.colhold {display: flex; width: fit-content; }*/
+.colholdarticle { display: flex;flex-direction: column;flex-wrap: wrap; margin: 10px;width: fit-content; size:contain; 
+     width: 400px;}
+.colholdarticleone {display: flex;flex-direction: column;flex-wrap: wrap; margin: 10px; size:contain; width: 600px;}
+
+.articlecolhold {display: flex; flex: 0 1 400px; flex-wrap: wrap; flex-direction: row;margin:5px; }
+
+.flexcol {width: 100%; display:flex; flex-direction:column; padding:5px; flex-wrap: wrap;align-content:center;margin:0; }
+
+.tallcontainer {display:flex;  flex-direction: row;flex-wrap: wrap;  margin: 0; justify-content: center; }
+
+.noted {width:100%; padding: 10px; margin:2px 6px 2px 0;   } 
+.pgnum {display:flex;max-width: fit-content; background-color: mediumslateblue;  color: lightyellow; 
+     font-weight: bold; padding: 3px; opacity: 0.5;
+     border-radius: 3px;  border:lightslategrey 1px solid; margin: -5px -5px -5px auto;  }
+.goldie {display:flex; background-image: url(../IMGarticle/yellowglow600px.JPG);
+     background-repeat:repeat;size:contain; width:100%;
+     font-weight: bold; padding: 3px; 
+     border-radius: 3px;  border:lightslategrey 1px solid; margin: -5px -5px -5px auto;  }
+.wrappingraphboldd { text-align: start;  
+          color: darkviolet; font-weight: bold;border-radius:5px ;  margin-right:0 ; } 
+
+.wrappingraphboldblue figure { padding:5px; margin:2px;}
+#partfive  {flex:0 1 800px;  box-sizing: content-box; padding:10px; border: 2px solid orange;margin: auto; }   
+.hs4   {display: flex;   background-image: url(../IMGinterests/sitesheff.JPG); background-repeat:repeat ;
+        size: cover; flex-direction: row; justify-content: space-between; margin: 5px;width: 100%; flex-wrap: wrap;} 
+.page { display:flex; flex-direction: column; width:100%;margin: 2px; padding:5px;}
+.first { display:flex; flex-direction: row; flex-wrap: wrap; justify-content:center; }
+
+.comtent2{border: 2px solid black;padding: 10px; margin: 5px;  }
+.comtent1{border: 2px solid black;  padding: 10px; margin: 5px;    }
+.artcov {padding: 5px; margin:0;height:fit-content;width: 600px;}
+.bolddiiart {background-color: aliceblue; color: seagreen; 
+         font-weight: bold; 
+        border-radius:5px ; font-size: 1.4em; margin:0 ;     padding: 0; opacity: 0.7;
+    display:inline;  }   
+.comtent3{border: 2px solid black; width: 60%; padding: 10px;  }
+
+.artcovone  {padding: 5px; margin:0;height:fit-content; }
+.comtentartcovone {height:fit-content;  border: 2px solid black; padding: 5px; margin:0; }
+
+.chlarge {color: orange;background-color: royalblue; border: 2px solid black;padding: 10px;
+      margin: 5px;   }
+.ch{ font-size: small;color: orange;background-color: royalblue;  }
+.bolda {  background-color: rosybrown; font-weight:bold ; }
+.boldbf { background-color: aqua; color: blue; padding: 2px; margin:2px; border-radius:3px;}
+.boldcf { background-color: blue; color: blanchedalmond;}
+.headinga { font: 1.2em sans-serif; color: blueviolet;font-weight: bold; background-color: burlywood;}
+.lightb { background-color: lightsalmon;}
+.headingc { font: 1em sans-serif; color: blueviolet;font-weight: bold; background-color: burlywood;}
+.highlightb {opacity: 0.7;background-color: wheat;color: royalblue;  font-size: 1.5em;
+         font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;}
+.highlight { color:springgreen; font-weight: bolder; font-size: 1.5em;font-style: 
+         stretch;margin-top: 0;margin-bottom: 0;margin-left: 10px;} 
+
+
+.bolde { background-color: darkred; color:khaki; opacity: 0.9; text-shadow: black 1px;
+     font-weight: bolder; display: inline; font-size: 1.2em; padding: 0; border-radius: 4px;}
+.heavyb {background-color: aquamarine;color: red; display: inline;}
+.boldb { background-color: aqua; color: blue; display:inline ;}
+.boldc { background-color: blue; color: blanchedalmond; display: inline;} 
+.boldd {color: orangered;  background-color: azure;}
+.wrapping {float:left;  clear: right;padding:10px; margin:10px; size:contain;width:40%;}
+.wrappingtwo {float:left;  clear: right; margin-right:0;
+     margin-left:0; width:47%;min-width: 350px; }
+.wrappingraph { text-align: justify; padding:5px;} 
+.wrappingraphslate { text-align: justify; padding:5px; background-color:slategray;
+     color: white;}
+.whouse  {    padding: 10px; background-color:firebrick;
+     color: khaki; text-shadow: darkviolet;    font-weight: bold;border-radius:25px ;      
+     }
+.house60r {float:right;  clear: right;  width:60%;margin: 0; min-width: 350px;      }
+.house65r {float:left;  clear: right; margin-left:0; margin-top: 0;padding-top: 0;
+          margin-right:0; width:65%;min-width: 350px;}   
+       
+   
+         
+.tosea {display: flex;flex-direction: column;flex: 1 1 25%;min-width: 300px;  }        
+.wtosea{display: flex; flex-direction: column;  text-align: start;   background-color:aliceblue;
+     color: seagreen; text-shadow: black 2px;   font-weight: bold;  flex: 1 1 auto; width: 30%;  
+    min-width: 350px;margin: auto 20px; }
+.wtoseb{display: flex; flex-direction: column;  text-align: start;   background-color:aliceblue;
+        color: seagreen; text-shadow: black 2px;   font-weight: bold;  flex: 1 2 auto; width: 30%;  
+       min-width: 300px;margin: auto; }    
+.wrappingraphboldb {text-align: start;  padding:0 10px 10px 10px; background-color:aqua;
+     color: blue; text-shadow: black 2px;   font-weight: bold;border-radius:5px ;  margin:0 ;
+     } 
+.wrappingraphboldblue {text-align: start; margin:0;   text-decoration: none; color: aqua;  
+    background-color: darkslategray;  font-weight: bolder; 
+     padding:0 10px 10px 10px; }
+.notes { text-align: justify; padding:5px; font:0.8em; font-weight: bold; color: darkblue; Padding:5px;
+          border: 2px solid brown; background-color: cornsilk;}     
+.capside  { width: 90%; font-size: 0.8em;}
+.captionize { width: 90%;display: flex; flex-direction: column; font-size: 0.8em;}
+
+
+.wrappingw {float:right;  clear: right; margin-left:0; 
+          margin-right:0; width:30%;min-width: 350px; }
+.wrapping80c {flex: 1 1 80%; min-width:350px; margin:auto; }
+.wrapping60l {float:left;  clear: right; margin-right:10px;
+     margin-left:5px; width:60%;  }
+.wrapping65l { float:left;  clear: right; margin-right:0;
+     margin-left:0; width:65%;min-width: 350px; }
+.wrapping75l { float:left;  clear: left; margin-right:0;
+           width:75%;min-width: 350px; }    
+.hundred{width: 100%;}
+.hundred img { width: 100%;height: 80%;}
+.fr{display: flex;flex-direction: row;}
+.fr100sb{display:flex; flex-direction: row; justify-content: space-between;width: 100%;}
+.fra{display: flex; flex-direction: row; margin:0 auto;}
+.frab{display: flex;flex-direction: row;margin-bottom: auto;}
+.frw{display: flex;flex-direction: row; flex-wrap: wrap;}
+.fca85{display: flex; flex-direction: column; margin: auto ;flex: 1 1 85%;}
+.fca85max{display: flex; flex-direction: column; margin: auto ;flex: 0 1 85%;}
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;}
+.fr100sa{display: flex; flex-direction: row; width: 100%;justify-content: space-around;}
+.fr100saw{display: flex; flex-direction: row; width: 100%;
+    justify-content: space-around; flex-wrap: wrap;}
+.fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+.fc{display: flex; flex-direction: column;}
+.fca{display: flex; flex-direction: column; margin:0 auto ;}
+.fca30{display: flex; flex-direction: column; margin: auto ;flex: 1 1 30%;}
+.fca4038{display: flex; flex-direction: column; margin:  auto  ;flex:2 1  40%;
+       min-width: 300px;max-width: 80%;}
+.bca{margin:auto;display: block; }
+.bc{display:block;}
+.bc img{width:100%; height:100%}
+   
+.yellow{background-color:plum;font-size:large; color:springgreen;border-color: whitesmoke;
+           border-radius: 10px;}
+.red{ background-color:blanchedalmond;font-size:1.3em; color:orangered; border-radius:10px;}
+.yellowcopy{background-color:plum; color:springgreen;border-color: whitesmoke;
+        border-radius: 10px;}
+.bbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+            border-radius: 4px;font-weight: bolder;margin: 1px;}
+#pp{position: fixed; left:40%; top:50%; background-color: aliceblue;}
+.divider { background:orangered; color:springgreen;font-size: 16px;border-radius: 3px;}
+.divider:hover {   color:blueviolet;  font-size: 20px; }
+
+.button {height: fit-content;        color: #FFF;        background-color: royalblue;          
+        padding-left: 5px;  padding-top: 1px;             border: 2px solid #5D6063;    
+        border-radius: 3px;              margin: 5px auto;font-size: small; }
+.button:hover { font-size: larger; }
+#button1h{height: fit-content;background: blanchedalmond;padding-left:  10px; padding-right: 10px;padding-top:1px;
+            color: orangered;margin: 5px;border-radius: 3px;font-size: 1.2em; }
+#button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px; padding-top: 1px;
+           color: springgreen;margin: 5px; border-radius: 3px;}
+#button1:hover {font-size: larger; color: blueviolet;}
+#button1h:hover {color: springgreen;} 
+.button {height: fit-content;        color: #FFF;        background-color: royalblue;          
+     padding-left: 5px;  padding-top: 1px;             border: 2px solid #5D6063;    
+     border-radius: 3px;              margin: 5px auto;font-size: small; }
+.button:hover { font-size: larger; }
+#button1h{height: fit-content;background: blanchedalmond;padding-left:  10px; padding-right: 10px;padding-top:1px;
+         color: orangered;margin: 5px;border-radius: 3px;font-size: 1.2em; }
+#button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px; padding-top: 1px;
+        color: springgreen;margin: 5px; border-radius: 3px;}
+#button1:hover {font-size: larger; color: blueviolet;}
+#button1h:hover {color: springgreen;}
+.button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+ color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+.button1h:hover {font-size: larger;color: darkolivegreen;}
+.button1{height: fit-content; background: orangered; padding-left:  2px; padding-right:2px; padding-top: 1px;
+color: springgreen; margin: 5px; border-radius: 3px;}
+.button1:hover {font-size: larger; color: blueviolet;}
+.buttonaboutt {color: springgreen;background-color: grey; font-size:large; 
+ font-weight: bolder; padding: 6px; 
+border-radius: 6px; border-color:whitesmoke; }
+.buttonabout {color:springgreen;background-color: gray;  font-size: large;
+ font-weight: bolder; margin: 1px;
+ border-radius: 4px; border-color:whitesmoke; }
+.buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large;
+     font-weight: bolder; margin: 1px;
+     border-radius: 4px; border-color:whitesmoke; }   
+.buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; 
+  font-weight: bolder; padding: 2px; 
+ border-radius: 4px; border-color: magenta; opacity:0.6;}
+.buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+.buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+  border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+.buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+.buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+  border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+.buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+.buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+ font-weight: bolder;margin: 1px;width: 100%;}
+.buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+.buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px 2px 4px; 
+ border-radius: 2px; border-color: springgreen; }
+.buttonaboutwait:hover,
+.yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+/*.buttonabout:hover { opacity: 0.8;}*/
+.oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;} 
+a address [href^="mailto"] ::after { content: "📧"}
+.containerfoot { width:100%; flex-direction: row; color: whitesmoke;   justify-content: center; display: flex; 
+        background-color:darkblue ;flex-wrap:wrap;}
+.headline {color: springgreen;font-size:larger;margin: 5px;} 
+.postsabout { background-color: yellow; color: teal;margin: 5px;}
+.mail    { background-color:springgreen ;color:darkmagenta ; margin: 5px;   }    
+.mail:hover {color:white;}      
+    
+
+
+
+
+
+
+

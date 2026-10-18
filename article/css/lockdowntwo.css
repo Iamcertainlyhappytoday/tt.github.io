@@ -1,0 +1,214 @@
+body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
+main{display: flex;justify-content: center;}
+header {width: 100%; display: flex; background-image: url(../IMGartfth/pete.JPG) ; background-size: cover;     
+background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+#ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke; }
+#ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
+.sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
+justify-content: flex-start; }               
+.highlighth h4{ color:darkblue; font-size: 1.5em; font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color:  lavender ;opacity: 0.3;margin-top:auto ;margin-bottom: 0;}
+.highlightb{background-color: lightblue;color:darkblue; font-weight: bolder;  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
+.highlight{background-color: lightgreen; color:rebeccapurple; font-weight: bolder; font-style: stretch;  font-size: 1.5em;
+border:2px solid whitesmoke;} 
+.highlighth {display: flex; padding:20px;}
+.highlighthcontain  { display:flex;  background-image: url(../IMGartfth/main3.JPG);background-size: cover;background-repeat: no-repeat;}
+.stripabout { display: flex; flex-direction: row;flex-wrap: wrap; width:  100%; margin:0 auto 0 2px; }
+.stripabout h3{background: gray; color: springgreen; margin:auto auto auto 1px;} 
+.stripabout h2 {color:orangered; font-weight: bolder; font-style:  stretch; background-color: wheat; margin:auto 0 auto auto; }
+.ulRowc{display: flex; flex-direction: row;border-top: solid 2px darkblue;}               
+.ulC{display: flex; flex-direction: column;margin:0 auto;}
+.ulCollb{background-color: whitesmoke; display: flex; flex-direction: column; border:4px solid whitesmoke;
+margin:-25px auto auto auto;padding: 0; }
+.ulCollb h2{color: darkblue; font-family:Georgia, 'Times New Roman', Times, serif;margin: auto }
+.ulColrr {display: flex;flex-direction: column;justify-content: center;}
+.center{  display: block; direction:ltr ;width: 100vw;}
+.split {display:flex; flex-direction: row; justify-content: center;background: wheat; }
+.homebar { display: flex;  padding-bottom: 20px;             }
+.navtitle2 {  display: flex;flex-direction: column;  margin: auto 10px 2px auto;   } 
+.navtitle2 button{font-size: larger;color: blue;          border-radius: 5px;}
+.navtitle2 li{ display: flex; flex-direction: row; flex-wrap: wrap; margin:0;  }
+.ulRow{display: flex; flex-direction: row;align-items: flex-start;padding: 5px 2px;background-color: whitesmoke; }
+.ulColr {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;padding: 0 2px;}
+.ulColl {display: flex;flex-direction: column;align-items: flex-start;opacity: 0.9;} 
+#section18 text{font-size: larger; color: darkblue ;margin-top: 4px;
+    font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif; }  
+
+
+.hangnav {width:100%;  display: flex;  flex-direction:row; flex-wrap:wrap ;  }
+.hangnav li{display:flex;  }
+ .navtitletwo{width:100%} 
+
+.imgone img {width:100%; height:100%;}
+.hundred img { width:100%; height:100%;}
+.rowcentre { display:flex;justify-content:center;align-items: center; }
+.divrow { display: flex; flex-direction: row; flex-wrap: wrap; width: 45%; } 
+.divrowleft {display:flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;}
+.divrowidth {  display: flex; flex-direction: row; width: 100%; justify-content: space-between; flex-wrap: wrap; } 
+.tallcontainer {display:flex;  flex-direction: row;flex-wrap: wrap;  margin: 0; justify-content: center; }
+.notes {width:100%; padding: 10px; margin:2px 6px 2px 0;   }
+.colold { display:flex; flex-direction: column;  margin: 2px;padding:5px;width:45%;}
+.flexcol {width: 100%; display:flex; flex-direction:column; margin: 0; flex-wrap: wrap;}
+.divcol {/* */margin: 2px;padding: 5px;width: 40%;display:flex; flex-direction:column; }
+.artcov {width: 100%;    padding: 5px;  margin:2px; display:flex; flex-direction: column; }
+.colminwidth { display:flex; flex-direction: column;  margin: 2px;padding:5px;min-width:25%;}
+.maxcol { display:flex; max-width: 100px; min-width: 70px; margin:auto; flex-direction: column;}
+.col { display: flex; flex-direction: column; align-items: center; flex-wrap:wrap; } 
+.row { display:flex; flex-direction: row; justify-content: space-between;/* flex-wrap: wrap;*/}
+#partfive  { width: 60%;  margin: 10px; box-sizing: content-box; padding:10px; border: 2px solid orange;margin: auto; }   
+.hs4   {display: flex;   background-image: url(../IMGinterests/sitesheff.JPG); background-repeat:repeat ;
+        size: cover; flex-direction: row; justify-content: space-between; margin: 5px;width: 100%; flex-wrap: wrap;} 
+.page { display:flex; flex-direction: column; width:100%;margin: 2px; padding:5px;}
+.first { display:flex; flex-direction: row; flex-wrap: wrap; justify-content:center; }
+
+
+
+.comtent2{border: 2px solid black; width: 500px; padding: 10px; margin: 5px;  }
+.comtent1{border: 2px solid black; width: 400px; padding: 10px; margin: 5px;  }
+.comtent3{border: 2px solid black; width: 60%; padding: 10px; margin: 5px;  }
+
+.ch{ font-size: small;color: orange;background: royalblue;  }
+.bolda {  background-color: rosybrown; font-weight:bold ; }
+.boldb { background-color: aqua; color: blue; }
+.boldc { background-color: blue; color: blanchedalmond;}
+.headinga { font: 1.2em sans-serif; color: blueviolet;font-weight: bold; background-color: burlywood;}
+.lightb { background-color: lightsalmon;}
+
+
+
+.imageone { display:flex;  flex-direction: column; }
+.wrapping {float:left;  clear: right;padding:10px; margin:10px; size:contain;width:40%}
+.wrappingtwo {float:left;  clear: right;padding:10px; margin:10px; size:contain;width:40%;}
+.wrappingraph { text-align: justify; padding:5px;} 
+
+
+.captionize { width: 90%;display: flex; flex-direction: column; font-size: 0.8em;}
+.bolda {  background-color: rosybrown; font-weight:bold ; }
+.heavyb {background-color: aquamarine;color: red; display: inline;}
+.boldb { background-color: aqua; color: blue; display:inline ;}
+.boldc { background-color: blue; color: blanchedalmond; display: inline;} 
+.headingc { font: 1em sans-serif; color: blueviolet;font-weight: bold; background-color: burlywood;}
+.highlightb {opacity: 0.7;background-color: wheat;color: royalblue;  font-size: 1.5em;
+         font-weight: bolder;font-family: Georgia, 'Times New Roman', Times, serif;} 
+.notes { text-align: justify; padding:5px; font:0.8em; font-weight: bold; color: darkblue; Padding:5px; border: 2px solid brown;}
+.divider { background:orangered; color:springgreen;font-size: 16px;border-radius: 3px;}
+.divider:hover {   color:blueviolet;  font-size: 20px; }
+.fr{display: flex;flex-direction: row;}
+.fr100sb{display:flex; flex-direction: row; justify-content: space-between;width: 100%;}
+.fra{display: flex; flex-direction: row; margin:0 auto;}
+.frw{display: flex;flex-direction: row; flex-wrap: wrap;}
+.fca85{display: flex; flex-direction: column; margin: auto ;flex: 1 1 85%;width:85%;}
+.fr100{display: flex; flex-direction: row; width: 100%;justify-content: space-between;margin: auto;flex-wrap: wrap;}
+.fr100sa{display: flex; flex-direction: row; width: 100%;justify-content: space-around;}
+.fr100w{display: flex; flex-direction: row; width: 100%;flex-wrap: wrap;}
+.fc{display: flex; flex-direction: column;}
+.fca{display: flex; flex-direction: column; margin:0 auto ;}
+.fca30{display: flex; flex-direction: column; margin: auto ;flex: 1 1 30%;}
+.fca4038{display: flex; flex-direction: column; margin:  auto  ;flex:2 1  40%;
+       min-width: 300px;max-width: 80%;}
+.bca{margin:auto;display: block; }
+.yellowtoo{margin: auto; margin-bottom:20px; display: inline-flex; background: plum;
+    font-size: large; color: springgreen;padding: 2px 5px;}
+.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
+.yellow:hover{font-size:large; color:springgreen;background-color: whitesmoke;  border-radius: 10px; }
+.yellowcopy{ color:springgreen;background-color: blue;   border-radius: 10px;} 
+.red{ background-color:blanchedalmond;font-size:1.3em; color:orangered; border-radius:10px;}
+.yellowcopy{background-color:plum; color:springgreen;border-color: whitesmoke;
+        border-radius: 10px;}
+.bbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+            border-radius: 4px;font-weight: bolder;margin: 1px;}
+#pp{position: fixed; left:40%; top:50%; background-color: aliceblue;}
+
+.button1h{height: fit-content;background: blanchedalmond;padding-left:  10px; padding-right: 10px;padding-top:1px;
+                color:orangered;margin: 5px;border-radius: 3px; font-size: 1.3em;}
+.button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px; padding-top: 1px;
+               color: springgreen;margin: 5px; border-radius: 3px;}
+.button1:hover {font-size: larger; color: blueviolet;}
+.button1h:hover {font-size: larger;color: springgreen;} 
+.button {height: fit-content;        color: #FFF;        background-color: royalblue;          
+        padding-left: 5px;  padding-top: 1px;             border: 2px solid #5D6063;    
+        border-radius: 3px;              margin: 5px auto;font-size: small; }
+#button1h{height: fit-content;background: blanchedalmond;padding-left:  10px; padding-right: 10px;padding-top:1px;
+            color: orangered;margin: 5px;border-radius: 3px;font-size: 1.2em; }
+#button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px; padding-top: 1px;
+           color: springgreen;margin: 5px; border-radius: 3px;}
+#button1:hover {font-size: larger; color: blueviolet;}
+#button1h:hover {color: springgreen;}  
+.button {height: fit-content;        color: #FFF;        background-color: royalblue;          
+    padding-left: 5px;  padding-top: 1px;             border: 2px solid #5D6063;    
+    border-radius: 3px;              margin: 5px auto;font-size: small; }
+.button:hover { font-size: larger; }
+#button1h{height: fit-content;background: blanchedalmond;padding-left:  10px; padding-right: 10px;padding-top:1px;
+        color: orangered;margin: 5px;border-radius: 3px;font-size: 1.2em; }
+#button1{height: fit-content;background: orangered;padding-left:  10px; padding-right: 10px; padding-top: 1px;
+       color: springgreen;margin: 5px; border-radius: 3px;}
+#button1:hover {font-size: larger; color: blueviolet;}
+#button1h:hover {color: springgreen;}
+.button1h{height: fit-content;background: blanchedalmond;padding-left:  2px; padding-right: 2px;padding-top:1px;
+color: orangered;margin: 5px; border-radius: 3px;display: flex; flex-direction: column;max-width: 100px;}
+.button1h:hover {font-size: larger;color: darkolivegreen;}
+.button1{height: fit-content; background: orangered; padding-left:  2px; padding-right:2px; padding-top: 1px;
+color: springgreen; margin: 5px; border-radius: 3px;}
+.button1:hover {font-size: larger; color: blueviolet;}
+.buttonaboutt {color: springgreen;background-color: grey; font-size:large; 
+font-weight: bolder; padding: 6px; 
+border-radius: 6px; border-color:whitesmoke; }
+.buttonabout {color:springgreen;background-color: gray;  font-size: large;
+font-weight: bolder; margin: 1px;
+border-radius: 4px; border-color:whitesmoke; }
+.buttonaboutcentre {color:springgreen;background-color: darkblue;  font-size: large;
+    font-weight: bolder; margin: 1px;
+    border-radius: 4px; border-color:whitesmoke; }   
+.buttonaboutlink {color:springgreen;background-color: darkblue; font-size:large; 
+ font-weight: bolder; padding: 2px; 
+border-radius: 4px; border-color: magenta; opacity:0.6;}
+.buttonaboutlink:hover, .buttonaboutt:hover, .buttonabout:hover {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}
+.buttonbci { color:darkblue; background-color: whitesmoke;  border-color: lightblue;
+ border-radius: 4px;font-weight: bolder;margin: 1px;width: 100%;}
+.buttonbci:hover {  color: wheat; background-color: royalblue;border-color: brown;}
+.buttonarticle { color: darkgreen ; background-color: rgb(99,247,40); border-color: springgreen;
+ border-radius: 4px;font-weight: bolder; margin: 1px;width: 100%; }
+.buttonarticle:hover { background-color: darkgreen; color: cadetblue;border-color: brown;}
+.buttonmultiskill { color: purple; background-color: aqua; border-radius: 4px; border-color: springgreen;
+font-weight: bolder;margin: 1px;width: 100%;}
+.buttonmultiskill:hover { background-color: purple; color: aqua;border-color: brown;}
+.buttonaboutwait {color: springgreen;background-color: gray; font-size:large;  font-weight: bolder; padding:2px 4px 2px 4px; 
+border-radius: 2px; border-color: springgreen; }
+.buttonaboutwait:hover,
+.yellowcopy:hover {background-color: springgreen; color: gray;opacity: 1;border-color: brown;}
+/*.buttonabout:hover { opacity: 0.8;}*/
+.oldBut {background-color: springgreen; color: grey;opacity: 1;border-color: brown;}  
+.containerfoot {  flex-direction: row; color: whitesmoke;   justify-content: center; display: flex;   width: 100%; background-color:darkblue ;  }
+.headline {color: springgreen;font-size:larger;margin: 5px;} 
+.postsabout { background-color: yellow; color: teal;margin: 5px;}
+.mail    { background-color:springgreen ;color:darkmagenta ; margin: 5px;   }   
+
+.writing-columns  {display:flex; flex-direction: row;  size:contain; flex:2 1 auto; flex-wrap:wrap; }
+/*  I have lost track but think up here in the parent once more formats are declared in the children the auto even means less*/
+    .oneside, .middle, .rightside, .xtra, .fiver{  width: 200px; height: fit-content;border-radius: 6px;}
+    
+    .oneside {flex: 1 0 auto;  background: yellow;  }
+    /*  HOW TO MOVE AN ITEM, use the class and row positioning like THIS  */
+    .rightside { flex: 3 1 200px; padding:10px;  background: chartreuse; }
+    .middle { flex: 1 1 auto; min-width: min-content;color: white; font-weight: bold;font-size: 1.1em;  background: purple;padding:10px; }  
+    .xtra { flex: 1 1 300px; background: orange; color: darkgreen; font-weight: bold;}/* Gave the longest one more width, it worked very well 
+    for the wrapping*/
+    .fiver { flex: 2 1 auto; background: aquamarine;} /* without auto this one gets really skinny, also 3 for growth seems a bad idea as it 
+    is the smallest one. I made it a bit bigger and then 2 instead of 1 for growth worked really well.  */
+    .bolda { background-color: rosybrown; font-weight:bold ; }  
+    .xtra h4{ margin-bottom: 0;}
+
+    /*.fit {   min-height: min-content;}    why was this here ?*/
+
+    .captionize { width: 90%;display: flex; flex-direction: column; font-size: 0.8em;}
+.bolda {  background-color: rosybrown; font-weight:bold ; }
+.heavyb {background-color: aquamarine;color: red; display: inline;}
+.boldb { background-color: aqua; color: blue; display:inline ;}
+.boldc { background-color: blue; color: blanchedalmond; display: inline;} 
+.headingc { font: 1em sans-serif; color: blueviolet;font-weight: bold; background-color: burlywood;}
+.imgone img {width:100%; height:100%;}
+.wrappingraph { text-align: justify; padding:5px;} 
+.notes { text-align: justify; padding:5px; font:0.8em; font-weight: bold; color: darkblue; Padding:5px; border: 2px solid brown;}
+
