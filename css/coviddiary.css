@@ -1,8 +1,7 @@
 body{ display:flex;   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 13px;flex-direction: column;margin: 0;padding: 0; width: 100vw; height:100vh;}         
 main{display: flex;justify-content: center;}
-header {width: 100%; display: flex; background-image: url(../IMGartfth/pete.JPG) ; background-size: cover;     
-background-repeat: no-repeat;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
+header {width: 100%; display: flex;   font: 12px Arial, Helvetica, sans-serif;  color: royalblue; flex-direction: column;}
 #ttmenu{background-color: whitesmoke; margin:10px 10px auto auto;border: 1px solid whitesmoke; }
 #ttmenu  text{font-weight: bold; font-size: 2em; background-color: lightgreen; color: rebeccapurple;}
 .sitetitleh {display: flex; flex-direction: column; margin-left: 25px ; margin-bottom: 25px;  font-size: 1.6em;
