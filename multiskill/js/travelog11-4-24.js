@@ -30,7 +30,7 @@ function altdetails(){
     a1:'Well, I swam in that today, the sticks in the photo make it look pretty scary perhaps. The \
     whole vista is strong water to me. This is a decent and dignified place but it has taken time \
     and shaped the people you would think.',
-   b:'colorsea',
+   b:'colorsea1',
     b1:'The view at the end of my bike ride across another bay. It looks massive but I think perhaps is \
     not so many miles. Amazingly built up but only right on the shore but by that principle the development \
     is not limited.',
@@ -53,7 +53,7 @@ function altdetails(){
     case 'wildarrival':
         msg2=' : '+ answers.a1;
         break;
-    case 'colorsea':
+    case 'colorsea1':
         msg2=' : '+ answers['b1'];
         break;
     case 'sunarrives':
